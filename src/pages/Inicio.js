@@ -1,7 +1,11 @@
+import PorqueElegirnos from "../components/PorqueElegirnos"
+import SliderInicio from "../components/SliderInicio"
+
 const Inicio = () => {
     return (
         <main className="inicio">
-            <h1>Inicio</h1>
+            <SliderInicio />
+            <PorqueElegirnos />
         </main>
     )
 }

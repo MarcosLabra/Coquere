@@ -1,3 +1,15 @@
-.navBar{
-    font-family: 'inter';
+.navBar {
+  display: flex;
+  align-items: center;
+  p {
+    font-family: $ff-poppins;
+    text-decoration: none;
+    font-size: $fs-md;
+    font-weight: bold;
+    color: $blanco;
+    margin-left: 30px;
+    &:hover {
+      color: $verde-oscuro;
+    }
+  }
 }
