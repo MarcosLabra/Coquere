@@ -39,9 +39,13 @@ body {
 //Layout
 @import './components/layout/header';
 @import './components/layout/footer';
+@import './components/layout/mobileMenu';
 
 //Components
 @import './components/navBar';
+@import './components/sliderInicio';
+@import './components/porqueElegirnos';
+
 
 //Pages
 @import './pages/inicio';

@@ -11,6 +11,8 @@ $verde-oscuro: #082E1F;
 $gris: #9CA1A2;
 $turquesa-claro: #9FCAC8;
 $turquesa-oscuro: #004D5D;
+$footer-fondo: #DDE0E1;
+$footer-derechos: #817A7A;
 
 /* Tamaños de fuente */
 $fs-xs: 0.4rem;
@@ -19,6 +21,7 @@ $fs-md: 1rem;
 $fs-lg: 1.4rem;
 $fs-xl: 1.6rem;
 $fs-xxl: 2rem;
+$fs-xxxl: 2.2rem;
 
 /* Grosor de fuente */
 $fw-light: 300;
@@ -32,6 +35,6 @@ $br-10-bottom:0 0 10px 10px;
 $br-20: 20px;
 
 /* Sombreado de cajas */
-$bs-light: 3 3px 3px hsla(0, 0%, 0%, 0.25);
+$bs: 3px 3px 3px hsla(0, 0%, 0%, 0.25);
 
 

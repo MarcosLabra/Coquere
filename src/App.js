@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 //Components
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import MobileMenu from './components/layout/MobileMenu';
 
 
 //Pages
@@ -24,6 +25,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
+        <MobileMenu />
         <Routes>
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/diplomados" element={<Diplomados />} />

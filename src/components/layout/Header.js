@@ -1,10 +1,15 @@
 import Navbar from "../Navbar";
 
 const Header = () => {
+
+    function handleClickMenu() {
+        document.getElementById('mobileMenu').classList.toggle('show');
+    }
+
     return (
         <header>
-            <h1>Header</h1>
-            <Navbar />
+            <img src="/images/branding/CoquereLogo.webp" alt="Coquere Logo" className="brand" />
+            {window.innerWidth < 1200 ? <img src="/images/icons/menuIcon.svg" alt="Menu Icon" className="menuIcon" onClick={handleClickMenu} /> : <Navbar />}
         </header>
     )
 }
