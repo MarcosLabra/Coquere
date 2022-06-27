@@ -1,6 +1,4 @@
-import React from 'react'
-
-export const Chef = ({img,titulo,texto}) => {
+const Chefs = ({img,titulo,texto}) => {
     return (
         <div className='chefContenedor'>
             <img src={img} alt="" className='chefImg'/>
@@ -11,3 +9,5 @@ export const Chef = ({img,titulo,texto}) => {
         </div>
     )
 }
+
+export default Chefs
