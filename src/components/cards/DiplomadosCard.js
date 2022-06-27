@@ -1,4 +1,4 @@
-const Diplomados = ({ img, titulo, duracion }) => {
+const DiplomadosCard = ({ img, titulo, duracion }) => {
 
     return (
         <article className="diplomados__card">
@@ -13,4 +13,4 @@ const Diplomados = ({ img, titulo, duracion }) => {
     )
 }
 
-export default Diplomados
+export default DiplomadosCard

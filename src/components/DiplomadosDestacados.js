@@ -1,7 +1,7 @@
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
-import Diplomados from "../components/cards/Diplomados"
+import DiplomadosCard from "../components/cards/DiplomadosCard"
 
 const DiplomadosDestacados = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -12,15 +12,15 @@ const DiplomadosDestacados = () => {
       <AutoplaySlider
         play={true}
         cancelOnInteraction={true}
-        interval={2000}
+        interval={3000}
         bullets={false}
         className='diplomadosDestacados__slider'
       >
         <div>
-          <Diplomados img={"/images/diplomados/diplomado1.png"} titulo={"Reposteria basica"} duracion={"4 meses"} />
+          <DiplomadosCard img={"/images/diplomados/diplomado1.png"} titulo={"Reposteria basica"} duracion={"4 meses"} />
         </div>
         <div>
-          <Diplomados img={"/images/diplomados/diplomado2.png"} titulo={"Reposteria basica"} duracion={"4 meses"} />
+          <DiplomadosCard img={"/images/diplomados/diplomado1.png"} titulo={"Reposteria basica"} duracion={"4 meses"} />
         </div>
       </AutoplaySlider>
 

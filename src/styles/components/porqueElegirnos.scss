@@ -15,6 +15,18 @@
     margin-bottom: 1rem;
     line-height: 2;
   }
+  .porqueElegirnos__slider {
+    .awssld__content {
+      background-color: transparent;
+    }
+    .awssld__wrapper {
+      height: 300px;
+    }
+    .awssld__timer {
+      opacity: 0;
+      pointer-events: none; 
+    }
+  }
   div {
     display: flex;
     justify-content: center;
