@@ -1,4 +1,28 @@
 .portada {
+    position: relative;
     width: 100vw;
     height: 40rem;
+    
+    img{
+        width: 100vw;
+        height: 40rem;
+    }
+}
+
+.titulo {
+    background-color: rgba($color: #ffffff, $alpha: 0.7);
+    border-radius: 0.5rem;
+    position: absolute;
+    margin-left: -1rem;
+    margin-top: -19.3rem;
+    width: 66.5vw;
+    height: 11.8vh;
+}
+
+.textoTitulo {
+    color: $verde-oscuro;
+    font-family: $ff-inter;
+    font-size: 3.9rem;
+    font-weight: 400;
+    margin-left: 7vw;
 }
