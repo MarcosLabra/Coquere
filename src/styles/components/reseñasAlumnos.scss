@@ -1,0 +1,24 @@
+.reseñasAlumnos {
+    width: 100vw;
+    padding: 1rem 5%;
+    h4 {
+      font-family: $ff-poppins;
+      font-weight: 600;
+      font-size: $fs-mdg;
+      color: $verde-oscuro;
+      margin-bottom: 1rem;
+    }
+    .reseñasAlumnos__slider {
+      .awssld__content {
+        background-color: transparent;
+      }
+      .awssld__wrapper {
+        height: 400px;
+      }
+      .awssld__timer {
+        opacity: 0;
+        pointer-events: none; 
+      }
+    }
+  }
+  

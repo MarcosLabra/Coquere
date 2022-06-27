@@ -57,10 +57,14 @@ body {
 @import "./components/sliderInicio";
 @import "./components/porqueElegirnos";
 @import "./components/diplomadosDestacados";
+@import "./components/talleresDestacados";
+@import "./components/reseñasAlumnos";
 
 //Cards
 @import "./components/cards/diplomadosCard";
 @import "./components/cards/chefsCard";
+@import "./components/cards/talleresCard";
+@import "./components/cards/alumnosCard";
 
 //Pages
 @import "./pages/inicio";

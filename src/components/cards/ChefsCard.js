@@ -1,4 +1,4 @@
-const Chefs = ({img,titulo,texto}) => {
+const ChefsCard = ({img,titulo,texto}) => {
     return (
         <div className='chefContenedor'>
             <img src={img} alt="" className='chefImg'/>
@@ -10,4 +10,4 @@ const Chefs = ({img,titulo,texto}) => {
     )
 }
 
-export default Chefs
+export default ChefsCard

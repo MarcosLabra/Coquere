@@ -29,13 +29,6 @@ const SliderInicio = () => {
                 <div>
                     <img src="/images/sliderInicio/sliderInicio1.jpg" alt="" srcset="" />
                 </div>
-
-                <div>
-                    <img src="/images/sliderInicio/sliderInicio1.jpg" alt="" srcset="" />
-                </div><div>
-                    <img src="/images/sliderInicio/sliderInicio1.jpg" alt="" srcset="" />
-                </div>
-
             </AutoplaySlider>
         </section>
     )
