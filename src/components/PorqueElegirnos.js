@@ -7,8 +7,6 @@ export const PorqueElegirnos = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             <div>
                 <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
             </div>
         </section>
     )
