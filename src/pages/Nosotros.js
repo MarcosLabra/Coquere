@@ -1,7 +1,10 @@
+import PortadaPaginas from "../components/layout/PortadaPaginas";
+
 const Nosotros = () => {
+    
     return (
         <main className="sobreNosotros">
-            <h1>Sobre Nosotros</h1>
+            <PortadaPaginas img={"/images/nosotros/sobreNosotros.jpg"}/>
         </main>
     )
 }
