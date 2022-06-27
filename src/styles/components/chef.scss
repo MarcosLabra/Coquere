@@ -1,0 +1,39 @@
+.chefContenedor {
+    margin-top: 4vw;
+    margin-left: 4vw;
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50rem;
+    background-color: $footer-fondo;
+}
+
+.chefImg {
+    position: absolute;
+    margin-top: -4.2rem;
+}
+
+.chefDescripcion {
+    margin-top: 12rem;
+    position: absolute;
+    background-color: $turquesa-oscuro;
+    border-radius: 2rem;
+    width: 22vw;
+    height: 3rem;
+    
+    h3 {
+        font-family: $ff-poppins;
+        font-size: $fs-sm;
+        font-weight: bold;
+        color: white;
+        margin-left: 1rem;
+    }
+    
+    p {
+        font-family: $ff-poppins;
+        font-size: $fs-sm;
+        color: white;
+        margin-left: 1rem;
+    }
+}
+
