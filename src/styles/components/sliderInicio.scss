@@ -30,6 +30,13 @@
   .sliderInicio__slider {
     width: 100vw;
     height: 300px;
+    .awssld__content {
+      background-color: transparent;
+    }
+    .awssld__timer {
+      opacity: 0;
+      pointer-events: none; 
+    }
     div {
       img {
         width: 100vw;
