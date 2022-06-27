@@ -9,7 +9,7 @@ const SliderInicio = () => {
         <section className='sliderInicio'>
             <div className='sliderInicio__descripcion'>
                 <img src="/images/branding/CoquereLogoVerde.webp" alt="Coquere Logo" />
-                <p>“Un espacio de aprendizaje, convivencia y platicas haciendo lo que mas nos gusta: COCINAR”</p>
+                <p>Un espacio de aprendizaje, convivencia y platicas haciendo lo que mas nos gusta: COCINAR</p>
             </div>
             <AutoplaySlider
                 play={true}
