@@ -42,12 +42,13 @@ body {
 @import './components/layout/mobileMenu';
 @import './components/layout/portadaPaginas';
 @import './components/layout/historiaCoquere';
+@import './components/layout/instalaciones';
 
 //Components
 @import './components/navBar';
 @import './components/sliderInicio';
 @import './components/porqueElegirnos';
-
+@import './components/chef';
 
 //Pages
 @import './pages/inicio';
