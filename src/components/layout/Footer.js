@@ -35,6 +35,7 @@ const Footer = () => {
             <div className="logo">
                 <img src="/images/branding/CoquereLogoCircularFooter.webp" alt="Coquere logo footer" />
             </div>
+            <hr />
             <div className="derechos">
                 <h2>Coquere escuela de cocina 2022 - Todos los derechos reservados</h2>
             </div>

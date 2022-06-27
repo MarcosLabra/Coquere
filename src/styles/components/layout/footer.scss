@@ -1,7 +1,7 @@
 footer{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto 1px auto;
     justify-content: space-evenly;
     width: 100vw;
     height: 39vw;
@@ -14,6 +14,7 @@ footer{
         height: 39%;
         margin-top: 2rem;
         h2 {
+            color: $footer-derechos;
             font-weight: bold;
             font-family: $ff-poppins;
             font-size: $fs-lg;
@@ -39,6 +40,7 @@ footer{
         width: 24vw;
         height: 39%;
         h2 {
+            color: $footer-derechos;
             font-weight: bold;
             font-family: $ff-poppins;
             font-size: $fs-lg;
@@ -63,6 +65,7 @@ footer{
         height: 39%;
         margin-top: 2rem;
         h2 {
+            color: $footer-derechos;
             font-weight: bold;
             font-family: $ff-poppins;
             font-size: $fs-lg;
@@ -86,6 +89,7 @@ footer{
         width: 24vw;
         height: 39%;
         h2 {
+            color: $footer-derechos;
             font-weight: bold;
             font-family: $ff-poppins;
             font-size: $fs-lg;
@@ -114,15 +118,21 @@ footer{
         }
     }
 
-    .derechos{
+    hr {
         grid-column: span 3;
         grid-row: 3;
+        height: 1px;
+    }
+
+    .derechos{
+        grid-column: span 3;
+        grid-row: 4;
         height: 3rem;
         margin-left: auto;
         margin-right: auto;
         h2 {
-            margin-bottom: 1rem;
-            text-decoration: overline;
+            color: $footer-derechos;
+            margin-top: 2rem;
             font-weight: bold;
             font-family: $ff-poppins;
             font-size: $fs-md;
