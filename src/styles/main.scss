@@ -49,16 +49,11 @@ body {
 @import "./components/layout/header";
 @import "./components/layout/footer";
 @import "./components/layout/mobileMenu";
+@import "./components/layout/navBar";
 @import "./components/layout/portadaPaginas";
-@import "./components/layout/historiaCoquere";
 
 //Components
-@import "./components/navBar";
-@import "./components/sliderInicio";
-@import "./components/porqueElegirnos";
-@import "./components/diplomadosDestacados";
-@import "./components/talleresDestacados";
-@import "./components/reseñasAlumnos";
+
 
 //Cards
 @import "./components/cards/diplomadosCard";
@@ -67,9 +62,28 @@ body {
 @import "./components/cards/alumnosCard";
 
 //Pages
+//Inicio
 @import "./pages/inicio";
-@import "./pages/sobreNosotros";
+//componentes
+@import "./pages/inicio/sliderInicio";
+@import "./pages/inicio/porqueElegirnos";
+@import "./pages/inicio/diplomadosDestacados";
+@import "./pages/inicio/talleresDestacados";
+@import "./pages/inicio/reseñasAlumnos";
+@import "./pages/inicio/actividadesEmpresariales";
+@import "./pages/inicio/comoLlegar";
+//Nosotros
+@import "./pages/Nosotros";
+//componentes
+@import "./pages/nosotros/historiaCoquere";
+@import "./pages/nosotros/instalaciones";
+@import "./pages/nosotros/chefs";
+
 @import "./pages/talleres";
+//componentes
 @import "./pages/empresarial";
+//componentes
 @import "./pages/diplomados";
+//componentes
 @import "./pages/contacto";
+//componentes

@@ -1,0 +1,21 @@
+.historiaCoquere {
+  width: 100vw;
+  padding: 1rem 5%;
+  h4 {
+    font-family: $ff-poppins;
+    font-weight: 600;
+    font-size: $fs-mdg;
+    color: $verde-oscuro;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-family: $ff-inter;
+    font-size: $fs-md;
+  }
+
+  img {
+    width: 100%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+  }
+}
