@@ -1,10 +1,10 @@
-import DiplomadosDestacados from "../components/DiplomadosDestacados"
-import PorqueElegirnos from "../components/PorqueElegirnos"
-import ReseñasAlumnos from "../components/ReseñasAlumnos"
-import SliderInicio from "../components/SliderInicio"
-import TalleresDestacados from "../components/TalleresDestacados"
-import ActividadesEmpresariales from "../components/ActividadesEmpresariales"
-import ComoLlegar from "../components/ComoLlegar"
+import PorqueElegirnos from "./inicio/PorqueElegirnos"
+import SliderInicio from "./inicio/SliderInicio"
+import ActividadesEmpresariales from "./inicio/ActividadesEmpresariales"
+import ComoLlegar from "./inicio/ComoLlegar"
+import DiplomadosDestacados from "./inicio/DiplomadosDestacados"
+import TalleresDestacados from "./inicio/TalleresDestacados"
+import ReseñasAlumnos from "./inicio/ReseñasAlumnos"
 
 const Inicio = () => {
     return (

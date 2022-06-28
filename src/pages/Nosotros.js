@@ -1,14 +1,17 @@
+import HistoriaCoquere from "./nosotros/HistoriaCoquere";
 import PortadaPaginas from "../components/layout/PortadaPaginas";
-import { HistoriaCoquere } from "../components/layout/HistoriaCoquere";
-import  ChefsCard  from "../components/cards/ChefsCard";
+import Instalaciones from "./nosotros/Instalaciones";
+import Chefs from "./nosotros/Chefs";
 
 const Nosotros = () => {
-    
+
     return (
         <main className="sobreNosotros">
-            <PortadaPaginas img={"/images/nosotros/sobreNosotros.jpg"} titulo={"Sobre Nosotros"}/>
-            <HistoriaCoquere/>
-            <ChefsCard img={"/images/chefs/chef1.svg"} titulo={"Julián Sandoval, Chef internacional"} texto={"Especialidad: Cocina salada"}/>
+
+            <PortadaPaginas img={"/images/nosotros/sobreNosotros.jpg"} titulo={"Sobre Nosotros"} />
+            <HistoriaCoquere />
+            <Instalaciones />
+            <Chefs />
         </main>
     )
 }
