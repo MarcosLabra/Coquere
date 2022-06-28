@@ -1,7 +1,10 @@
+import PortadaPaginas from "../components/layout/PortadaPaginas"
+import EmpresarialContenido from "./empresarial/EmpresarialContenido"
 const Empresarial = () => {
     return (
         <main className="empresarial">
-            <h1>Empresarial</h1>
+             <PortadaPaginas img={"/images/portadas/empresarialPortada.jpg"} titulo={"Empresarial"} />
+             <EmpresarialContenido />
         </main>
     )
 }

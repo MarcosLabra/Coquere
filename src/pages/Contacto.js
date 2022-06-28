@@ -1,7 +1,13 @@
+import ComoLlegar from "./contacto/ComoLlegar"
+import PortadaPaginas from "../components/layout/PortadaPaginas"
+import Redes from "./contacto/Redes"
+
 const Contacto = () => {
     return (
         <main className="contacto">
-            <h1>Contacto</h1>
+            <PortadaPaginas img={"/images/portadas/contactoPortada.png"} titulo={"Contacto"} />
+            <ComoLlegar />
+            <Redes />
         </main>
     )
 }

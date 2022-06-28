@@ -57,6 +57,7 @@ body {
 
 //Cards
 @import "./components/cards/diplomadosCard";
+@import "./components/cards/diplomadosDestacadosCard";
 @import "./components/cards/chefsCard";
 @import "./components/cards/talleresCard";
 @import "./components/cards/alumnosCard";
@@ -71,7 +72,7 @@ body {
 @import "./pages/inicio/talleresDestacados";
 @import "./pages/inicio/reseñasAlumnos";
 @import "./pages/inicio/actividadesEmpresariales";
-@import "./pages/inicio/comoLlegar";
+
 //Nosotros
 @import "./pages/Nosotros";
 //componentes
@@ -79,11 +80,25 @@ body {
 @import "./pages/nosotros/instalaciones";
 @import "./pages/nosotros/chefs";
 
+//Tallerres
 @import "./pages/talleres";
 //componentes
+@import "./pages/talleres/talleresTexto";
+@import "./pages/talleres/talleresCarrousel";
+
+//Empresarial
 @import "./pages/empresarial";
 //componentes
+@import "./pages/empresarial/empresarialContenido";
+
+//Diplomados
 @import "./pages/diplomados";
 //componentes
+@import "./pages/diplomados/diplomadosTexto";
+@import "./pages/diplomados/diplomadosGaleria";
+
+//Contacto
 @import "./pages/contacto";
 //componentes
+@import "./pages/contacto/comoLlegar";
+@import "./pages/contacto/redes";

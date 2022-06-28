@@ -7,7 +7,9 @@ const DiplomadosCard = ({ img, titulo, duracion }) => {
                 <h5>{titulo}</h5>
             </div>
             <div className="diplomados__card--descripcion">
-                <p>Duración: {duracion}</p>
+                <p className="diplomados__card--duracion">Duración: {duracion}</p>
+                <hr />
+                <p className="diplomados__card--verMas">Ver más</p>
             </div>
         </article>
     )

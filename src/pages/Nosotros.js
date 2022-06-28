@@ -8,7 +8,7 @@ const Nosotros = () => {
     return (
         <main className="sobreNosotros">
 
-            <PortadaPaginas img={"/images/nosotros/sobreNosotros.jpg"} titulo={"Sobre Nosotros"} />
+            <PortadaPaginas img={"/images/portadas/sobreNosotrosPortada.jpg"} titulo={"Sobre Nosotros"} />
             <HistoriaCoquere />
             <Instalaciones />
             <Chefs />
