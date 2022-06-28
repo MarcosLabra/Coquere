@@ -1,0 +1,35 @@
+.actividadesEmpresariales {
+    width: 100vw;
+    padding: 1rem 5%;
+    background-color: $gris-fondo-secciones;
+    h4 {
+      font-family: $ff-poppins;
+      font-weight: 600;
+      font-size: $fs-mdg;
+      color: $verde-oscuro;
+      margin-bottom: 1rem;
+    }
+    .actividadesEmpresariales__slider {
+      .awssld__content {
+        background-color: transparent;
+      }
+      .awssld__wrapper {
+        height: 300px;
+      }
+      .awssld__timer {
+        opacity: 0;
+        pointer-events: none; 
+      }
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      img {
+        background-color: #d9d9d9;
+        width: 272px;
+        height: 260px;
+        border-radius: $br-20;
+      }
+    }
+  }
+  
