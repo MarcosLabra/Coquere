@@ -1,142 +1,151 @@
-footer{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto 1px auto;
-    justify-content: space-evenly;
-    width: 100vw;
-    height: 39vw;
-    background-color: $footer-fondo;
-
-    .coquere{
-        grid-column: 1;
-        grid-row: 1;
-        width: max-content;
-        height: 39%;
-        margin-top: 2rem;
-        h2 {
-            color: $footer-derechos;
-            font-weight: bold;
-            font-family: $ff-poppins;
-            font-size: $fs-lg;
-        }
-
-        div {
-            display: flex;
-            flex-direction: column;
-            margin-top: 1rem;
-
-            a {
-                color: black;
-                margin-bottom: 0.5rem;
-                font-family: $ff-inter;
-                font-size: $fs-md;
-            }
-        }
-    }
-
-    .instalaciones{
-        grid-column: 1;
-        grid-row: 2;
-        width: 24vw;
-        height: 39%;
-        h2 {
-            color: $footer-derechos;
-            font-weight: bold;
-            font-family: $ff-poppins;
-            font-size: $fs-lg;
-        }
-        div {
-            display: flex;
-            flex-direction: column;
-            margin-top: 1rem;
-
-            p {
-                margin-bottom: 0.5rem;
-                font-family: $ff-inter;
-                font-size: $fs-md;
-            }
-        }
-    }
-
-    .contacto{
-        grid-column: 3;
-        grid-row: 1;
-        width: 24vw;
-        height: 39%;
-        margin-top: 2rem;
-        h2 {
-            color: $footer-derechos;
-            font-weight: bold;
-            font-family: $ff-poppins;
-            font-size: $fs-lg;
-        }
-        div {
-            display: flex;
-            flex-direction: column;
-            margin-top: 1rem;
-
-            p {
-                margin-bottom: 0.5rem;
-                font-family: $ff-inter;
-                font-size: $fs-md;
-            }
-        }
-    }
+    footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto 1px auto;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 39vw;
+        background-color: $footer-fondo;
     
-    .redes{
-        grid-column: 3;
-        grid-row: 2;
-        width: 24vw;
-        height: 39%;
-        h2 {
-            color: $footer-derechos;
-            font-weight: bold;
-            font-family: $ff-poppins;
-            font-size: $fs-lg;
+        .coquere{
+            grid-column: 1;
+            grid-row: 1;
+            width: max-content;
+            height: 39%;
+            margin-top: 2rem;
+            h2 {
+                color: $footer-derechos;
+                font-weight: bold;
+                font-family: $ff-poppins;
+                font-size: $fs-lg;
+            }
+    
+            div {
+                display: flex;
+                flex-direction: column;
+                margin-top: 1rem;
+    
+                a {
+                    color: black;
+                    margin-bottom: 0.5rem;
+                    font-family: $ff-inter;
+                    font-size: $fs-md;
+                }
+            }
         }
-        div {
-            margin-top: 1rem;
-
-            a {
-                color: black;
-                margin-bottom: 0.5rem;
-                font-family: $ff-inter;
+    
+        .instalaciones{
+            grid-column: 1;
+            grid-row: 2;
+            width: 24vw;
+            height: 39%;
+            h2 {
+                color: $footer-derechos;
+                font-weight: bold;
+                font-family: $ff-poppins;
+                font-size: $fs-lg;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+                margin-top: 1rem;
+    
+                p {
+                    margin-bottom: 0.5rem;
+                    font-family: $ff-inter;
+                    font-size: $fs-md;
+                }
+            }
+        }
+    
+        .contacto{
+            grid-column: 3;
+            grid-row: 1;
+            width: 24vw;
+            height: 39%;
+            margin-top: 2rem;
+            h2 {
+                color: $footer-derechos;
+                font-weight: bold;
+                font-family: $ff-poppins;
+                font-size: $fs-lg;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+                margin-top: 1rem;
+    
+                p {
+                    margin-bottom: 0.5rem;
+                    font-family: $ff-inter;
+                    font-size: $fs-md;
+                }
+            }
+        }
+        
+        .redes{
+            grid-column: 3;
+            grid-row: 2;
+            width: 24vw;
+            height: 39%;
+            h2 {
+                color: $footer-derechos;
+                font-weight: bold;
+                font-family: $ff-poppins;
+                font-size: $fs-lg;
+            }
+            div {
+                margin-top: 1rem;
+    
+                a {
+                    color: black;
+                    margin-bottom: 0.5rem;
+                    font-family: $ff-inter;
+                    font-size: $fs-md;
+                }
+            }
+        }
+    
+        .logo{
+            grid-column: 2;
+            grid-row: span 2;
+    
+            img{
+                width: 15vw;
+                height: 15vw;
+                margin-top: 10.5vw;
+                
+            }
+        }
+    
+        hr {
+            grid-column: span 3;
+            grid-row: 3;
+            height: 1px;
+        }
+    
+        .derechos{
+            grid-column: span 3;
+            grid-row: 4;
+            height: 3rem;
+            margin-left: auto;
+            margin-right: auto;
+            h2 {
+                color: $footer-derechos;
+                margin-top: 2rem;
+                font-weight: bold;
+                font-family: $ff-poppins;
                 font-size: $fs-md;
             }
         }
     }
 
-    .logo{
-        grid-column: 2;
-        grid-row: span 2;
 
-        img{
-            width: 15vw;
-            height: 15vw;
-            margin-top: 10.5vw;
-            
-        }
-    }
 
-    hr {
-        grid-column: span 3;
-        grid-row: 3;
-        height: 1px;
-    }
 
-    .derechos{
-        grid-column: span 3;
-        grid-row: 4;
-        height: 3rem;
-        margin-left: auto;
-        margin-right: auto;
-        h2 {
-            color: $footer-derechos;
-            margin-top: 2rem;
-            font-weight: bold;
-            font-family: $ff-poppins;
-            font-size: $fs-md;
-        }
-    }
-}
-
+// @media (min-width: 375px) {
+//     .footer {
+//         display: flex;
+//         flex-direction: column;
+//     }
+// }
