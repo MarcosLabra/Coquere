@@ -1,19 +1,40 @@
 .mobileMenu {
-  padding: 0 5%;
   display: none;
   width: 100vw;
   z-index: 5;
   background-color: $verde-claro;
   transition: left 0.8s ease-in-out;
   .menu-links {
-    width: 50vw;
+    width: 100vw;
     text-decoration: none;
     h3 {
+      padding: 0 5%;
       color: $blanco;
       font-size: $fs-md;
       font-family: $ff-poppins;
       line-height: 1;
       margin: 1rem 0;
+    }
+    .menu-links__desplegables {
+     
+      background-color: $verde-oscuro;
+      display: flex;
+      width: 100vw;
+      a {
+        padding: 0 5%;
+      }
+      img {
+        width: 15px;
+      }
+    }
+    .menu-links__desplegables--desplegados {
+      display: none;
+      padding-left: 10%;
+      font-size: $fs-sm;
+      
+    }
+    .showDesplegables {
+      display: block;
     }
   }
 }
