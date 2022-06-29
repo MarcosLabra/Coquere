@@ -1,39 +1,83 @@
-.chefContenedor {
-    margin-top: 4vw;
-    margin-left: 4vw;
-    position: relative;
-    width: 20vw;
-    height: 20vw;
-    border-radius: 50rem;
-    background-color: $footer-fondo;
-}
+@media (min-width: 375px) {
+    .chefContenedor {
+        margin-top: 4vw;
+        margin-left: 4vw;
+        position: relative;
+        width: 70vw;
+        height: 70vw;
+        border-radius: 25rem;
+        background-color: $footer-fondo;
 
-.chefImg {
-    position: absolute;
-    margin-top: -4.2rem;
-}
+        .chefImg {
+                position: absolute;
+                margin-top: -4rem;
+        }
 
-.chefDescripcion {
-    margin-top: 12rem;
-    position: absolute;
-    background-color: $turquesa-oscuro;
-    border-radius: 2rem;
-    width: 22vw;
-    height: 3rem;
-    
-    h3 {
-        font-family: $ff-poppins;
-        font-size: $fs-sm;
-        font-weight: bold;
-        color: white;
-        margin-left: 1rem;
+        .chefDescripcion {
+            margin-top: 11.7rem;
+            margin-left: -4vw;
+            position: absolute;
+            background-color: $turquesa-oscuro;
+            border-radius: 2rem;
+            width: 78vw;
+            height: 3.5rem;
+            
+            h3 {
+                margin-top: 0.7rem;
+                font-family: $ff-poppins;
+                font-size: $fs-sm;
+                font-weight: bold;
+                color: white;
+                margin-left: 1.5rem;
+            }
+            
+            p {
+                font-family: $ff-poppins;
+                font-size: $fs-sm;
+                color: white;
+                margin-left: 1.5rem;
+            }
+        }
     }
     
-    p {
-        font-family: $ff-poppins;
-        font-size: $fs-sm;
-        color: white;
-        margin-left: 1rem;
-    }
 }
+
+// .chefContenedor {
+//     margin-top: 4vw;
+//     margin-left: 4vw;
+//     position: relative;
+//     width: 20vw;
+//     height: 20vw;
+//     border-radius: 50rem;
+//     background-color: $footer-fondo;
+// }
+
+// .chefImg {
+//     position: absolute;
+//     margin-top: -4.2rem;
+// }
+
+// .chefDescripcion {
+//     margin-top: 12rem;
+//     position: absolute;
+//     background-color: $turquesa-oscuro;
+//     border-radius: 2rem;
+//     width: 22vw;
+//     height: 3rem;
+    
+//     h3 {
+//         font-family: $ff-poppins;
+//         font-size: $fs-sm;
+//         font-weight: bold;
+//         color: white;
+//         margin-left: 1rem;
+//     }
+    
+//     p {
+//         font-family: $ff-poppins;
+//         font-size: $fs-sm;
+//         color: white;
+//         margin-left: 1rem;
+//     }
+// }
 
