@@ -1,4 +1,5 @@
 import Navbar from "../layout/Navbar";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
 
@@ -8,7 +9,7 @@ const Header = () => {
 
     return (
         <header>
-            <img src="/images/branding/CoquereLogo.webp" alt="Coquere Logo" className="brand" />
+            <NavLink to="/" ><img src="/images/branding/CoquereLogo.webp" alt="Coquere Logo" className="brand" /></NavLink>
             {window.innerWidth < 1200 ? <img src="/images/icons/menuIcon.svg" alt="Menu Icon" className="menuIcon" onClick={handleClickMenu} /> : <Navbar />}
         </header>
     )
