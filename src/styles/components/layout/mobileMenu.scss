@@ -1,19 +1,53 @@
 .mobileMenu {
-  padding: 0 5%;
   display: none;
   width: 100vw;
   z-index: 5;
   background-color: $verde-claro;
   transition: left 0.8s ease-in-out;
+  
   .menu-links {
-    width: 50vw;
+    width: 100vw;
     text-decoration: none;
-    h3 {
-      color: $blanco;
-      font-size: $fs-md;
-      font-family: $ff-poppins;
-      line-height: 1;
-      margin: 1rem 0;
+    .menu-links__links {
+      display: flex;
+      align-items: center;
+      padding: 0 5%;
+      h3 {
+        color: $blanco;
+        font-size: $fs-md;
+        font-family: $ff-poppins;
+        line-height: 1;
+        padding: 1rem 0;
+      }
+    }
+    .menu-links__desplegables {
+      display: flex;
+      width: 100vw;
+      img {
+        width: 15px;
+      }
+    }
+    .bgVerde {
+      background-color: $verde-oscuro;
+    }
+    .menu-links__desplegables--desplegados {
+      display: none;
+
+      padding-left: 8%;
+      font-size: $fs-sm;
+      a {
+        h3 {
+          display: flex;
+          align-items: center;
+          color: $blanco;
+          font-size: 0.9rem;
+          font-family: $ff-poppins;
+          padding: 1rem 0;
+        }
+      }
+    }
+    .showDesplegables {
+      display: block;
     }
   }
 }

@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom"
+
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="coquere">
                 <h2>Coquere escuela de cocina</h2>
                 <div>
-                    <a href="">Diplomados</a>
-                    <a href="">Talleres cortos</a>
-                    <a href="">Actividades empresariales</a>
+                    <Link to="/diplomados"><p>Diplomados</p></Link>
+                    <Link to="/talleres"><p>Talleres cortos</p></Link>
+                    <Link to="/empresarial"><p>Actividades empresariales</p></Link>
                 </div>
             </div>
             <div className="nuestrasInstalaciones">
@@ -29,11 +31,11 @@ const Footer = () => {
                 <div>
                     <div className="redesInLine">
                         <img src="/images/redes/redesFacebook.jpg" alt="logo facebook" />
-                        <a href="">Facebook</a>
+                        <a href="https://www.facebook.com/escueladecocinacoquere" target="_blank" rel="noreferrer">Facebook</a>
                     </div>
                     <div className="redesInLine">
                         <img src="/images/redes/redesInstagram.jpg" alt="logo instagram" />
-                        <a href="">Instagram</a>
+                        <a href="https://www.instagram.com/co.quere/" target="_blank" rel="noreferrer">Instagram</a>
                     </div>
                 </div>
             </div>
