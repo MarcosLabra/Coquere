@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 const MobileMenu = () => {
@@ -27,39 +27,39 @@ const MobileMenu = () => {
   return (
     <div className="mobileMenu" id="mobileMenu">
       <div className="menu-links">
-        <Link to="/" onClick={handleClick} className='menu-links__links'><h3>Inicio</h3></Link>
+        <NavLink to="/" onClick={handleClick} className='menu-links__links'><h3>Inicio</h3></NavLink>
         <div className='menu-links__desplegables' id="nosotros">
-          <Link to="/nosotros" onClick={handleClick} className='menu-links__links'><h3>Nosotros</h3></Link>
+          <NavLink to="/nosotros" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Nosotros</h3></NavLink>
           <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickNosotors} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='nosotrosDesplegable'>
-          <Link to="/nosotros/historia-coquere" onClick={handleClick}><h3>historia Coquere</h3></Link>
-          <Link to="/nosotros/instlaciones" onClick={handleClick}><h3>Instalaciones</h3></Link>
-          <Link to="/nosotros/chefs" onClick={handleClick}><h3>Chefs</h3></Link>
+          <NavLink to="/nosotros/historia-coquere" activeClassName="active" onClick={handleClick}><h3>historia Coquere</h3></NavLink>
+          <NavLink to="/nosotros/instlaciones" activeClassName="active" onClick={handleClick}><h3>Instalaciones</h3></NavLink>
+          <NavLink to="/nosotros/chefs" activeClassName="active" onClick={handleClick}><h3>Chefs</h3></NavLink>
         </div>
         <div className='menu-links__desplegables' id='diplomados'>
-          <Link to="/diplomados" onClick={handleClick} className='menu-links__links'><h3>Diplomados</h3></Link>
+          <NavLink to="/diplomados" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Diplomados</h3></NavLink>
           <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickDiplomados} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='diplomadosDesplegable'>
-          <Link to="/diplomados/Basico-reposteria" onClick={handleClick}><h3>Basico de reposteria</h3></Link>
-          <Link to="/diplomados/nivel2-reposteria" onClick={handleClick}><h3>Nivel 2 de reposteria</h3></Link>
-          <Link to="/diplomados/intensivo-reposteria" onClick={handleClick}><h3>Intensivo de reposteria</h3></Link>
-          <Link to="/diplomados/panaderia" onClick={handleClick}><h3>Panaderia</h3></Link>
-          <Link to="/diplomados/gelatina" onClick={handleClick}><h3>Gelatina</h3></Link>
+          <NavLink to="/diplomados/Basico-reposteria" activeClassName="active" onClick={handleClick}><h3>Basico de reposteria</h3></NavLink>
+          <NavLink to="/diplomados/nivel2-reposteria" activeClassName="active" onClick={handleClick}><h3>Nivel 2 de reposteria</h3></NavLink>
+          <NavLink to="/diplomados/intensivo-reposteria" activeClassName="active" onClick={handleClick}><h3>Intensivo de reposteria</h3></NavLink>
+          <NavLink to="/diplomados/panaderia" onClick={handleClick}><h3>Panaderia</h3></NavLink>
+          <NavLink to="/diplomados/gelatina" activeClassName="active" onClick={handleClick}><h3>Gelatina</h3></NavLink>
         </div>
         <div className='menu-links__desplegables' id='talleres'>
-          <Link to="/talleres" onClick={handleClick} className='menu-links__links'><h3>Talleres</h3></Link>
+          <NavLink to="/talleres" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Talleres</h3></NavLink>
           <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickTalleres} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='talleresDesplegable'>
-          <Link to="/talleres/reposteria" onClick={handleClick}><h3>Reposteria</h3></Link>
-          <Link to="/talleres/cocina-salada" onClick={handleClick}><h3>Cocina salada</h3></Link>
-          <Link to="/talleres/cocteleria" onClick={handleClick}><h3>cocteleria</h3></Link>
-          <Link to="/talleres/parrilla" onClick={handleClick}><h3>Parrilla</h3></Link>
+          <NavLink to="/talleres/reposteria" activeClassName="active" onClick={handleClick}><h3>Reposteria</h3></NavLink>
+          <NavLink to="/talleres/cocina-salada" activeClassName="active" onClick={handleClick}><h3>Cocina salada</h3></NavLink>
+          <NavLink to="/talleres/cocteleria" activeClassName="active" onClick={handleClick}><h3>cocteleria</h3></NavLink>
+          <NavLink to="/talleres/parrilla" activeClassName="active" onClick={handleClick}><h3>Parrilla</h3></NavLink>
         </div>
-        <Link to="/empresarial" onClick={handleClick} className='menu-links__links'><h3>Empresarial</h3></Link>
-        <Link to="/contacto" onClick={handleClick} className='menu-links__links'><h3>Contacto</h3></Link>
+        <NavLink to="/empresarial" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Empresarial</h3></NavLink>
+        <NavLink to="/contacto" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Contacto</h3></NavLink>
       </div>
     </div>
   )

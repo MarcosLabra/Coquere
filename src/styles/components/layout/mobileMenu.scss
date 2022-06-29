@@ -4,7 +4,7 @@
   z-index: 5;
   background-color: $verde-claro;
   transition: left 0.8s ease-in-out;
-  
+
   .menu-links {
     width: 100vw;
     text-decoration: none;
@@ -57,3 +57,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
+// .active {
+//   color: $verde-oscuro;
+// }
