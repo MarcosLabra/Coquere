@@ -1,150 +1,147 @@
-@media (min-width: 375px) {
-    .footer {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        background-color: $footer-fondo;
-        .logo {
-            margin-left: auto;
-            margin-right: auto;
-            order: -1;
-            img{
-                width: 35vw;
-                height: 35vw;
-                margin-top: 10.5vw;
-            }
-        }
-
-        .coquere{
-            width: max-content;
-            height: 39%;
-            margin-top: 2rem;
-            margin-left: 1rem;
-            h2 {
-                color: $footer-derechos;
-                font-weight: bold;
-                font-family: $ff-poppins;
-                font-size: $fs-md;
-            }
-            
-            div {
-                display: flex;
-                flex-direction: column;
-                margin-top: 1rem;
-    
-                a {
-                    color: black;
-                    margin-bottom: 0.5rem;
-                    font-family: $ff-inter;
-                    font-size: $fs-sm;
-                    font-weight: 600;
-                }
-            }
-        }
-
-        .nuestrasInstalaciones{
-            width: max-content;
-            height: 39%;
-            margin-top: 2rem;
-            margin-left: 1rem;
-            h2 {
-                color: $footer-derechos;
-                font-weight: bold;
-                font-family: $ff-poppins;
-                font-size: $fs-md;
-            }
-            div {
-                display: flex;
-                flex-direction: column;
-                margin-top: 1rem;
-    
-                p {
-                    margin-bottom: 0.5rem;
-                    font-family: $ff-inter;
-                    font-size: $fs-sm;
-                    font-weight: 600;
-                }
-            }
-        }
-
-        .contacto{
-            width: max-content;
-            height: 39%;
-            margin-top: 2rem;
-            margin-left: 1rem;
-            h2 {
-                color: $footer-derechos;
-                font-weight: bold;
-                font-family: $ff-poppins;
-                font-size: $fs-md;
-            }
-            div {
-                display: flex;
-                flex-direction: column;
-                margin-top: 1rem;
-    
-                p {
-                    margin-bottom: 0.5rem;
-                    font-family: $ff-inter;
-                    font-size: $fs-sm;
-                    font-weight: 600;
-                }
-            }
-        }
-
-        .redesSociales{
-            width: max-content;
-            height: 39%;
-            margin-top: 2rem;
-            margin-left: 1rem;
-            margin-bottom: 7vw;
-            h2 {
-                color: $footer-derechos;
-                font-weight: bold;
-                font-family: $ff-poppins;
-                font-size: $fs-md;
-            }
-            div {
-                display: flex;
-                flex-direction: column;
-                a {
-                    color: black;
-                    font-family: $ff-inter;
-                    font-size: $fs-sm;
-                    font-weight: 600;
-                }
-            }
-
-            .redesInLine {
-                display: flex;
-                flex-direction: row;
-                margin-right: 1rem;
-                margin-top: 1rem;
-                img {
-                    margin-right: 1rem;
-                    width: 5vw;
-                    height: 5vw;
-                    border-radius: 2rem;
-                }
-            }
-        }
-    
-        .derechos{
-            height: 3rem;
-            margin-top: 0.5rem;
-            margin-left: auto;
-            margin-right: auto;
-            h2 {
-                color: $footer-derechos;
-                font-weight: bold;
-                font-family: $ff-poppins;
-                font-size: $fs-sm;
-            }
-        }
-
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-color: $footer-fondo;
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    order: -1;
+    img {
+      width: 35vw;
+      height: 35vw;
+      margin-top: 10.5vw;
     }
+  }
+
+  .coquere {
+    width: max-content;
+    height: 39%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    h2 {
+      color: $footer-derechos;
+      font-weight: bold;
+      font-family: $ff-poppins;
+      font-size: $fs-md;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+
+      a {
+        color: black;
+        margin-bottom: 0.5rem;
+        font-family: $ff-inter;
+        font-size: $fs-sm;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .nuestrasInstalaciones {
+    width: max-content;
+    height: 39%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    h2 {
+      color: $footer-derechos;
+      font-weight: bold;
+      font-family: $ff-poppins;
+      font-size: $fs-md;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+
+      p {
+        margin-bottom: 0.5rem;
+        font-family: $ff-inter;
+        font-size: $fs-sm;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .contacto {
+    width: max-content;
+    height: 39%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    h2 {
+      color: $footer-derechos;
+      font-weight: bold;
+      font-family: $ff-poppins;
+      font-size: $fs-md;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+
+      p {
+        margin-bottom: 0.5rem;
+        font-family: $ff-inter;
+        font-size: $fs-sm;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .redesSociales {
+    width: max-content;
+    height: 39%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 7vw;
+    h2 {
+      color: $footer-derechos;
+      font-weight: bold;
+      font-family: $ff-poppins;
+      font-size: $fs-md;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      a {
+        color: black;
+        font-family: $ff-inter;
+        font-size: $fs-sm;
+        font-weight: 600;
+      }
+    }
+
+    .redesInLine {
+      display: flex;
+      flex-direction: row;
+      margin-right: 1rem;
+      margin-top: 1rem;
+      img {
+        margin-right: 1rem;
+        width: 5vw;
+        height: 5vw;
+        border-radius: 2rem;
+      }
+    }
+  }
+
+  .derechos {
+    height: 3rem;
+    margin-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    h2 {
+      color: $footer-derechos;
+      font-weight: bold;
+      font-family: $ff-poppins;
+      font-size: $fs-sm;
+    }
+  }
 }
-    
+
 // @media (min-width: 800px) {
 //     footer{
 //         display: grid;
@@ -154,7 +151,7 @@
 //         width: 100vw;
 //         height: 39vw;
 //         background-color: $footer-fondo;
-    
+
 //         .coquere{
 //             grid-column: 1;
 //             grid-row: 1;
@@ -167,12 +164,12 @@
 //                 font-family: $ff-poppins;
 //                 font-size: $fs-lg;
 //             }
-    
+
 //             div {
 //                 display: flex;
 //                 flex-direction: column;
 //                 margin-top: 1rem;
-    
+
 //                 a {
 //                     color: black;
 //                     margin-bottom: 0.5rem;
@@ -181,7 +178,7 @@
 //                 }
 //             }
 //         }
-    
+
 //         .nuestrasInstalaciones{
 //             grid-column: 1;
 //             grid-row: 2;
@@ -197,7 +194,7 @@
 //                 display: flex;
 //                 flex-direction: column;
 //                 margin-top: 1rem;
-    
+
 //                 p {
 //                     margin-bottom: 0.5rem;
 //                     font-family: $ff-inter;
@@ -205,7 +202,7 @@
 //                 }
 //             }
 //         }
-    
+
 //         .contacto{
 //             grid-column: 3;
 //             grid-row: 1;
@@ -222,7 +219,7 @@
 //                 display: flex;
 //                 flex-direction: column;
 //                 margin-top: 1rem;
-    
+
 //                 p {
 //                     margin-bottom: 0.5rem;
 //                     font-family: $ff-inter;
@@ -230,7 +227,7 @@
 //                 }
 //             }
 //         }
-        
+
 //         .redes{
 //             grid-column: 3;
 //             grid-row: 2;
@@ -244,7 +241,7 @@
 //             }
 //             div {
 //                 margin-top: 1rem;
-    
+
 //                 a {
 //                     color: black;
 //                     margin-bottom: 0.5rem;
@@ -253,25 +250,25 @@
 //                 }
 //             }
 //         }
-    
+
 //         .logo{
 //             grid-column: 2;
 //             grid-row: span 2;
-    
+
 //             img{
 //                 width: 15vw;
 //                 height: 15vw;
 //                 margin-top: 10.5vw;
-                
+
 //             }
 //         }
-    
+
 //         hr {
 //             grid-column: span 3;
 //             grid-row: 3;
 //             height: 1px;
 //         }
-    
+
 //         .derechos{
 //             grid-column: span 3;
 //             grid-row: 4;
@@ -288,6 +285,3 @@
 //         }
 //     }
 // }
-
-
-
