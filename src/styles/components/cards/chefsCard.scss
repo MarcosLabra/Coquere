@@ -1,45 +1,42 @@
 @media (min-width: 375px) {
-    .chefContenedor {
-        margin-top: 4vw;
-        margin-left: 4vw;
-        position: relative;
-        width: 70vw;
-        height: 70vw;
-        border-radius: 25rem;
-        background-color: $footer-fondo;
+  .chefContenedor {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: $footer-fondo;
 
-        .chefImg {
-                position: absolute;
-                margin-top: -4rem;
-        }
-
-        .chefDescripcion {
-            margin-top: 11.7rem;
-            margin-left: -4vw;
-            position: absolute;
-            background-color: $turquesa-oscuro;
-            border-radius: 2rem;
-            width: 78vw;
-            height: 3.5rem;
-            
-            h3 {
-                margin-top: 0.7rem;
-                font-family: $ff-poppins;
-                font-size: $fs-sm;
-                font-weight: bold;
-                color: white;
-                margin-left: 1.5rem;
-            }
-            
-            p {
-                font-family: $ff-poppins;
-                font-size: $fs-sm;
-                color: white;
-                margin-left: 1.5rem;
-            }
-        }
+    .chefImg {
+      position: absolute;
+      bottom: 0;
+      left: 5%;
     }
-    
+
+    .chefDescripcion {
+      position: absolute;
+      bottom: 7%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: $turquesa-oscuro;
+      border-radius: 2rem;
+      width: 100%;
+      padding: .5rem 0;
+
+      h3 {
+        font-family: $ff-poppins;
+        font-size: $fs-sm;
+        font-weight: bold;
+        color: white;
+      }
+
+      p {
+        font-family: $ff-poppins;
+        font-size: $fs-sm;
+        color: white;
+      }
+    }
+  }
 }
 
 // .chefContenedor {
@@ -64,7 +61,7 @@
 //     border-radius: 2rem;
 //     width: 22vw;
 //     height: 3rem;
-    
+
 //     h3 {
 //         font-family: $ff-poppins;
 //         font-size: $fs-sm;
@@ -72,7 +69,7 @@
 //         color: white;
 //         margin-left: 1rem;
 //     }
-    
+
 //     p {
 //         font-family: $ff-poppins;
 //         font-size: $fs-sm;
@@ -80,4 +77,3 @@
 //         margin-left: 1rem;
 //     }
 // }
-
