@@ -6,16 +6,17 @@ export const DiplomadosDetalle = ({titulo, duracion, clases,duracionClase}) => {
             <h3>{titulo}</h3>
             <h4>{duracion}</h4>
             <div diplomadosDetalleClases>
-                <p>Clases:</p>
+                <strong>Clases:</strong>
+                <ul>
                     {clases.map(clase => {
                         return(    
-                            <p>{clase}</p>
+                            <li>{clase}</li>
                         )
                         })
                     }
-                <p>{duracionClase}</p>
+                </ul>
+                <p>{duracionClase}</p>     
             </div>
-
         </div>
     )
 }
