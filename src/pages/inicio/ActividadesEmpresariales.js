@@ -30,7 +30,7 @@ const ActividadesEmpresariales = () => {
                 </div>
             </AutoplaySlider>
 
-            <Boton icono="/images/icons/plus-circle-solid.svg" texto="Ver más" url="/empresarial"/>
+            <Boton texto="Ver más" url="/empresarial"/>
         </section>
     )
 }

@@ -3,7 +3,7 @@ import EmpresarialContenido from "./empresarial/EmpresarialContenido"
 const Empresarial = () => {
     return (
         <main className="empresarial">
-             <PortadaPaginas img={"/images/portadas/empresarialPortada.jpg"} titulo={"Empresarial"} />
+             <PortadaPaginas img={"/images/portadas/empresarialPortada.png"} titulo={"Empresarial"} />
              <EmpresarialContenido />
         </main>
     )
