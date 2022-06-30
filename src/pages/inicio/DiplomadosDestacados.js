@@ -24,7 +24,7 @@ const DiplomadosDestacados = () => {
           <DiplomadosDestacadosCard img={"/images/diplomados/diplomado1.png"} titulo={"Reposteria basica"} duracion={"4 meses"} />
         </div>
       </AutoplaySlider>
-      <Boton icono="/images/icons/plus-circle-solid.png" texto="Ver más Diplomados" url="/diplomados"/>
+      <Boton icono="/images/icons/plus-circle-solid.svg" texto="Ver más Diplomados" url="/diplomados"/>
     </section>
   )
 }

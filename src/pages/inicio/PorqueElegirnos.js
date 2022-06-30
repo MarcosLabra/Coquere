@@ -29,7 +29,7 @@ export const PorqueElegirnos = () => {
                     <img src="" alt="" srcset="" />
                 </div>
             </AutoplaySlider>
-            <Boton icono="/images/icons/plus-circle-solid.png" texto="Ver más sobre Coquere" url="/nosotros" />
+            <Boton icono="/images/icons/plus-circle-solid.svg" texto="Ver más sobre Coquere" url="/nosotros" />
         </section>
     )
 }

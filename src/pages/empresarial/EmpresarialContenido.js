@@ -1,4 +1,5 @@
 import React from 'react'
+import BotonWapp from '../../components/layout/BotonWapp'
 
 const EmpresarialContenido = () => {
     return (
@@ -10,6 +11,7 @@ const EmpresarialContenido = () => {
             </p>
             <p>Contamos con el equipo necesario para el servicio de comida y con una terraza el cual ofrece un lugar muy agradable ideal para la proyección de presentaciones o vídeos y conferencias proporcionando así una experiencia integral en dicho espacio.</p>
             <img src="/images/empresarial/empresarial1.png" alt="" srcset="" />
+            <BotonWapp icono="/images/icons/whatsapp-brands-white.svg" texto="Contáctanos ya" url="https://alvo.chat/37q" />
         </section>
     )
 }
