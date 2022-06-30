@@ -14,16 +14,15 @@ const Footer = () => {
             <div className="nuestrasInstalaciones">
                 <h2>Nuestras instalaciones</h2>
                 <div>
-                    <p>Direccion</p>
-                    <p>Complemento direccion</p>
+                    <p>Calle Palmira 1010, Pedregal</p>
+                    <p>78294 San Luis, S.L.P., Mexico</p>
                 </div>
             </div>
             <div className="contacto">
                 <h2>Contacto</h2>
                 <div>
-                    <p>Teléfono</p>
-                    <p>Celular</p>
-                    <p>Correo</p>
+                    <p>+52 444 715 5980</p>
+                    <p>coquereslp@gmail.com</p>
                 </div>
             </div>
             <div className="redesSociales">

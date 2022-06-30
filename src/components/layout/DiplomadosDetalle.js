@@ -4,7 +4,7 @@ export const DiplomadosDetalle = ({titulo, duracion, clases,duracionClase}) => {
     return (
         <div className='diplomadosDetalle'>
             <h3>{titulo}</h3>
-            <h4>{duracion}</h4>
+            <p>{duracion}</p>
             <div diplomadosDetalleClases>
                 <strong>Clases:</strong>
                 <ul>
