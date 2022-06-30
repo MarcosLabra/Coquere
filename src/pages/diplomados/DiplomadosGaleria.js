@@ -4,24 +4,35 @@ const diplomados =
 [
     {
         img: "/images/diplomados/diplomado1.png",
-        titulo: "Reposteria basica",
-        duracion: "4 meses"
+        titulo: "Repostería Básica",
+        duracion: "10 clases",
+        url:"/diplomados/reposteria-basica"
     },
     {
         img: "/images/diplomados/diplomado1.png",
-        titulo: "Cocina Salada",
-        duracion: "4 meses"
+        titulo: "Repostería Nivel 2",
+        duracion: "6 clases",
+        url:"/diplomados/reposteria-nivel-2"
     },
     {
         img: "/images/diplomados/diplomado1.png",
-        titulo: "Cocteleria",
-        duracion: "4 meses"
+        titulo: "Repostería Intensiva",
+        duracion: "8 clases",
+        url:"/diplomados/reposteria-intensiva"
     },
     {
         img: "/images/diplomados/diplomado1.png",
         titulo: "Panaderia",
-        duracion: "4 meses"
+        duracion: "5 clases",
+        url:"/diplomados/panaderia"
+    },
+    {
+        img: "/images/diplomados/diplomado1.png",
+        titulo: "Gelatinas",
+        duracion: "5 clases",
+        url:"/diplomados/gelatina"
     }
+
 ]
 
 const DiplomadosGaleria = () => {
@@ -30,7 +41,7 @@ const DiplomadosGaleria = () => {
         <section className="diplomadosGaleria">
 
             {diplomados.map((diplomados) => {
-                return (<DiplomadosCard img={diplomados.img} titulo={diplomados.titulo} duracion={diplomados.duracion} />)
+                return (<DiplomadosCard img={diplomados.img} titulo={diplomados.titulo} duracion={diplomados.duracion} url={diplomados.url} />)
             })}
         </section>
     )

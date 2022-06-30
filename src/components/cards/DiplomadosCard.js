@@ -1,4 +1,4 @@
-const DiplomadosCard = ({ img, titulo, duracion }) => {
+const DiplomadosCard = ({ img, titulo, duracion,url }) => {
 
     return (
         <article className="diplomados__card">
@@ -9,7 +9,7 @@ const DiplomadosCard = ({ img, titulo, duracion }) => {
             <div className="diplomados__card--descripcion">
                 <p className="diplomados__card--duracion">Duración: {duracion}</p>
                 <hr />
-                <p className="diplomados__card--verMas">Ver más</p>
+                <a href={url} className="diplomados__card--verMas">Ver más</a>
             </div>
         </article>
     )

@@ -44,7 +44,7 @@ const MobileMenu = () => {
         <div className='menu-links__desplegables--desplegados' id='diplomadosDesplegable'>
           <NavLink to="/diplomados/reposteria-basica" activeClassName="active" onClick={handleClick}><h3>Basico de reposteria</h3></NavLink>
           <NavLink to="/diplomados/reposteria-nivel-2" activeClassName="active" onClick={handleClick}><h3>Nivel 2 de reposteria</h3></NavLink>
-          <NavLink to="/diplomados/reposteria-instensiva" activeClassName="active" onClick={handleClick}><h3>Intensivo de reposteria</h3></NavLink>
+          <NavLink to="/diplomados/reposteria-intensiva" activeClassName="active" onClick={handleClick}><h3>Intensivo de reposteria</h3></NavLink>
           <NavLink to="/diplomados/panaderia" onClick={handleClick}><h3>Panaderia</h3></NavLink>
           <NavLink to="/diplomados/gelatina" activeClassName="active" onClick={handleClick}><h3>Gelatina</h3></NavLink>
         </div>
