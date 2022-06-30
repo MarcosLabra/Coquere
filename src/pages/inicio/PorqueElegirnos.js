@@ -1,6 +1,7 @@
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
+import Boton from '../../components/layout/Boton';
 
 export const PorqueElegirnos = () => {
     const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -8,8 +9,7 @@ export const PorqueElegirnos = () => {
     return (
         <section className="porqueElegirnos">
             <h4>¿Porque elegirnos?</h4>
-            <p>Un espacio de aprendizaje, convivencia y platicas haciendo lo que mas nos gusta: COCINAR
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <p>A través de clases de cocina, talleres, cooking parties, eventos privados, catas de vinos, coctelería y experiencias gastronómicas de todo tipo será tu lugar perfecto para dejar volar tu creatividad, aprender, tocar y disfrutar cocinando.</p>
             <AutoplaySlider
                 play={true}
                 cancelOnInteraction={true}
@@ -29,6 +29,7 @@ export const PorqueElegirnos = () => {
                     <img src="" alt="" srcset="" />
                 </div>
             </AutoplaySlider>
+            <Boton icono="/images/icons/plus-circle-solid.svg" texto="Ver más sobre Coquere" url="/nosotros" />
         </section>
     )
 }

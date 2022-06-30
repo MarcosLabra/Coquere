@@ -1,0 +1,17 @@
+.rentaNuestrasInstalaciones {
+  width: 100vw;
+  padding: 1rem 5%;
+  background-color: $gris-fondo-secciones;
+  h4 {
+    font-family: $ff-poppins;
+    font-weight: 600;
+    font-size: $fs-mdg;
+    color: $verde-oscuro;
+    margin-bottom: 1rem;
+  }
+  .rentaNuestrasInstalaciones--texto {
+    font-family: $ff-inter;
+    font-size: $fs-md;
+    padding: 1rem;
+  }
+}

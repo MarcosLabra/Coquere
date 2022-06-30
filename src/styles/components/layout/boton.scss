@@ -1,0 +1,22 @@
+.boton{
+    background-color: $verde-claro;
+    border-radius: 50px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 1rem;
+    margin: 0 auto;
+    .boton--imagen{
+        height: 20px;
+        margin-right: 1rem;
+    }
+    .boton--texto{
+        font-family: $ff-poppins;
+        color: $blanco;
+        font-size: $fs-md;
+        font-weight: 600;
+        margin: 0;
+        line-height: normal;
+    }
+}

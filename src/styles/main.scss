@@ -51,6 +51,8 @@ body {
 @import "./components/layout/mobileMenu";
 @import "./components/layout/navBar";
 @import "./components/layout/portadaPaginas";
+@import "./components/layout/portadaPaginasDetalle";
+@import "./components/layout/boton";
 
 //Components
 
@@ -79,6 +81,8 @@ body {
 @import "./pages/nosotros/historiaCoquere";
 @import "./pages/nosotros/instalaciones";
 @import "./pages/nosotros/chefs";
+@import "./pages/nosotros/rentaNuestrasInstalaciones";
+
 
 //Tallerres
 @import "./pages/talleres";

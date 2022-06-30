@@ -2,6 +2,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
 import TalleresCard from "../../components/cards/TalleresCard"
+import Boton from '../../components/layout/Boton';
 
 const TalleresDestacados = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -23,6 +24,7 @@ const TalleresDestacados = () => {
           <TalleresCard img={"/images/talleres/talleres1.png"} titulo={"Taller de tartas"} duracion={"4 meses"} />
         </div>
       </AutoplaySlider>
+      <Boton icono="/images/icons/plus-circle-solid.svg" texto="Ver más Talleres" url="/talleres"/>
 
     </section>
   )

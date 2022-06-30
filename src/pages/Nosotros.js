@@ -1,7 +1,7 @@
 import HistoriaCoquere from "./nosotros/HistoriaCoquere";
 import PortadaPaginas from "../components/layout/PortadaPaginas";
 import Instalaciones from "./nosotros/Instalaciones";
-import Chefs from "./nosotros/Chefs";
+import RentaNuestrasInstalaciones from "./nosotros/RentaNuestrasInstalaciones";
 
 const Nosotros = () => {
 
@@ -11,7 +11,7 @@ const Nosotros = () => {
             <PortadaPaginas img={"/images/portadas/sobreNosotrosPortada.jpg"} titulo={"Sobre Nosotros"} />
             <HistoriaCoquere />
             <Instalaciones />
-            <Chefs />
+            <RentaNuestrasInstalaciones />
         </main>
     )
 }

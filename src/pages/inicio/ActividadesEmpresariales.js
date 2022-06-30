@@ -1,6 +1,7 @@
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
+import Boton from '../../components/layout/Boton';
 
 const ActividadesEmpresariales = () => {
     const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -28,6 +29,8 @@ const ActividadesEmpresariales = () => {
                     <img src="" alt="" srcset="" />
                 </div>
             </AutoplaySlider>
+
+            <Boton icono="/images/icons/plus-circle-solid.svg" texto="Ver más" url="/empresarial"/>
         </section>
     )
 }
