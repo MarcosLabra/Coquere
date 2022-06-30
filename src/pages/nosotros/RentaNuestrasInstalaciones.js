@@ -7,7 +7,7 @@ const RentaNuestrasInstalaciones = () => {
             <p className="rentaNuestrasInstalaciones--texto">¿Tienes algún evento o pedido grande y no sabes dónde hacerlo?</p>
             <p className="rentaNuestrasInstalaciones--texto">Tenemos nuestro espacio disponibles para tus necesidades:</p>
             <p className="rentaNuestrasInstalaciones--texto">Una cocina completamente equipada para dar clases, experiencias, demostraciones de productos, producción, grabar videos, etc. Se puede configurar de múltiples formas para lo que necesites.</p>
-            <BotonWapp icono="/images/icons/whatsapp-brands-white.svg" texto="Quiero mas informacion" url="https://alvo.chat/37h" />
+            <BotonWapp texto="Quiero mas informacion" url="https://alvo.chat/37h" />
         </section>
     )
 }
