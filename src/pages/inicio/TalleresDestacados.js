@@ -24,7 +24,7 @@ const TalleresDestacados = () => {
           <TalleresCard img={"/images/talleres/talleres1.png"} titulo={"Taller de tartas"} duracion={"4 meses"} />
         </div>
       </AutoplaySlider>
-      <Boton icono="/images/icons/plus-circle-solid.svg" texto="Ver más Talleres" url="/talleres"/>
+      <Boton texto="Ver más Talleres" url="/talleres"/>
 
     </section>
   )
