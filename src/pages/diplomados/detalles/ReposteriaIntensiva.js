@@ -6,7 +6,7 @@ const ReposteriaIntensiva = () => {
   return (
     <main>
       <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.png"} titulo={"Diplomados"} subtitulo={"Reposteria Intensivo"} />
-      <DiplomadosDetalle titulo={"Diplomado Básico de Repostería"} duracion={"Duración: 10 clases"} clases={["Bases de la Repostería y Teoría", "Roscas y Bizcochos", "Panqueques", "Tartas y Pays", "Mermeladas", "Muffins y Cupcakes", "Gelatinas Básicas", "Galletas", "Cheescake", "Pasteles (Cubiertas y rellenos)"]} duracionClase={"Duración de las clases: 3 horas"}/>      
+      <DiplomadosDetalle titulo={"Diplomado Básico de Repostería"} duracion={"Duración: 8 clases"} clases={["Galletería fina", "Macarons", "Pan dulce mexicano", "Pan salado", "Mousses y bavaresas", "Pastelería moderna", "Fondant", "Chocolatería 2do nivel"]} duracionClase={"Duración de las clases: 4 horas"}/>      
       <BotonWapp texto={"Quiero inscribirme"} url={""}/>
     </main>
   )

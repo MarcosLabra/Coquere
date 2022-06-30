@@ -6,7 +6,7 @@ const Panaderia = () => {
   return (
     <main>
       <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.png"} titulo={"Diplomados"} subtitulo={"Panadería"} />
-      <DiplomadosDetalle titulo={"Diplomado de Panadería"} duracion={"Duración: 5 clases"} clases={["Pan dulce y laminado"]} duracionClase={"Duración de las clases: 4 horas"}/>      
+      <DiplomadosDetalle titulo={"Diplomado de Panadería"} duracion={"Duración: 5 clases"} clases={["Pan dulce y laminado", "Pan para restaurantes", "Pan dulce mexicano", "Pan blando y de corteza", "Panes europeos"]} duracionClase={"Duración de las clases: 4 horas"}/>      
       <BotonWapp texto={"Quiero inscribirme"} url={""}/>
     </main>
   )
