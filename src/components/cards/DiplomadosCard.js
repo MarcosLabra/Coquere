@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const DiplomadosCard = ({ img, titulo, duracion,url }) => {
 
     return (
@@ -9,7 +11,7 @@ const DiplomadosCard = ({ img, titulo, duracion,url }) => {
             <div className="diplomados__card--descripcion">
                 <p className="diplomados__card--duracion">Duración: {duracion}</p>
                 <hr />
-                <a href={url} className="diplomados__card--verMas">Ver más</a>
+                <Link to={url} className="diplomados__card--verMas">Ver más</Link>
             </div>
         </article>
     )
