@@ -37,11 +37,11 @@
     border-radius: $br-10-bottom;
     background-color: white;
     .diplomados__card--duracion {
-      align-self: flex-end;
+      align-self: flex-start;
       font-family: $ff-poppins;
       font-size: $fs-md;
       font-weight: bold;
-      margin-right: 5%;
+      margin-left: 5%;
       margin-top: 10%;
     }
     hr {

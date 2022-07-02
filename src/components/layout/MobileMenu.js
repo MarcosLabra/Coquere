@@ -51,7 +51,7 @@ const MobileMenu = () => {
         <NavHashLink to="/#" onClick={handleClick} className='menu-links__links'><h3>Inicio</h3></NavHashLink>
         <div className='menu-links__desplegables' id="nosotros">
           <NavHashLink to="/nosotros#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Nosotros</h3></NavHashLink>
-          <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickNosotros} />
+          <img src="/images/icons/angle-down-light.svg" alt="" onClick={handleClickNosotros} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='nosotrosDesplegable'>
           <NavHashLink to="/nosotros#historiaCoquere" activeClassName="active" onClick={handleClick}><h3>Nuestra historia</h3></NavHashLink>
@@ -60,7 +60,7 @@ const MobileMenu = () => {
         </div>
         <div className='menu-links__desplegables' id='diplomados'>
           <NavHashLink to="/diplomados#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Diplomados</h3></NavHashLink>
-          <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickDiplomados} />
+          <img src="/images/icons/angle-down-light.svg" alt="" onClick={handleClickDiplomados} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='diplomadosDesplegable'>
           <NavLink to="/diplomados/reposteria-basica" activeClassName="active" onClick={handleClick}><h3>Básico de repostería</h3></NavLink>
@@ -71,7 +71,7 @@ const MobileMenu = () => {
         </div>
         <div className='menu-links__desplegables' id='talleres'>
           <NavHashLink to="/talleres#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Talleres Cortos</h3></NavHashLink>
-          <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickTalleres} />
+          <img src="/images/icons/angle-down-light.svg" alt="" onClick={handleClickTalleres} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='talleresDesplegable'>
           <NavHashLink to="/talleres#reposteria" activeClassName="active" onClick={handleClick}><h3>Reposteria</h3></NavHashLink>
