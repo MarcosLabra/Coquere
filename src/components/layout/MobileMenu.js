@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 
 
 const MobileMenu = () => {
@@ -28,18 +29,18 @@ const MobileMenu = () => {
   return (
     <div className="mobileMenu" id="mobileMenu">
       <div className="menu-links">
-        <NavLink to="/" onClick={handleClick} className='menu-links__links'><h3>Inicio</h3></NavLink>
+        <NavHashLink to="/#" onClick={handleClick} className='menu-links__links'><h3>Inicio</h3></NavHashLink>
         <div className='menu-links__desplegables' id="nosotros">
-          <NavLink to="/nosotros" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Nosotros</h3></NavLink>
+          <NavHashLink to="/nosotros#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Nosotros</h3></NavHashLink>
           <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickNosotors} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='nosotrosDesplegable'>
-          <HashLink to="/nosotros#historiaCoquere" activeClassName="active" onClick={handleClick}><h3>historia Coquere</h3></HashLink>
-          <HashLink to="/nosotros#instalaciones" activeClassName="active" onClick={handleClick}><h3>Instalaciones</h3></HashLink>
-          <HashLink to="/nosotros#rentaNuestrasInstalaciones" activeClassName="active" onClick={handleClick}><h3>Renta Nuestras Instalaciones</h3></HashLink>
+          <NavHashLink to="/nosotros#historiaCoquere" activeClassName="active" onClick={handleClick}><h3>historia Coquere</h3></NavHashLink>
+          <NavHashLink to="/nosotros#instalaciones" activeClassName="active" onClick={handleClick}><h3>Instalaciones</h3></NavHashLink>
+          <NavHashLink to="/nosotros#rentaNuestrasInstalaciones" activeClassName="active" onClick={handleClick}><h3>Renta Nuestras Instalaciones</h3></NavHashLink>
         </div>
         <div className='menu-links__desplegables' id='diplomados'>
-          <NavLink to="/diplomados" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Diplomados</h3></NavLink>
+          <NavHashLink to="/diplomados#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Diplomados</h3></NavHashLink>
           <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickDiplomados} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='diplomadosDesplegable'>
@@ -50,17 +51,17 @@ const MobileMenu = () => {
           <NavLink to="/diplomados/gelatinas" activeClassName="active" onClick={handleClick}><h3>Gelatinas</h3></NavLink>
         </div>
         <div className='menu-links__desplegables' id='talleres'>
-          <NavLink to="/talleres" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Talleres Cortos</h3></NavLink>
+          <NavHashLink to="/talleres#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Talleres Cortos</h3></NavHashLink>
           <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickTalleres} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='talleresDesplegable'>
-          <NavLink to="/talleres" activeClassName="active" onClick={handleClick}><h3>Reposteria</h3></NavLink>
-          <NavLink to="/talleres" activeClassName="active" onClick={handleClick}><h3>Cocina salada</h3></NavLink>
-          <NavLink to="/talleres" activeClassName="active" onClick={handleClick}><h3>cocteleria</h3></NavLink>
-          <NavLink to="/talleres" activeClassName="active" onClick={handleClick}><h3>Parrilla</h3></NavLink>
+          <NavHashLink to="/talleres#reposteria" activeClassName="active" onClick={handleClick}><h3>Reposteria</h3></NavHashLink>
+          <NavHashLink to="/talleres#cocinaSalada" activeClassName="active" onClick={handleClick}><h3>Cocina salada</h3></NavHashLink>
+          <NavHashLink to="/talleres#cocteleria" activeClassName="active" onClick={handleClick}><h3>Cocteleria</h3></NavHashLink>
+          <NavHashLink to="/talleres#parrilla" activeClassName="active" onClick={handleClick}><h3>Parrilla</h3></NavHashLink>
         </div>
-        <NavLink to="/empresarial" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Empresarial</h3></NavLink>
-        <NavLink to="/contacto" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Contacto</h3></NavLink>
+        <NavHashLink to="/empresarial#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Empresarial</h3></NavHashLink>
+        <NavHashLink to="/contacto#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Contacto</h3></NavHashLink>
       </div>
     </div>
   )
