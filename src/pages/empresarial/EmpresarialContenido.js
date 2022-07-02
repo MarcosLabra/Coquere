@@ -10,7 +10,7 @@ const EmpresarialContenido = () => {
             <p>Después las preparaciones elaboradas durante la clase pueden ser, acompañadas también de bebidas a su gusto y serán degustadas alrededor de una o varias mesas de convivencia.
             </p>
             <p>Contamos con el equipo necesario para el servicio de comida y con una terraza el cual ofrece un lugar muy agradable ideal para la proyección de presentaciones o vídeos y conferencias proporcionando así una experiencia integral en dicho espacio.</p>
-            <img src="/images/empresarial/empresarial1.png" alt="" srcset="" />
+            <img className='imgEmpresarial' src="/images/empresarial/empresarial1.png" alt="" srcset="" />
             <BotonWapp icono="/images/icons/whatsapp-brands-white.svg" texto="Contáctanos ya" url="https://alvo.chat/37q" />
         </section>
     )
