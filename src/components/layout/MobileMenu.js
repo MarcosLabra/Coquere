@@ -34,9 +34,9 @@ const MobileMenu = () => {
           <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickNosotors} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='nosotrosDesplegable'>
-          <NavLink to="/nosotros" activeClassName="active" onClick={handleClick}><h3>historia Coquere</h3></NavLink>
-          <NavLink to="/nosotros" activeClassName="active" onClick={handleClick}><h3>Instalaciones</h3></NavLink>
-          <NavLink to="/nosotros" activeClassName="active" onClick={handleClick}><h3>Renta Nuestras Instalaciones</h3></NavLink>
+          <HashLink to="/nosotros#historiaCoquere" activeClassName="active" onClick={handleClick}><h3>historia Coquere</h3></HashLink>
+          <HashLink to="/nosotros#instalaciones" activeClassName="active" onClick={handleClick}><h3>Instalaciones</h3></HashLink>
+          <HashLink to="/nosotros#rentaNuestrasInstalaciones" activeClassName="active" onClick={handleClick}><h3>Renta Nuestras Instalaciones</h3></HashLink>
         </div>
         <div className='menu-links__desplegables' id='diplomados'>
           <NavLink to="/diplomados" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Diplomados</h3></NavLink>

@@ -2,7 +2,7 @@ import BotonWapp from "../../components/layout/BotonWapp"
 
 const RentaNuestrasInstalaciones = () => {
     return (
-        <section className="rentaNuestrasInstalaciones">
+        <section className="rentaNuestrasInstalaciones" id="rentaNuestrasInstalaciones">
             <h4>Renta Nuestras Instalaciones</h4>
             <p className="rentaNuestrasInstalaciones--texto">¿Tienes algún evento o pedido grande y no sabes dónde hacerlo?</p>
             <p className="rentaNuestrasInstalaciones--texto">Tenemos nuestro espacio disponibles para tus necesidades:</p>
