@@ -1,6 +1,6 @@
 const TalleresTexto = () => {
     return (
-      <section className="talleresTexto">
+      <section className="talleresTexto" id="talleresTexto">
           <p>Un espacio de aprendizaje, convivencia y platicas haciendo lo que mas nos gusta: COCINAR.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
       </section>

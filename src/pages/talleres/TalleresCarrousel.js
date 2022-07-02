@@ -10,7 +10,7 @@ const TalleresCarrousel = ({ contenido }) => {
     const { titulo, taller } = contenido;
 
     return (
-        <section className="talleresCarrousel">
+        <section className="talleresCarrousel" id={titulo}>
             <h4>{titulo}</h4>
             <AutoplaySlider
                 play={true}
