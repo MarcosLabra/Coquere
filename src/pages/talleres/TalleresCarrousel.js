@@ -1,13 +1,13 @@
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
-import AwesomeSliderStyle from "../../styles/awesomeSlider.scss"
-
+import 'react-awesome-slider/dist/styles.css';
 import TalleresCard from '../../components/cards/TalleresCard';
 
 
 const TalleresCarrousel = ({ contenido }) => {
     const AutoplaySlider = withAutoplay(AwesomeSlider);
     const { id, titulo, taller } = contenido;
+
 
     return (
         <section className="talleresCarrousel" >
@@ -18,7 +18,6 @@ const TalleresCarrousel = ({ contenido }) => {
                 interval={2500}
                 bullets={false}
                 className='talleresCarrousel__slider'
-                cssModule={AwesomeSliderStyle}
             >
                 {taller.map((taller) => {
                     return (<div><TalleresCard img={taller.img} titulo={taller.titulo} duracion={taller.duracion} /></div>)
