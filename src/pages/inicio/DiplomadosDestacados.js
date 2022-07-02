@@ -1,6 +1,5 @@
 import AwesomeSlider from 'react-awesome-slider';
-import withAutoplay from 'react-awesome-slider/dist/autoplay';
-import 'react-awesome-slider/dist/styles.css';
+import AwesomeSliderStyles from '../../styles/AwesomeSliderStyles.css';
 import DiplomadosDestacadosCard from "../../components/cards/DiplomadosDestacadosCard"
 import Boton from '../../components/layout/Boton';
 
@@ -40,16 +39,13 @@ const diplomados =
   ]
 
 const DiplomadosDestacados = () => {
-  const AutoplaySlider = withAutoplay(AwesomeSlider);
 
   return (
     <section className="diplomadosDestacados">
       <h4>Diplomados Destacados</h4>
-      <AutoplaySlider
-        play={true}
-        cancelOnInteraction={true}
-        interval={3000}
+      <AwesomeSlider
         bullets={false}
+        cssModule={AwesomeSliderStyles}
         className='diplomadosDestacados__slider'
       >
         {diplomados.map((diplomados) => {
@@ -60,7 +56,7 @@ const DiplomadosDestacados = () => {
           )
         }
         )}
-      </AutoplaySlider>
+      </AwesomeSlider>
       <Boton texto="Ver más Diplomados" url="/diplomados" />
     </section>
   )
