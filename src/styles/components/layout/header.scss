@@ -1,17 +1,21 @@
 header {
+  position: fixed;
   z-index: 4;
   width: 100vw;
   background-color: $verde-claro;
-  height:9vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 5%;
-  .brand {
-    height: 32px;
-  }
-  .menuIcon{
-    height: 24px;
+  height: 55px;
+  .header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    .header__brand {
+      height: 32px;
+    }
+    .header__menuIcon {
+      height: 24px;
+    }
   }
 }
 
@@ -20,8 +24,7 @@ header {
     height: 110px;
     padding: 0 90px;
     .brand {
-        height: 60px;
-      }
+      height: 60px;
+    }
   }
 }
-    

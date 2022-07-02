@@ -1,5 +1,6 @@
 import Navbar from "../layout/Navbar";
 import { NavLink } from "react-router-dom";
+import MobileMenu from "./MobileMenu";
 
 const Header = () => {
 
@@ -9,8 +10,11 @@ const Header = () => {
 
     return (
         <header>
-            <NavLink to="/" ><img src="/images/branding/CoquereLogo.webp" alt="Coquere Logo" className="brand" /></NavLink>
-            {window.innerWidth < 1200 ? <img src="/images/icons/menuIcon.svg" alt="Menu Icon" className="menuIcon" onClick={handleClickMenu} /> : <Navbar />}
+            <div className="header">
+                <NavLink to="/" ><img src="/images/branding/CoquereLogo.webp" alt="Coquere Logo" className="header__brand" /></NavLink>
+                {window.innerWidth < 1200 ? <img src="/images/icons/menuIcon.svg" alt="Menu Icon" className="header__menuIcon" onClick={handleClickMenu} /> : <Navbar />}
+            </div>
+            <MobileMenu />
         </header>
     )
 }
