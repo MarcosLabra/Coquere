@@ -6,6 +6,7 @@ import TalleresTexto from "./talleres/TalleresTexto"
 const contenido =
     [
         {
+            id: "reposteria",
             titulo: "Reposteria",
             taller: [{
                 img: "/images/talleres/talleres1.png",
@@ -24,6 +25,7 @@ const contenido =
             }]
         },
         {
+            id: "cocinaSalada",
             titulo: "Cocina Salada",
             taller: [{
                 img: "/images/talleres/talleres1.png",
@@ -42,6 +44,7 @@ const contenido =
             }]
         },
         {
+            id: "cocteleria",
             titulo: "Cocteleria",
             taller: [{
                 img: "/images/talleres/talleres1.png",
@@ -60,6 +63,7 @@ const contenido =
             }]
         },
         {
+            id: "parrilla",
             titulo: "Parrilla",
             taller: [{
                 img: "/images/talleres/talleres1.png",

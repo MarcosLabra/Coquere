@@ -7,11 +7,11 @@ import TalleresCard from '../../components/cards/TalleresCard';
 
 const TalleresCarrousel = ({ contenido }) => {
     const AutoplaySlider = withAutoplay(AwesomeSlider);
-    const { titulo, taller } = contenido;
+    const { id, titulo, taller } = contenido;
 
     return (
-        <section className="talleresCarrousel">
-            <h4>{titulo}</h4>
+        <section className="talleresCarrousel" >
+            <h4 id={id}>{titulo}</h4>
             <AutoplaySlider
                 play={true}
                 cancelOnInteraction={true}
