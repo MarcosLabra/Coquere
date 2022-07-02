@@ -7,7 +7,7 @@ const contenido =
     [
         {
             id: "reposteria",
-            titulo: "Reposteria",
+            titulo: "Repostería",
             taller: [{
                 img: "/images/talleres/talleres1.png",
                 titulo: "Taller de tartas",
@@ -45,7 +45,7 @@ const contenido =
         },
         {
             id: "cocteleria",
-            titulo: "Cocteleria",
+            titulo: "Coctelería",
             taller: [{
                 img: "/images/talleres/talleres1.png",
                 titulo: "Taller de tartas",

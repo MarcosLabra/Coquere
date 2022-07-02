@@ -5,7 +5,7 @@
   height: 300px;
   box-shadow: $bs;
   border-radius: $br-10;
-  margin: 1rem auto;
+  margin: 2rem auto;
   img {
     background-color: #d9d9d9;
     width: 100%;
@@ -16,7 +16,7 @@
   .diplomados__card--titulo {
     position: absolute;
     bottom: 22%;
-    width: 80%;
+    width: 85%;
     border-radius: 0 50px 50px 0;
     background-color: $verde-oscuro;
     h5 {

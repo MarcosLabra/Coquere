@@ -10,18 +10,38 @@ const MobileMenu = () => {
     }
   }
 
-  function handleClickNosotors() {
+  function handleClickNosotros() {
+
     document.getElementById('nosotros').classList.toggle('bgVerde')
     document.getElementById('nosotrosDesplegable').classList.toggle('showDesplegables')
+
+    document.getElementById('diplomados').classList.remove('bgVerde')
+    document.getElementById('diplomadosDesplegable').classList.remove('showDesplegables')
+
+    document.getElementById('talleres').classList.remove('bgVerde')
+    document.getElementById('talleresDesplegable').classList.remove('showDesplegables')
   }
+
   function handleClickDiplomados() {
     document.getElementById('diplomados').classList.toggle('bgVerde')
     document.getElementById('diplomadosDesplegable').classList.toggle('showDesplegables')
+
+    document.getElementById('nosotros').classList.remove('bgVerde')
+    document.getElementById('nosotrosDesplegable').classList.remove('showDesplegables')
+
+    document.getElementById('talleres').classList.remove('bgVerde')
+    document.getElementById('talleresDesplegable').classList.remove('showDesplegables')
   }
 
   function handleClickTalleres() {
     document.getElementById('talleres').classList.toggle('bgVerde')
     document.getElementById('talleresDesplegable').classList.toggle('showDesplegables')
+
+    document.getElementById('nosotros').classList.remove('bgVerde')
+    document.getElementById('nosotrosDesplegable').classList.remove('showDesplegables')
+
+    document.getElementById('diplomados').classList.remove('bgVerde')
+    document.getElementById('diplomadosDesplegable').classList.remove('showDesplegables')
   }
 
 
@@ -31,10 +51,10 @@ const MobileMenu = () => {
         <NavHashLink to="/#" onClick={handleClick} className='menu-links__links'><h3>Inicio</h3></NavHashLink>
         <div className='menu-links__desplegables' id="nosotros">
           <NavHashLink to="/nosotros#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Nosotros</h3></NavHashLink>
-          <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickNosotors} />
+          <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickNosotros} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='nosotrosDesplegable'>
-          <NavHashLink to="/nosotros#historiaCoquere" activeClassName="active" onClick={handleClick}><h3>historia Coquere</h3></NavHashLink>
+          <NavHashLink to="/nosotros#historiaCoquere" activeClassName="active" onClick={handleClick}><h3>Nuestra historia</h3></NavHashLink>
           <NavHashLink to="/nosotros#instalaciones" activeClassName="active" onClick={handleClick}><h3>Instalaciones</h3></NavHashLink>
           <NavHashLink to="/nosotros#rentaNuestrasInstalaciones" activeClassName="active" onClick={handleClick}><h3>Renta Nuestras Instalaciones</h3></NavHashLink>
         </div>
@@ -43,10 +63,10 @@ const MobileMenu = () => {
           <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickDiplomados} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='diplomadosDesplegable'>
-          <NavLink to="/diplomados/reposteria-basica" activeClassName="active" onClick={handleClick}><h3>Basico de reposteria</h3></NavLink>
-          <NavLink to="/diplomados/reposteria-nivel-2" activeClassName="active" onClick={handleClick}><h3>Nivel 2 de reposteria</h3></NavLink>
-          <NavLink to="/diplomados/reposteria-intensiva" activeClassName="active" onClick={handleClick}><h3>Intensivo de reposteria</h3></NavLink>
-          <NavLink to="/diplomados/panaderia" onClick={handleClick}><h3>Panaderia</h3></NavLink>
+          <NavLink to="/diplomados/reposteria-basica" activeClassName="active" onClick={handleClick}><h3>Básico de repostería</h3></NavLink>
+          <NavLink to="/diplomados/reposteria-nivel-2" activeClassName="active" onClick={handleClick}><h3>Nivel 2 de repostería</h3></NavLink>
+          <NavLink to="/diplomados/reposteria-intensiva" activeClassName="active" onClick={handleClick}><h3>Intensivo de repostería</h3></NavLink>
+          <NavLink to="/diplomados/panaderia" onClick={handleClick}><h3>Panadería</h3></NavLink>
           <NavLink to="/diplomados/gelatinas" activeClassName="active" onClick={handleClick}><h3>Gelatinas</h3></NavLink>
         </div>
         <div className='menu-links__desplegables' id='talleres'>
