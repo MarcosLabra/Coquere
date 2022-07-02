@@ -8,7 +8,7 @@ const ReposteriaBasica = () => {
             <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.png"} titulo={"Diplomados"} subtitulo={"Reposteria Basica"} />
             <DiplomadosDetalle titulo={"Diplomado Básico de Repostería"} duracion={"Duración: 10 clases"} clases={["Bases de la Repostería y Teoría", "Roscas y Bizcochos", "Panqueques", "Tartas y Pays", "Mermeladas", "Muffins y Cupcakes", "Gelatinas Básicas", "Galletas", "Cheescake", "Pasteles (Cubiertas y rellenos)"]} duracionClase={"Duración de las clases: 3 horas"}/>      
             <div className="marcoBotonWapp">
-                <BotonWapp texto={"Quiero inscribirme!!"} url={"https://alvo.chat/3cx"}/>
+                <BotonWapp texto={"¡Quiero inscribirme!"} url={"https://alvo.chat/3cx"}/>
             </div>
         </main>
     )

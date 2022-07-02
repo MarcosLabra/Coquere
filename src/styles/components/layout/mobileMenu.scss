@@ -12,6 +12,7 @@
       display: flex;
       align-items: center;
       padding: 0 5%;
+      padding-right: .5rem;
       h3 {
         color: $blanco;
         font-size: $fs-md;
@@ -24,7 +25,7 @@
       display: flex;
       width: 100vw;
       img {
-        width: 15px;
+        width: 18px;
       }
     }
     .bgVerde {
@@ -33,7 +34,7 @@
     .menu-links__desplegables--desplegados {
       display: none;
 
-      padding-left: 8%;
+      padding-left: 12%;
       font-size: $fs-sm;
       a {
         h3 {

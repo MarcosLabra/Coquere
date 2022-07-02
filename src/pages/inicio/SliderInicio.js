@@ -1,9 +1,7 @@
 import AwesomeSlider from 'react-awesome-slider';
-import withAutoplay from 'react-awesome-slider/dist/autoplay';
-import 'react-awesome-slider/dist/styles.css';
 
 const SliderInicio = () => {
-    const AutoplaySlider = withAutoplay(AwesomeSlider);
+
 
     return (
         <section className='sliderInicio'>
@@ -11,10 +9,7 @@ const SliderInicio = () => {
                 <img src="/images/branding/CoquereLogoVerde.webp" alt="Coquere Logo" />
                 <p>Un espacio de aprendizaje, convivencia y platicas haciendo lo que mas nos gusta: COCINAR</p>
             </div>
-            <AutoplaySlider
-                play={true}
-                cancelOnInteraction={true}
-                interval={4000}
+            <AwesomeSlider
                 bullets={false}
                 className='sliderInicio__slider'
             >
@@ -29,7 +24,7 @@ const SliderInicio = () => {
                 <div>
                     <img src="/images/sliderInicio/sliderInicio3.jpg" alt="" srcset="" />
                 </div>
-            </AutoplaySlider>
+            </AwesomeSlider>
         </section>
     )
 }
