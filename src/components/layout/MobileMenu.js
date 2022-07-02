@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 const MobileMenu = () => {

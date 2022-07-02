@@ -2,7 +2,7 @@ import React from 'react'
 
 const Redes = () => {
     return (
-        <section className="redes">
+        <section id='redes' className="redes">
             <h4>Siguenos en Nuestras Redes</h4>
             <div className='redesContenedores'>
                 <img src="/images/redes/redesContactoFacebook.png" alt="Logo facebook" />
