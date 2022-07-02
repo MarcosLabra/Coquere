@@ -55,10 +55,10 @@ const MobileMenu = () => {
           <img src="/images/icons/angle-down-solid.svg" alt="" onClick={handleClickTalleres} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='talleresDesplegable'>
-          <NavHashLink to="/talleres#Reposteria" activeClassName="active" onClick={handleClick}><h3>Reposteria</h3></NavHashLink>
-          <NavHashLink to="/talleres#Cocina Salada" activeClassName="active" onClick={handleClick}><h3>Cocina salada</h3></NavHashLink>
-          <NavHashLink to="/talleres#Cocteleria" activeClassName="active" onClick={handleClick}><h3>Cocteleria</h3></NavHashLink>
-          <NavHashLink to="/talleres#Parrilla" activeClassName="active" onClick={handleClick}><h3>Parrilla</h3></NavHashLink>
+          <NavHashLink to="/talleres#reposteria" activeClassName="active" onClick={handleClick}><h3>Reposteria</h3></NavHashLink>
+          <NavHashLink to="/talleres#cocinaSalada" activeClassName="active" onClick={handleClick}><h3>Cocina salada</h3></NavHashLink>
+          <NavHashLink to="/talleres#cocteleria" activeClassName="active" onClick={handleClick}><h3>Cocteleria</h3></NavHashLink>
+          <NavHashLink to="/talleres#parrilla" activeClassName="active" onClick={handleClick}><h3>Parrilla</h3></NavHashLink>
         </div>
         <NavHashLink to="/empresarial#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Empresarial</h3></NavHashLink>
         <NavHashLink to="/contacto#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Contacto</h3></NavHashLink>
