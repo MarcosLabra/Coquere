@@ -1,8 +1,16 @@
 import PortadaPaginasDetalle from "../../../components/layout/PortadaPaginasDetalle"
 import BotonWapp from "../../../components/layout/BotonWapp"
 import DiplomadosDetalle from "../../../components/layout/DiplomadosDetalle"
+import { useEffect } from "react";
+
 
 const Gelatinas = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }
+    , [])
+
   return (
     <main>
       <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.png"} titulo={"Diplomados"} subtitulo={"Gelatinas"} />
