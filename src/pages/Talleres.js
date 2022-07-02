@@ -1,4 +1,4 @@
-
+import { useEffect } from "react"
 import PortadaPaginas from "../components/layout/PortadaPaginas"
 import TalleresCarrousel from "./talleres/TalleresCarrousel"
 import TalleresTexto from "./talleres/TalleresTexto"
@@ -81,6 +81,12 @@ const contenido =
 
 
 const Talleres = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }
+        , [])
+
     return (
         <main className="talleres">
             <PortadaPaginas img={"/images/portadas/talleresCortosPortada.png"} titulo={"Talleres cortos"} />
