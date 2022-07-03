@@ -3,8 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 //Components
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
-import MobileMenu from './components/layout/MobileMenu';
-
 
 //Pages
 import Contacto from './pages/Contacto';
@@ -30,7 +28,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <MobileMenu />
+
         <Routes>
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/diplomados" element={<Diplomados />} />
@@ -45,7 +43,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/talleres" element={<Talleres />} />
-          
+
         </Routes>
         <Footer />
       </BrowserRouter>
