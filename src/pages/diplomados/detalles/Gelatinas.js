@@ -7,10 +7,12 @@ import { useEffect } from "react";
 const Gelatinas = () => {
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   }
     , [])
-
   return (
     <main>
       <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.png"} titulo={"Diplomados"} subtitulo={"Gelatinas"} />

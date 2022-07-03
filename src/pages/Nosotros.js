@@ -7,7 +7,10 @@ import RentaNuestrasInstalaciones from "./nosotros/RentaNuestrasInstalaciones";
 const Nosotros = () => {
 
     useEffect(() => {
-        window.scrollTo(0, 0);
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
     }
         , [])
 

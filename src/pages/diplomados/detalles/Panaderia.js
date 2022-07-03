@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import { useEffect } from "react";
 import PortadaPaginasDetalle from "../../../components/layout/PortadaPaginasDetalle"
 import BotonWapp from "../../../components/layout/BotonWapp"
 import DiplomadosDetalle from "../../../components/layout/DiplomadosDetalle"
@@ -6,7 +6,10 @@ import DiplomadosDetalle from "../../../components/layout/DiplomadosDetalle"
 const Panaderia = () => {
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   }
     , [])
 
