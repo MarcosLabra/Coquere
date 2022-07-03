@@ -15,4 +15,32 @@
       color: $verde-oscuro;
     }
   }
+
+  .menuDesplegable {
+    position: relative;
+    z-index: 11;
+    display: flex;
+    flex-direction: row;
+    img {
+      width: 2vw;
+    }
+  }
+
+  .menu-links__desplegables--desplegados {
+    display: none;
+  }
+  .showDesplegables {
+    width: max-content;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    background-color: $verde-claro;
+    padding: 2rem;
+    margin-top: 3vw;
+    a {
+      margin-top: 1rem;
+      color: white; 
+    }
+  }
 }
