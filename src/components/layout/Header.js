@@ -2,8 +2,11 @@ import Navbar from "../layout/Navbar";
 import { NavLink } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
 import Hamburger from 'hamburger-react'
+import { useState } from "react";
 
 const Header = () => {
+
+    const [isOpen, setOpen] = useState(false);
 
     function handleClickMenu(toggled) {
         if (toggled) {
@@ -13,6 +16,9 @@ const Header = () => {
         }
     }
 
+    function toggleState() {
+        setOpen(false);
+    }
 
 
 
@@ -20,10 +26,9 @@ const Header = () => {
         <header>
             <div className="header">
                 <NavLink to="/" ><img src="/images/branding/CoquereLogo.webp" alt="Coquere Logo" className="header__brand" /></NavLink>
-                {window.innerWidth < 1200 ? <Hamburger size={20} color="#ffffff" onToggle={handleClickMenu} /> : <Navbar />}
-
+                {window.innerWidth < 1200 ? <Hamburger size={20} color="#ffffff" onToggle={handleClickMenu} toggled={isOpen} toggle={setOpen} /> : <Navbar />}
             </div>
-            <MobileMenu />
+            <MobileMenu toggleState={toggleState} />
         </header>
     )
 }
