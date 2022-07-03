@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
 
 
@@ -9,6 +8,12 @@ const MobileMenu = () => {
       document.getElementById('mobileMenu').classList.toggle('show');
     }
   }
+
+  function scrollWithOffset (el) {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -60; 
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+}
 
   function handleClickNosotros() {
 
@@ -54,30 +59,30 @@ const MobileMenu = () => {
           <img src="/images/icons/angle-down-light.svg" alt="" onClick={handleClickNosotros} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='nosotrosDesplegable'>
-          <NavHashLink to="/nosotros#historiaCoquere" activeClassName="active" onClick={handleClick}><h3>Nuestra historia</h3></NavHashLink>
-          <NavHashLink to="/nosotros#instalaciones" activeClassName="active" onClick={handleClick}><h3>Instalaciones</h3></NavHashLink>
-          <NavHashLink to="/nosotros#rentaNuestrasInstalaciones" activeClassName="active" onClick={handleClick}><h3>Renta Nuestras Instalaciones</h3></NavHashLink>
+          <NavHashLink to="/nosotros#historiaCoquere" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Nuestra historia</h3></NavHashLink>
+          <NavHashLink to="/nosotros#instalaciones" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}> <h3>Instalaciones</h3></NavHashLink>
+          <NavHashLink to="/nosotros#rentaNuestrasInstalaciones" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Renta Nuestras Instalaciones</h3></NavHashLink>
         </div>
         <div className='menu-links__desplegables' id='diplomados'>
           <NavHashLink to="/diplomados#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Diplomados</h3></NavHashLink>
           <img src="/images/icons/angle-down-light.svg" alt="" onClick={handleClickDiplomados} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='diplomadosDesplegable'>
-          <NavLink to="/diplomados/reposteria-basica" activeClassName="active" onClick={handleClick}><h3>Básico de repostería</h3></NavLink>
-          <NavLink to="/diplomados/reposteria-nivel-2" activeClassName="active" onClick={handleClick}><h3>Nivel 2 de repostería</h3></NavLink>
-          <NavLink to="/diplomados/reposteria-intensiva" activeClassName="active" onClick={handleClick}><h3>Intensivo de repostería</h3></NavLink>
-          <NavLink to="/diplomados/panaderia" onClick={handleClick}><h3>Panadería</h3></NavLink>
-          <NavLink to="/diplomados/gelatinas" activeClassName="active" onClick={handleClick}><h3>Gelatinas</h3></NavLink>
+          <NavHashLink to="/diplomados/reposteria-basica" activeClassName="active" onClick={handleClick}><h3>Básico de repostería</h3></NavHashLink>
+          <NavHashLink to="/diplomados/reposteria-nivel-2" activeClassName="active" onClick={handleClick}><h3>Nivel 2 de repostería</h3></NavHashLink>
+          <NavHashLink to="/diplomados/reposteria-intensiva" activeClassName="active" onClick={handleClick}><h3>Intensivo de repostería</h3></NavHashLink>
+          <NavHashLink to="/diplomados/panaderia" onClick={handleClick}><h3>Panadería</h3></NavHashLink>
+          <NavHashLink to="/diplomados/gelatinas" activeClassName="active" onClick={handleClick}><h3>Gelatinas</h3></NavHashLink>
         </div>
         <div className='menu-links__desplegables' id='talleres'>
           <NavHashLink to="/talleres#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Talleres Cortos</h3></NavHashLink>
           <img src="/images/icons/angle-down-light.svg" alt="" onClick={handleClickTalleres} />
         </div>
         <div className='menu-links__desplegables--desplegados' id='talleresDesplegable'>
-          <NavHashLink to="/talleres#reposteria" activeClassName="active" onClick={handleClick}><h3>Reposteria</h3></NavHashLink>
-          <NavHashLink to="/talleres#cocinaSalada" activeClassName="active" onClick={handleClick}><h3>Cocina salada</h3></NavHashLink>
-          <NavHashLink to="/talleres#cocteleria" activeClassName="active" onClick={handleClick}><h3>Cocteleria</h3></NavHashLink>
-          <NavHashLink to="/talleres#parrilla" activeClassName="active" onClick={handleClick}><h3>Parrilla</h3></NavHashLink>
+          <NavHashLink to="/talleres#reposteria" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Reposteria</h3></NavHashLink>
+          <NavHashLink to="/talleres#cocinaSalada" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Cocina salada</h3></NavHashLink>
+          <NavHashLink to="/talleres#cocteleria" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Cocteleria</h3></NavHashLink>
+          <NavHashLink to="/talleres#parrilla" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Parrilla</h3></NavHashLink>
         </div>
         <NavHashLink to="/empresarial#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Empresarial</h3></NavHashLink>
         <NavHashLink to="/contacto#" activeClassName="active" onClick={handleClick} className='menu-links__links'><h3>Contacto</h3></NavHashLink>
