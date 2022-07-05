@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
             <hr />
             <div className="derechos">
-                <h2>Coquere escuela de cocina 2022 - <br></br>  Todos los derechos reservados</h2>
+                <h2>Coquere escuela de cocina 2022 -</h2><p>Todos los derechos reservados</p>
             </div>
         </footer>
     )
