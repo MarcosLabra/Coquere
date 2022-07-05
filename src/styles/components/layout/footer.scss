@@ -144,6 +144,7 @@
 }
 
 @media (min-width: 768px) {
+
     .footer{
         display: grid;
         grid-template-columns: auto auto auto;
@@ -298,113 +299,126 @@
               font-family: $ff-poppins;
               font-size: $fs-md;
             }
+
         }
       }
     }
+
     .nuestrasInstalaciones {
+      margin-top: 5rem;
+      grid-column: 1;
+      grid-row: 2;
       width: max-content;
       height: 39%;
-      margin-top: 2rem;
-      margin-left: 1rem;
       h2 {
         color: $footer-derechos;
         font-weight: bold;
         font-family: $ff-poppins;
-        font-size: $fs-md;
+        font-size: $fs-mdg;
       }
       div {
         display: flex;
         flex-direction: column;
         margin-top: 1rem;
-
         p {
           margin-bottom: 0.5rem;
           font-family: $ff-inter;
           font-size: $fs-sm;
-          font-weight: 600;
         }
       }
     }
+
     .contacto {
-      width: max-content;
+      margin-top: 5rem;
+      grid-column: 3;
+      grid-row: 1;
+      width: 24vw;
       height: 39%;
       margin-top: 2rem;
-      margin-left: 1rem;
       h2 {
         color: $footer-derechos;
         font-weight: bold;
         font-family: $ff-poppins;
-        font-size: $fs-md;
+        font-size: $fs-mdg;
       }
       div {
         display: flex;
         flex-direction: column;
         margin-top: 1rem;
-
         p {
           margin-bottom: 0.5rem;
           font-family: $ff-inter;
           font-size: $fs-sm;
-          font-weight: 600;
         }
       }
     }
+
     .redesSociales {
-      width: max-content;
+      margin-top: 5rem;
+      grid-column: 3;
+      grid-row: 2;
+      width: 24vw;
       height: 39%;
-      margin-top: 2rem;
-      margin-left: 1rem;
-      margin-bottom: 7vw;
-      .redesInLine {
-        display: flex;
-        flex-direction: row;
-        margin-right: 1rem;
-        margin-top: 1rem;
-        img {
-          margin-right: 1rem;
-          width: 5vw;
-          height: 5vw;
-          border-radius: 2rem;
-        }
-      }
       h2 {
         color: $footer-derechos;
         font-weight: bold;
         font-family: $ff-poppins;
-        font-size: $fs-md;
+        font-size: $fs-mdg;
       }
       div {
-        display: flex;
-        flex-direction: column;
+        margin-top: 0.2rem;
+
         a {
           color: black;
           font-family: $ff-inter;
           font-size: $fs-sm;
-          font-weight: 600;
         }
       }
-      .logo {
-        margin-left: auto;
-        margin-right: auto;
-        order: -1;
+      .redesInLine {
         img {
-          width: 35vw;
-          height: 35vw;
-          margin-top: 10.5vw;
+          width: 3vw;
+          height: 3vw;
         }
       }
     }
 
+    .logo {
+      margin-top: 5rem;
+      grid-column: 2;
+      grid-row: span 2;
+      img {
+        width: 15vw;
+        height: 15vw;
+        margin-top: 10.5vw;
+      }
+    }
+
+    hr {
+      grid-column: span 3;
+      grid-row: 3;
+      height: 1px;
+    }
+
     .derechos {
+      grid-column: span 3;
+      grid-row: 4;
       height: 3rem;
-      margin-top: 0.5rem;
       margin-left: auto;
       margin-right: auto;
+      width: max-content;
+      display: flex;
+      flex-direction: row;
       h2 {
         color: $footer-derechos;
         font-weight: bold;
         font-family: $ff-poppins;
-        font-size: $fs-sm;
+        font-size: $fs-md;
+      }
+      p {
+        color: $footer-derechos;
+        font-weight: bold;
+        font-family: $ff-poppins;
+        font-size: $fs-md;
       }
     }
 
@@ -571,5 +585,111 @@
             font-size: $fs-md;
           }
       }
+  }
+}
+.nuestrasInstalaciones {
+  width: max-content;
+  height: 39%;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  h2 {
+    color: $footer-derechos;
+    font-weight: bold;
+    font-family: $ff-poppins;
+    font-size: $fs-md;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    p {
+      margin-bottom: 0.5rem;
+      font-family: $ff-inter;
+      font-size: $fs-sm;
+      font-weight: 600;
+    }
+  }
+}
+.contacto {
+  width: max-content;
+  height: 39%;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  h2 {
+    color: $footer-derechos;
+    font-weight: bold;
+    font-family: $ff-poppins;
+    font-size: $fs-md;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    p {
+      margin-bottom: 0.5rem;
+      font-family: $ff-inter;
+      font-size: $fs-sm;
+      font-weight: 600;
+    }
+  }
+}
+.redesSociales {
+  width: max-content;
+  height: 39%;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 7vw;
+  .redesInLine {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    img {
+      margin-right: 1rem;
+      width: 5vw;
+      height: 5vw;
+      border-radius: 2rem;
+    }
+  }
+  h2 {
+    color: $footer-derechos;
+    font-weight: bold;
+    font-family: $ff-poppins;
+    font-size: $fs-md;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    a {
+      color: black;
+      font-family: $ff-inter;
+      font-size: $fs-sm;
+      font-weight: 600;
+    }
+  }
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    order: -1;
+    img {
+      width: 35vw;
+      height: 35vw;
+      margin-top: 10.5vw;
+    }
+  }
+}
+
+.derechos {
+  height: 3rem;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  h2 {
+    color: $footer-derechos;
+    font-weight: bold;
+    font-family: $ff-poppins;
+    font-size: $fs-sm;
   }
 }
