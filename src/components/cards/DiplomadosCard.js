@@ -11,7 +11,7 @@ const DiplomadosCard = ({ img, titulo, duracion,url }) => {
             <div className="diplomados__card--descripcion">
                 <p className="diplomados__card--duracion">Duración: {duracion}</p>
                 <hr />
-                <Link to={url} className="diplomados__card--verMas">Ver más</Link>
+                <Link to={url} className="diplomados__card--verMas">Ver más información</Link>
             </div>
         </article>
     )

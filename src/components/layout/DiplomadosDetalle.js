@@ -1,21 +1,22 @@
 import React from 'react'
 
-export const DiplomadosDetalle = ({titulo, duracion, clases,duracionClase}) => {
+export const DiplomadosDetalle = ({ titulo, duracion, clases, duracionClase }) => {
     return (
         <div className='diplomadosDetalle'>
             <h3>{titulo}</h3>
-            
+
             <div diplomadosDetalleClases>
                 <strong>Clases:</strong>
                 <ul>
                     {clases.map(clase => {
-                        return(    
+                        return (
                             <li>{clase}</li>
                         )
-                        })
+                    })
                     }
                 </ul>
-                <p><span>Duración:</span> {duracion}, cada una de {duracionClase}</p> 
+                <p><span>Duración:</span> {duracion}, cada una de {duracionClase}</p>
+                <p>Pregunta por la disponibilidad de fecha más cercana para iniciar tu diplomado.</p>
             </div>
         </div>
     )

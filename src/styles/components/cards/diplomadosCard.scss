@@ -16,14 +16,14 @@
   .diplomados__card--titulo {
     position: absolute;
     bottom: 22%;
-    width: 85%;
+    width: 75%;
     border-radius: 0 50px 50px 0;
     background-color: $verde-oscuro;
     h5 {
       padding: 0.5rem;
       font-family: $ff-poppins;
       font-weight: 600;
-      font-size: $fs-mdg;
+      font-size: $fs-md;
       color: $blanco;
     }
   }
@@ -39,7 +39,7 @@
     .diplomados__card--duracion {
       align-self: flex-start;
       font-family: $ff-poppins;
-      font-size: $fs-md;
+      font-size: $fs-sm;
       font-weight: bold;
       margin-left: 5%;
       margin-top: 10%;
