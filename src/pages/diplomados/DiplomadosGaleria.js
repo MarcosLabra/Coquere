@@ -3,11 +3,7 @@ import DiplomadosCard from "../../components/cards/DiplomadosCard"
 const diplomados =
 [
     {
-<<<<<<< HEAD
-        img: "/images/diplomados/reposteriaBasica.png",
-=======
         img: "/images/diplomados/reposteriaBasico.png",
->>>>>>> 74a11fd86fe1531f50522a2b83cc23a3f8b74a91
         titulo: "Repostería Básica",
         duracion: "10 clases",
         url:"/diplomados/reposteria-basica"
