@@ -144,36 +144,6 @@
 }
 
 @media (min-width: 768px) {
-<<<<<<< HEAD
-  .footer {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    background-color: $footer-fondo;
-    .coquere {
-      width: max-content;
-      height: 39%;
-      margin-top: 2rem;
-      margin-left: 1rem;
-      h2 {
-        color: $footer-derechos;
-        font-weight: bold;
-        font-family: $ff-poppins;
-        font-size: $fs-md;
-      }
-
-      div {
-        display: flex;
-        flex-direction: column;
-        margin-top: 1rem;
-
-        a {
-          color: black;
-          margin-bottom: 0.5rem;
-          font-family: $ff-inter;
-          font-size: $fs-sm;
-          font-weight: 600;
-=======
     .footer{
         display: grid;
         grid-template-columns: auto auto auto;
@@ -328,7 +298,6 @@
               font-family: $ff-poppins;
               font-size: $fs-md;
             }
->>>>>>> 74a11fd86fe1531f50522a2b83cc23a3f8b74a91
         }
       }
     }
@@ -438,9 +407,6 @@
         font-size: $fs-sm;
       }
     }
-  }
-}
-
 
 @media (min-width: 1200px) {
   .footer{
