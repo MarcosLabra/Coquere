@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 //Components
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import WappFloat from './components/layout/WappFloat';
 
 //Pages
 import Contacto from './pages/Contacto';
@@ -45,6 +46,8 @@ function App() {
           <Route path="/talleres" element={<Talleres />} />
 
         </Routes>
+        
+        <WappFloat />
         <Footer />
       </BrowserRouter>
     </div>

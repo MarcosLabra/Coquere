@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import PortadaPaginasDetalle from "../../../components/layout/PortadaPaginasDetalle"
 import BotonWapp from "../../../components/layout/BotonWapp"
 import DiplomadosDetalle from "../../../components/layout/DiplomadosDetalle"
+import MasInfo from "./MasInfo";
 
 const ReposteriaNivel2 = () => {
 
@@ -16,10 +17,11 @@ const ReposteriaNivel2 = () => {
   return (
     <main>
       <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.png"} titulo={"Diplomados"} subtitulo={"Reposteria Nivel 2"} />
-      <DiplomadosDetalle titulo={"Diplomado Básico de Repostería"} duracion={"Duración: 6 clases"} clases={["Tartas", "Galletas", "Cupcakes", "Pasteles clásicos", "Pasteles Europeos", "Chocolatería"]} duracionClase={"Duración de las clases: 4 horas"} />
+      <DiplomadosDetalle titulo={"Diplomado Básico de Repostería"} duracion={"6 clases"} clases={["Tartas", "Galletas", "Cupcakes", "Pasteles clásicos", "Pasteles Europeos", "Chocolatería"]} duracionClase={"4 horas"} />
       <div className="marcoBotonWapp">
         <BotonWapp texto={"¡Quiero inscribirme!"} url={"https://alvo.chat/3cB"} />
       </div>
+      <MasInfo />
     </main>
 
   )

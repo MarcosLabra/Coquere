@@ -57,6 +57,7 @@ main{
 @import "./components/layout/portadaPaginas";
 @import "./components/layout/portadaPaginasDetalle";
 @import "./components/layout/boton";
+@import "./components/layout/wappFloat";
 
 //Components
 
@@ -102,6 +103,7 @@ main{
 //componentes
 @import "./pages/diplomados/diplomadosTexto";
 @import "./pages/diplomados/diplomadosGaleria";
+@import "./pages/diplomados/masInfo";
 
 //Contacto
 @import "./pages/contacto";

@@ -1,11 +1,12 @@
 import { NavHashLink } from 'react-router-hash-link';
 
 
-const MobileMenu = () => {
+const MobileMenu = ({toggleState}) => {
 
   function handleClick() {
     if (document.getElementById('mobileMenu').classList.contains('show')) {
       document.getElementById('mobileMenu').classList.toggle('show');
+      toggleState();
     }
   }
 
