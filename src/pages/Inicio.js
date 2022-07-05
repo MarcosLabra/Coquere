@@ -5,15 +5,18 @@ import ActividadesEmpresariales from "./inicio/ActividadesEmpresariales"
 import ComoLlegar from "./contacto/ComoLlegar"
 import DiplomadosDestacados from "./inicio/DiplomadosDestacados"
 import TalleresDestacados from "./inicio/TalleresDestacados"
-import ReseñasAlumnos from "./inicio/ReseñasAlumnos"
+import ReseñasAlumnos from "./inicio/ReseñasAlumno"
+import ReseñasAlumnosTablet from "./inicio/ReseñasAlumnosTablet"
+import DiplomadosDestacadosTablet from "./inicio/DiplomadosDestacadosTablet"
+import TalleresDestacadosTablet from "./inicio/TalleresDestacadosTablet"
 
 const Inicio = () => {
-    
+
     useEffect(() => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth',
-          });
+        });
     }
         , [])
 
@@ -21,9 +24,9 @@ const Inicio = () => {
         <main className="inicio">
             <SliderInicio />
             <PorqueElegirnos />
-            <DiplomadosDestacados />
-            <TalleresDestacados />
-            <ReseñasAlumnos />
+            {window.innerWidth < 768 ? <DiplomadosDestacados /> : <DiplomadosDestacadosTablet />}
+            {window.innerWidth < 768 ? <TalleresDestacados /> : <TalleresDestacadosTablet />}
+            {window.innerWidth < 768 ? <ReseñasAlumnos /> : <ReseñasAlumnosTablet />}
             <ActividadesEmpresariales />
             <ComoLlegar />
         </main>
