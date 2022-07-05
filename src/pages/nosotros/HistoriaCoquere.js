@@ -1,9 +1,10 @@
 const HistoriaCoquere = () => {
     return (
         <section className="historiaCoquere">
-            <h4  id="historiaCoquere">Nuestra historia</h4>
-            <p>Un espacio de aprendizaje, convivencia y platicas haciendo lo que mas nos gusta: COCINAR.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque vitae metus sed porttitor. In malesuada nunc aliquam vestibulum dapibus. Sed nunc orci, fermentum a fringilla eget, tincidunt ac metus. Suspendisse eu laoreet ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc finibus, urna et cursus fermentum, nisl elit lobortis enim, molestie molestie arcu enim eu nunc. Maecenas urna neque, fermentum rutrum scelerisque ut, condimentum id neque. </p>
+            <h4  id="historiaCoquere">Historia Coquere</h4>
+            <p>Somos una pareja con un profundo amor y respeto a lo natural, lo casero y al buen comer, lo que nos llevó a abrir y emprender esta aventura; transmitir ese amor que tenemos por lo que hacemos cada día, compartir nuestras experiencias y poder ofrecerles talleres en donde aprenderán cómo hornear y cocinar de manera sencilla. </p>
+            <p>Para nosotros, cocinar y montar una mesa siempre ha sido una actividad cotidiana donde todos participan y donde al final, la sobremesa es lo que más se disfruta. </p>
+            <p>Sobremesa es eso, cocinar en espacios cómodos que te hacen sentir como si cocinaras en casa, preparar algo que te va a salir, lo que puedes replicar y lo que puedes compartir.</p>
             <img src="/images/nosotros/historiaCoquere.png" alt="" />
         </section>
     )
