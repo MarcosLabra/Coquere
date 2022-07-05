@@ -24,7 +24,7 @@ const ActividadesEmpresariales = () => {
                 </div>
             </AwesomeSlider>
 
-            <Boton texto="Ver más" url="/empresarial" />
+            <Boton texto="Ver más información" url="/empresarial" />
         </section>
     )
 }
