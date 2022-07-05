@@ -5,31 +5,60 @@ import Boton from '../../components/layout/Boton';
 const talleres =
   [
     {
-      img: "/images/diplomados/reposteriaBasica.png",
+      img: "/images/talleres/reposteria-mesaDePostres.jpg",
       titulo: "Mesa  de postres",
       duracion: "4 horas",
-      img2: "/images/diplomados/reposteriaNivel2.png",
-      titulo2: "Repostería Nivel 2",
+      img2: "/images/talleres/reposteria-browniesYCheescake.png",
+      titulo2: "Brownies y Cheesecake",
       duracion2: "4 horas"
     },
     {
-      img: "/images/diplomados/reposteriaIntensiva.png",
-      titulo: "Repostería Intensiva",
+      img: "/images/talleres/reposteria-macarons.png",
+      titulo: "Macarons",
       duracion: "4 horas",
-      img2: "/images/diplomados/panaderia.png",
-      titulo2: "Panaderia",
+      img2: "/images/talleres/reposteria-postresIndividuales.png",
+      titulo2: "Postres individuales",
       duracion2: "4 horas"
     },
     {
-      img: "/images/diplomados/gelatinas.png",
-      titulo: "Gelatinas",
+      img: "/images/talleres/reposteria-pastelDeCupcakes.png",
+      titulo: "Pastel de cupcakes",
       duracion: "4 horas",
-      img2: "/images/diplomados/gelatinas.png",
-      titulo2: "Gelatinas",
+      img2: "/images/talleres/reposteria-pastelDecorado.png",
+      titulo2: "Pastel decorado",
       duracion2: "4 horas"
+    },
+    {
+      img: "/images/talleres/reposteria-roscaDeReyes.png",
+      titulo: "Rosca de reyes",
+      duracion: "4 horas",
+      img2: "/images/talleres/reposteria-manejoDeDuyas.png",
+      titulo2: "Manejo de duyas",
+      duracion2: "4 horas"
+    },
+    {
+      img: "/images/talleres/galletasGourmet.png",
+      titulo: "Galletas gourmet",
+      duracion: "4 horas",
+      img2: "/images/talleres/cocinaSalada-pizzaFocaccia.png",
+      titulo2: "Pizza y Focaccia",
+      duracion2: "4 horas"
+    },
+    {
+      img: "",
+      titulo: "Sushi y Yakimeshi",
+      duracion: "4 horas",
+      img2: "",
+      titulo2: "Pastas",
+      duracion2: "4 horas"
+    },
+    {
+      img: "cocteleria-cocteleria.jpg",
+      titulo: "Coctelería",
+      duracion: "4 horas"
     }
-
   ]
+
 
 const TalleresDestacadosTablet = () => {
 
