@@ -12,10 +12,13 @@ const TalleresDestacados = () => {
         className='talleresDestacados__slider'
       >
         <div>
-          <TalleresCard img={"/images/talleres/talleres1.png"} titulo={"Taller de tartas"} duracion={"4 meses"} />
+          <TalleresCard img={"/images/talleres/reposteria-macarons.png"} titulo={"Macarons"} duracion={"4 horas"} />
         </div>
         <div>
-          <TalleresCard img={"/images/talleres/talleres1.png"} titulo={"Taller de tartas"} duracion={"4 meses"} />
+          <TalleresCard img={"/images/talleres/reposteria-pastelDeCupcakes.png"} titulo={"Pastel de Cupcakes"} duracion={"4 horas"} />
+        </div>
+        <div>
+          <TalleresCard img={"/images/talleres/cocinaSalada-pizzaFocaccia.png"} titulo={"Pizza y Focaccia"} duracion={"4 horas"} />
         </div>
       </AwesomeSlider>
       <Boton texto="Ver más Talleres" url="/talleres"/>
