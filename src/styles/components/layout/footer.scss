@@ -265,12 +265,12 @@
         }
 
         .logo{
-            margin-top: 5rem;
+            margin-top: 4rem;
             grid-column: 2;
             grid-row: span 2;
             img{
-                width: 15vw;
-                height: 15vw;
+                width: 16vw;
+                height: 16vw;
                 margin-top: 10.5vw;
 
             }
@@ -305,4 +305,170 @@
             }
         }
     }
+}
+
+
+@media (min-width: 1200px) {
+  .footer{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto 1px auto;
+      justify-content: space-evenly;
+      width: 100vw;
+      height: max-content;
+      background-color: $footer-fondo;
+
+      .coquere{
+          margin-top: 5rem;
+          grid-column: 1;
+          grid-row: 1;
+          width: max-content;
+          height: 39%;
+          margin-top: 2rem;
+          h2 {
+              margin-top: 5rem;
+              color: $footer-derechos;
+              font-weight: bold;
+              font-family: $ff-poppins;
+              font-size: $fs-mdg;
+          }
+
+          div {
+              display: flex;
+              flex-direction: column;
+              margin-top: 1rem;
+
+              a {
+                  color: black;
+                  margin-bottom: 0.5rem;
+                  font-family: $ff-inter;
+                  font-size: $fs-sm;
+              }
+          }
+      }
+
+      .nuestrasInstalaciones{
+          margin-top: 5rem;
+          grid-column: 1;
+          grid-row: 2;
+          width: max-content;
+          height: 39%;
+          h2 {
+              margin-top: 5rem;
+              color: $footer-derechos;
+              font-weight: bold;
+              font-family: $ff-poppins;
+              font-size: $fs-mdg;
+          }
+          div {
+              display: flex;
+              flex-direction: column;
+              margin-top: 1rem;
+              p {
+                  margin-bottom: 0.5rem;
+                  font-family: $ff-inter;
+                  font-size: $fs-sm;
+              }
+          }
+      }
+
+      .contacto{
+          margin-left: 2vw;
+          margin-top: 5rem;
+          grid-column: 3;
+          grid-row: 1;
+          width: 24vw;
+          height: 39%;
+          margin-top: 2rem;
+          h2 {
+              margin-top: 5rem;
+              color: $footer-derechos;
+              font-weight: bold;
+              font-family: $ff-poppins;
+              font-size: $fs-mdg;
+          }
+          div {
+              display: flex;
+              flex-direction: column;
+              margin-top: 1rem;
+              p {
+                  margin-bottom: 0.5rem;
+                  font-family: $ff-inter;
+                  font-size: $fs-sm;
+              }
+          }
+      }
+
+      .redesSociales{
+          margin-left: 2vw;
+          margin-top: 5rem;
+          grid-column: 3;
+          grid-row: 2;
+          width: 24vw;
+          height: 39%;
+          h2 {
+              margin-top: 5rem;
+              color: $footer-derechos;
+              font-weight: bold;
+              font-family: $ff-poppins;
+              font-size: $fs-mdg;
+          }
+          div {
+              margin-top: 0.2rem;
+
+              a {
+                  color: black;
+                  font-family: $ff-inter;
+                  font-size: $fs-sm;
+              }
+          }
+          .redesInLine {
+            img {
+              width: 2vw;
+              height: 2vw;
+            }
+          }
+      }
+
+      .logo{
+          grid-column: 2;
+          grid-row: span 2;
+          img{
+              //margin-bottom: 15rem;
+              width: 16vw;
+              height: 16vw;
+              margin-top: 10.5vw;
+
+          }
+      }
+
+      hr {
+          grid-column: span 3;
+          grid-row: 3;
+          height: 1px;
+      }
+
+      .derechos{
+          grid-column: span 3;
+          grid-row: 4;
+          height: 3rem;
+          margin-left: auto;
+          margin-right: auto;
+          width: max-content;
+          display: flex;
+          flex-direction: row;
+          h2 {
+              color: $footer-derechos;
+              font-weight: bold;
+              font-family: $ff-poppins;
+              font-size: $fs-md;
+          }
+          p {
+            color: $footer-derechos;
+            font-weight: bold;
+            font-family: $ff-poppins;
+            font-size: $fs-md;
+          }
+      }
+  }
 }
