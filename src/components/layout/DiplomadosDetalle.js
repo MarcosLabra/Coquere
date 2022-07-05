@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const DiplomadosDetalle = ({ titulo, duracion, clases, duracionClase }) => {
+export const DiplomadosDetalle = ({ portada, titulo, duracion, clases, duracionClase }) => {
     return (
         <div className='diplomadosDetalle'>
             <h3>{titulo}</h3>
-
+            <img src={portada} alt="" className='diplomadosDetalle--portada'/>
             <div diplomadosDetalleClases>
                 <strong>Clases:</strong>
                 <ul>
