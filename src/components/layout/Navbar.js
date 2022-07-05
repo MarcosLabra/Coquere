@@ -49,7 +49,7 @@ const Navbar = () => {
         }
 
     return (
-        <div className="navBar">
+        <div className="navbar">
             <NavHashLink to="/#" activeClassName="active"><p>Inicio</p></NavHashLink>
             <div className='menuDesplegable'>
                 <NavHashLink to="/nosotros#" activeClassName="active"><p>Nosotros</p></NavHashLink>
