@@ -65,7 +65,7 @@ const contenido =
             taller: [{
                 img: "/images/talleres/cocinaSalada-pizzaFocaccia.png",
                 titulo: "Taller de tartas",
-                duracion: "4 meses"
+                duracion: "4 horas"
             },
             {
                 img: "/images/talleres/talleres1.png",
