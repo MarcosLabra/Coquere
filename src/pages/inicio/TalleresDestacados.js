@@ -2,6 +2,41 @@ import AwesomeSlider from 'react-awesome-slider';
 import TalleresCard from "../../components/cards/TalleresCard"
 import Boton from '../../components/layout/Boton';
 
+const talleres =
+  [
+    {
+      img: "/images/diplomados/reposteriaBasica.png",
+      titulo: "Mesa  de postres",
+      duracion: "4 horas"
+    },
+    {
+      img: "/images/diplomados/reposteriaNivel2.png",
+      titulo: "Repostería Nivel 2",
+      duracion: "4 horas"
+    },
+    {
+      img: "/images/diplomados/reposteriaIntensiva.png",
+      titulo: "Repostería Intensiva",
+      duracion: "4 horas"
+    },
+    {
+      img: "/images/diplomados/panaderia.png",
+      titulo: "Panaderia",
+      duracion: "4 horas"
+    },
+    {
+      img: "/images/diplomados/delatinas.png",
+      titulo: "Gelatinas",
+      duracion: "4 horas"
+    },
+    {
+      img: "/images/diplomados/delatinas.png",
+      titulo: "Gelatinas",
+      duracion: "4 horas"
+    }
+
+  ]
+
 const TalleresDestacados = () => {
 
   return (

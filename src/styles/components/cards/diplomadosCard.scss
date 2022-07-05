@@ -1,8 +1,8 @@
 .diplomados__card {
   position: relative;
   align-self: center;
-  width: 270px;
-  height: 300px;
+  width: 325px;
+  height: 460px;
   box-shadow: $bs;
   border-radius: $br-10;
   margin: 2rem auto;
@@ -15,8 +15,8 @@
   }
   .diplomados__card--titulo {
     position: absolute;
-    bottom: 22%;
-    width: 85%;
+    bottom: 29%;
+    width: 75%;
     border-radius: 0 50px 50px 0;
     background-color: $verde-oscuro;
     h5 {
@@ -28,8 +28,9 @@
     }
   }
   .diplomados__card--descripcion {
+    padding: 1rem;
     margin: 0;
-    height: 35%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +40,7 @@
     .diplomados__card--duracion {
       align-self: flex-start;
       font-family: $ff-poppins;
-      font-size: $fs-md;
+      font-size: $fs-mdg;
       font-weight: bold;
       margin-left: 5%;
       margin-top: 10%;

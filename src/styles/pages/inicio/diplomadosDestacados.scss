@@ -22,5 +22,10 @@
       opacity: 0;
       pointer-events: none; 
     }
+    .diplomadosDestacados__slider--contenedor{
+      display: flex;
+      width: 80%;
+      justify-content: space-around;
+    }
   }
 }

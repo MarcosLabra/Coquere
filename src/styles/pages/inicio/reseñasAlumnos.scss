@@ -19,6 +19,11 @@
         opacity: 0;
         pointer-events: none; 
       }
+      .reseñasAlumnos__slider--contenedor{
+        display: flex;
+        width: 90%;
+        justify-content: space-around;
+      }
     }
   }
   

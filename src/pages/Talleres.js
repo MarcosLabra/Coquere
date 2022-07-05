@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import BotonWapp from "../components/layout/BotonWapp"
 import PortadaPaginas from "../components/layout/PortadaPaginas"
 import TalleresCarrousel from "./talleres/TalleresCarrousel"
 import TalleresTexto from "./talleres/TalleresTexto"
@@ -136,6 +137,7 @@ const Talleres = () => {
             {contenido.map((contenido) => {
                 return <TalleresCarrousel contenido={contenido} />
             })}
+            <BotonWapp texto={"¡Quiero inscribirme!"} url={"https://alvo.chat/4oD"} />
         </main>
     )
 }

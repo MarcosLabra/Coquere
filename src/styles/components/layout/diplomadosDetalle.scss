@@ -10,7 +10,7 @@
     font-size: $fs-mdg;
     color: $verde-oscuro;
   }
-
+ 
   p {
     margin-top: .6rem;
     margin-bottom: 1rem;
@@ -42,13 +42,17 @@
     }
 
     p {
-      margin-left: 5%;
+      margin:0 6%;
       margin-top: 1.5rem;
       margin-bottom: 0.5vw;
       font-family: $ff-inter;
       font-size: $fs-sm;
       font-weight: 500;
     }
+  }
+
+  .diplomadosDetalle--portada{
+    margin: 1rem 6%;
   }
 }
 
