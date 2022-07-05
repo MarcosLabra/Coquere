@@ -2,7 +2,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import Boton from '../../components/layout/Boton';
 
 export const PorqueElegirnos = () => {
-   
+
     return (
         <section className="porqueElegirnos">
             <h4>¿Porque elegirnos?</h4>
@@ -12,15 +12,15 @@ export const PorqueElegirnos = () => {
                 className='porqueElegirnos__slider'
             >
                 <div>
-                    <img src="" alt="" srcset="" />
+                    <img src="/images/inicio/porqueElegirnos1.png" alt="" srcset="" />
                 </div>
 
                 <div>
-                    <img src="" alt="" srcset="" />
+                    <img src="/images/inicio/porqueElegirnos2.png" alt="" srcset="" />
                 </div>
 
                 <div>
-                    <img src="" alt="" srcset="" />
+                    <img src="/images/inicio/porqueElegirnos3.png" alt="" srcset="" />
                 </div>
             </AwesomeSlider>
             <Boton texto="Ver más sobre Coquere" url="/nosotros" />
