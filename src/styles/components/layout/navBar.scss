@@ -1,4 +1,4 @@
-.navBar {
+.navbar {
   display: flex;
   align-items: center;
 
@@ -13,6 +13,7 @@
   .active {
     p {
       color: $verde-oscuro;
+      font-family: $ff-poppins;
     }
   }
 
