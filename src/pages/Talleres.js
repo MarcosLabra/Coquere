@@ -24,7 +24,6 @@ const Talleres = () => {
             <PortadaPaginas img={"/images/portadas/talleresCortosPortada.png"} titulo={"Talleres cortos"} />
             <TalleresTexto />
             {window.innerWidth < 768 ? <TalleresCarrouselReposteria /> : <TalleresCarrouselReposteriaTablet />}
-             
 
             <BotonWapp texto={"¡Quiero inscribirme!"} url={"https://alvo.chat/4oD"} />
         </main>
