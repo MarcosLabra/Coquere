@@ -12,9 +12,16 @@ body {
   overflow-x: hidden;
   background-color: #fffdfd;
 }
-main{
+main {
   padding-top: 55px;
 }
+
+@media (min-width: 768px) {
+  main {
+    padding-top: 80px;
+  }
+}
+
 //custom-scrollbar
 ::-webkit-scrollbar {
   width: 1em;
@@ -24,7 +31,7 @@ main{
 ::-webkit-scrollbar-track {
   background: #fffdfd;
   border-radius: 100vw;
-  margin-block: .5em;
+  margin-block: 0.5em;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -61,7 +68,6 @@ main{
 
 //Components
 
-
 //Cards
 @import "./components/cards/diplomadosCard";
 @import "./components/cards/diplomadosDestacadosCard";
@@ -85,7 +91,6 @@ main{
 @import "./pages/nosotros/historiaCoquere";
 @import "./pages/nosotros/instalaciones";
 @import "./pages/nosotros/rentaNuestrasInstalaciones";
-
 
 //Tallerres
 @import "./pages/talleres";

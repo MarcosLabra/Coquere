@@ -14,8 +14,20 @@
     h1 {
       font-family: $ff-poppins;
       font-weight: 600;
-      font-size: $fs-mdg;
+      font-size: $fs-md;
       color: $verde-oscuro;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .portadaPaginas {
+    width: 100vw;
+    position: relative;
+    .portadaPaginas__titulo {
+      h1 {
+        font-size: $fs-xxl;
+      }
     }
   }
 }

@@ -12,7 +12,7 @@
       display: flex;
       align-items: center;
       padding: 0 5%;
-      padding-right: .5rem  ;
+      padding-right: 0.5rem;
       h3 {
         color: $blanco;
         font-size: $fs-md;
@@ -59,6 +59,34 @@
   justify-content: flex-start;
 }
 
-// .active {
-//   color: $verde-oscuro;
-// }
+@media (min-width: 768px) {
+  .mobileMenu {
+    .menu-links {
+      .menu-links__links {
+        h3 {
+          font-size: $fs-mdg;
+        }
+      }
+      .menu-links__desplegables {
+        display: flex;
+        width: 100vw;
+        img {
+          width: 24px;
+        }
+      }
+      .bgVerde {
+        background-color: $verde-oscuro;
+      }
+      .menu-links__desplegables--desplegados {
+        a {
+          h3 {
+            font-size: $fs-md;
+          }
+        }
+      }
+      .showDesplegables {
+        display: block;
+      }
+    }
+  }
+}

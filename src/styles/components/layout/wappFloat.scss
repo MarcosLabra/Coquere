@@ -5,7 +5,17 @@
     height: 60px;
     bottom: 15px;
     right: 15px;
-    -webkit-filter: drop-shadow(0 0 5px hsla(0, 0%, 0%, 0.40));
-    filter: drop-shadow(0 0 5px hsla(0, 0%, 0%, 0.40));
+    -webkit-filter: drop-shadow(0 0 5px hsla(0, 0%, 0%, 0.4));
+    filter: drop-shadow(0 0 5px hsla(0, 0%, 0%, 0.4));
+  }
+}
+
+@media (min-width: 768px) {
+  .wappFloat {
+    img {
+      height: 90px;
+      bottom: 35px;
+    right: 35px;
+    }
   }
 }
