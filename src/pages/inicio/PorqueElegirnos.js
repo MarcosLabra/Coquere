@@ -1,5 +1,7 @@
-import AwesomeSlider from 'react-awesome-slider';
+
 import Boton from '../../components/layout/Boton';
+import PorqueElegirnosGaleria from './PorqueElegirnosGaleria';
+import PorqueElegirnosSlider from './porqueElegirnosSlider';
 
 export const PorqueElegirnos = () => {
 
@@ -7,22 +9,7 @@ export const PorqueElegirnos = () => {
         <section className="porqueElegirnos">
             <h4>¿Porque elegirnos?</h4>
             <p>A través de clases de cocina, talleres, cooking parties, eventos privados, catas de vinos, coctelería y experiencias gastronómicas de todo tipo será tu lugar perfecto para dejar volar tu creatividad, aprender, tocar y disfrutar cocinando.</p>
-            <AwesomeSlider
-                bullets={false}
-                className='porqueElegirnos__slider'
-            >
-                <div>
-                    <img src="/images/inicio/porqueElegirnos1.png" alt="" srcset="" />
-                </div>
-
-                <div>
-                    <img src="/images/inicio/porqueElegirnos2.png" alt="" srcset="" />
-                </div>
-
-                <div>
-                    <img src="/images/inicio/porqueElegirnos3.png" alt="" srcset="" />
-                </div>
-            </AwesomeSlider>
+            {window.innerWidth > 1200 ? <PorqueElegirnosGaleria /> : <PorqueElegirnosSlider />}
             <Boton texto="Ver más sobre Coquere" url="/nosotros" />
         </section>
     )

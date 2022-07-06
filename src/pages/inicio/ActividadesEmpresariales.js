@@ -1,4 +1,3 @@
-import AwesomeSlider from 'react-awesome-slider';
 import Boton from '../../components/layout/Boton';
 
 const ActividadesEmpresariales = () => {
@@ -6,23 +5,12 @@ const ActividadesEmpresariales = () => {
     return (
         <section className="actividadesEmpresariales">
             <h4>Actividades Empresariales</h4>
-
-            <AwesomeSlider
-                bullets={false}
-                className='actividadesEmpresariales__slider'
-            >
-                <div>
-                    <img src="" alt="" srcset="" />
-                </div>
-
-                <div>
-                    <img src="" alt="" srcset="" />
-                </div>
-
-                <div>
-                    <img src="" alt="" srcset="" />
-                </div>
-            </AwesomeSlider>
+            <p>
+                Clases de 2 a 3 horas, prácticas y a la medida según la necesidad de cada empresa y equipo de trabajo.
+            </p>
+            <div className='actividadesEmpresariales__galeria'>
+                <img src="/images/empresarial/empresarial.png" alt="" srcset="" />
+            </div>
 
             <Boton texto="Ver más información" url="/empresarial" />
         </section>

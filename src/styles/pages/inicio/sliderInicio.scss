@@ -31,6 +31,9 @@
         line-height: 1.5;
         font-family: $ff-inter;
         font-size: $fs-md;
+        span{
+          font-weight: bold;
+        }
       }
       .boton {
         background-color: $turquesa-oscuro;
@@ -52,14 +55,39 @@
 
 @media (min-width: 768px) {
   .sliderInicio {
-    width: 100%;
     .sliderInicio__slider--slide {
       .sliderInicio__slider--descripcion {
         margin-left: 60px;
         width: 290px;
         height: 250px;
+        
         p {
           font-size: $fs-mdg;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .sliderInicio {
+    height: 630px;
+    .awssld__wrapper {
+      height: 630px;
+    }
+    .sliderInicio__slider--slide {
+      .sliderInicio__slider--slide--img {
+        width: 100vw;
+        height: 630px;
+      }
+      .sliderInicio__slider--descripcion {
+        margin-left: 80px;
+        width: 600px;
+        height: 470px;
+        padding: 60px 30px;
+        justify-content: space-between;
+        p {
+          font-size: $fs-xxl;
         }
       }
     }

@@ -36,3 +36,16 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .comoLlegar {
+    padding: 5rem 10%;
+    h4 {
+      font-size: $fs-xl;
+    }
+    iframe {
+      height: 500px;
+      margin: 2rem 0;
+    }
+  }
+}

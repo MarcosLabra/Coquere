@@ -20,7 +20,7 @@ const SliderInicio = () => {
                     <img src="/images/sliderInicio/sliderInicio1.jpg" alt="" srcset="" className='sliderInicio__slider--slide--img' />
                     <div className='sliderInicio__slider--descripcion'>
                         <img src="/images/branding/CoquereLogoVerde.webp" alt="Coquere Logo" className='sliderInicio__slider--descripcion--img' />
-                        <p>Un espacio de aprendizaje, convivencia y platicas haciendo lo que mas nos gusta: COCINAR</p>
+                        <p>"Un espacio de aprendizaje, convivencia y platicas haciendo lo que mas nos gusta: <span>COCINAR</span>"</p>
                     </div>
                 </div>
 
