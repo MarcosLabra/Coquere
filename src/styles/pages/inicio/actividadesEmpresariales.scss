@@ -9,26 +9,25 @@
     color: $verde-oscuro;
     margin-bottom: 1rem;
   }
-  .actividadesEmpresariales__slider {
-    .awssld__content {
-      background-color: transparent;
-    }
-    .awssld__wrapper {
-      height: 300px;
-    }
-    .awssld__timer {
-      opacity: 0;
-      pointer-events: none;
-    }
+  p {
+    font-family: $ff-inter;
+    font-size: $fs-md;
+    color: $verde-oscuro;
+    margin-bottom: 1rem;
+    line-height: 1.5;
   }
-  div {
+
+  .actividadesEmpresariales__galeria {
     display: flex;
     justify-content: center;
+    margin-bottom: 1.5rem;
     img {
       background-color: #d9d9d9;
       width: 272px;
       height: 260px;
       border-radius: $br-10;
+      object-fit: cover;
+      object-position: top;
     }
   }
 }
@@ -40,14 +39,10 @@
       color: $verde-oscuro;
       margin-bottom: 1rem;
     }
-    .actividadesEmpresariales__slider {
-      .awssld__wrapper {
-        height: 400px;
-        margin-bottom: 1.5rem;
-      }
+    p {
+      font-size: $fs-mdg;
     }
-
-    div {
+    .actividadesEmpresariales__galeria {
       img {
         width: 550px;
         height: 380px;
@@ -55,3 +50,4 @@
     }
   }
 }
+

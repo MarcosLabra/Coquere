@@ -1,6 +1,6 @@
 const WappFloat = () => {
   return (
-    <a href="https://wa.me/524447155980" className="wappFloat" target="_blank" rel="noreferrer">
+    <a href="https://alvo.chat/4t9" className="wappFloat" target="_blank" rel="noreferrer">
         <img src="images/icons/wappFloat.svg" alt="" srcset="" />
     </a>
   )

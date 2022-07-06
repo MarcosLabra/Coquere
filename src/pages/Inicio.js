@@ -9,6 +9,10 @@ import ReseñasAlumnos from "./inicio/ReseñasAlumno"
 import ReseñasAlumnosTablet from "./inicio/ReseñasAlumnosTablet"
 import DiplomadosDestacadosTablet from "./inicio/DiplomadosDestacadosTablet"
 import TalleresDestacadosTablet from "./inicio/TalleresDestacadosTablet"
+import DiplomadosDestacadosDesktop from "./inicio/DiplomadosDestacadosDesktop"
+import TalleresDestacadosDesktop from "./inicio/TalleresDestacadosDesktop"
+import ReseñasAlumnosDesktop from "./inicio/ReseñasAlumnosDesktop"
+import ActividadesEmpresarialesDesktop from "./inicio/ActividadesEmpresarialesDesktop"
 
 const Inicio = () => {
 
@@ -20,17 +24,44 @@ const Inicio = () => {
     }
         , [])
 
-    return (
-        <main className="inicio">
-            <SliderInicio />
-            <PorqueElegirnos />
-            {window.innerWidth < 768 ? <DiplomadosDestacados /> : <DiplomadosDestacadosTablet />}
-            {window.innerWidth < 768 ? <TalleresDestacados /> : <TalleresDestacadosTablet />}
-            {window.innerWidth < 768 ? <ReseñasAlumnos /> : <ReseñasAlumnosTablet />}
-            <ActividadesEmpresariales />
-            <ComoLlegar />
-        </main>
-    )
+    if (window.innerWidth < 768 ) {
+        return (
+            <main className="inicio">
+                <SliderInicio />
+                <PorqueElegirnos />
+                <DiplomadosDestacados />
+                <TalleresDestacados />
+                <ReseñasAlumnos />
+                <ActividadesEmpresariales />
+                <ComoLlegar />
+            </main>
+        )
+    } else if (window.innerWidth > 768 && window.innerWidth < 1200) {
+        return (
+            <main className="inicio">
+                <SliderInicio />
+                <PorqueElegirnos />
+                <DiplomadosDestacadosTablet />
+                <TalleresDestacadosTablet />
+                <ReseñasAlumnosTablet />
+                <ActividadesEmpresariales />
+                <ComoLlegar />
+            </main>
+        )
+    } else {
+        return (
+            <main className="inicio">
+                <SliderInicio />
+                <PorqueElegirnos />
+                <DiplomadosDestacadosDesktop />
+                <TalleresDestacadosDesktop />
+                <ReseñasAlumnosDesktop />
+                <ActividadesEmpresarialesDesktop />
+                <ComoLlegar />
+            </main>
+        )
+    }
 }
 
 export default Inicio
+
