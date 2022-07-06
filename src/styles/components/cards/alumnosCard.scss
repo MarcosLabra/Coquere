@@ -1,11 +1,11 @@
 .alumnosCard {
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   img {
-    width:40%;
+    width: 155px;
   }
   .alumnosCard__frase {
     width: 70%;
@@ -22,5 +22,19 @@
     font-size: $fs-md;
     color: $footer-derechos;
     line-height: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .alumnosCard {
+    img {
+      width: 180px;
+    }
+    .alumnosCard__frase {
+      font-size: $fs-mdg;
+    }
+    .alumnosCard__descripcion {
+      font-size: $fs-mdg;
+    }
   }
 }

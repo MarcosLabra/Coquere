@@ -1,29 +1,36 @@
 .reseñasAlumnos {
-    width: 100vw;
-    padding: 2rem 5%;
-    h4 {
-      font-family: $ff-poppins;
-      font-weight: 600;
-      font-size: $fs-mdg;
-      color: $verde-oscuro;
-      margin-bottom: 1rem;
+  width: 100vw;
+  padding: 2rem 5%;
+  h4 {
+    font-family: $ff-poppins;
+    font-weight: 600;
+    font-size: $fs-mdg;
+    color: $verde-oscuro;
+    margin-bottom: 1rem;
+  }
+  .reseñasAlumnos__slider {
+    .awssld__content {
+      background-color: transparent;
     }
-    .reseñasAlumnos__slider {
-      .awssld__content {
-        background-color: transparent;
-      }
-      .awssld__wrapper {
-        height: 400px;
-      }
-      .awssld__timer {
-        opacity: 0;
-        pointer-events: none; 
-      }
-      .reseñasAlumnos__slider--contenedor{
-        display: flex;
-        width: 90%;
-        justify-content: space-around;
-      }
+    .awssld__wrapper {
+      height: 400px;
+    }
+    .awssld__timer {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .reseñasAlumnos__slider--contenedor {
+      display: flex;
+      width: 90%;
+      justify-content: space-around;
     }
   }
-  
+}
+
+@media (min-width: 768px) {
+  .reseñasAlumnos {
+    h4 {
+      font-size: $fs-xl;
+    }
+  }
+}

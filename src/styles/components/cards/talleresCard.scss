@@ -45,3 +45,22 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .talleres__card {
+    width: 300px;
+    height: 280px;
+    .talleres__card--titulo {
+      width: 85%;
+      bottom: 33%;
+      h5 {
+        font-size: $fs-mdg;
+      }
+    }
+    .talleres__card--descripcion {
+      p {
+        font-size: $fs-mdg;
+      }
+    }
+  }
+}

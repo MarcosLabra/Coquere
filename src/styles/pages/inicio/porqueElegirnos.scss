@@ -16,6 +16,17 @@
     line-height: 1.5;
   }
   .porqueElegirnos__slider {
+    div {
+      display: flex;
+      justify-content: center;
+      img {
+        background-color: #d9d9d9;
+        width: 272px;
+        height: 260px;
+        border-radius: $br-10;
+        object-fit: cover;
+      }
+    }
     .awssld__content {
       background-color: transparent;
     }
@@ -24,37 +35,32 @@
     }
     .awssld__timer {
       opacity: 0;
-      pointer-events: none; 
-    }
-  }
-  div {
-    display: flex;
-    justify-content: center;
-    img {
-      background-color: #d9d9d9;
-      width: 272px;
-      height: 260px;
-      border-radius: $br-10;
+      pointer-events: none;
     }
   }
 }
 
 @media (min-width: 768px) {
   .porqueElegirnos {
-    padding: 5rem 10%;
     h4 {
-      font-size: $fs-xxl;
+      font-size: $fs-xl;
       margin-bottom: 2.5rem;
     }
     p {
-      font-size: $fs-xl;
+      font-size: $fs-lg;
       margin-bottom: 3rem;
-      line-height: 2;
+      line-height: 1.5;
     }
-    div {
-      img {
-        width: 366px;
-        height: 350px;
+    .porqueElegirnos__slider {
+      .awssld__wrapper {
+        height: 400px;
+        margin-bottom: 2rem;
+      }
+      div {
+        img {
+          width: 550px;
+          height: 380px;
+        }
       }
     }
   }
