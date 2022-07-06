@@ -20,12 +20,26 @@
     }
     .awssld__timer {
       opacity: 0;
-      pointer-events: none; 
+      pointer-events: none;
     }
-    .diplomadosDestacados__slider--contenedor{
+    .diplomadosDestacados__slider--contenedor {
       display: flex;
       width: 90%;
       justify-content: space-around;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .diplomadosDestacados {
+    h4 {
+      font-size: $fs-xl;
+    }
+    .diplomadosDestacados__slider {
+      .awssld__wrapper {
+        height: 300px;
+        margin-bottom: 1.5rem;
+      }
     }
   }
 }
