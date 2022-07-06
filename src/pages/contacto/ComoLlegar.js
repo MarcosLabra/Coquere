@@ -1,7 +1,7 @@
 const ComoLlegar = () => {
     return (
         <section className="comoLlegar">
-            <h4>Cómo llegar</h4>
+            <h4>Cómo llegar a nuestras instalaciones</h4>
             <p>Calle Palmira 1010, Pedregal</p>
             <p>78294 San Luis, S.L.P., Mexico</p>
             <p>+52 444 715 5980</p>
