@@ -13,7 +13,7 @@ const MobileMenu = ({ toggleState }) => {
   function scrollWithOffset(el) {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -90;
-    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
+     window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
   }
 
   function handleClickNosotros() {

@@ -7,46 +7,46 @@ const Navbar = () => {
             document.getElementById('mobileMenu').classList.toggle('show');
         }
     }
-    
-    function scrollWithOffset (el) {
+
+    function scrollWithOffset(el) {
         const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-        const yOffset = -60; 
-        window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+        const yOffset = -120;
+        window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
     }
 
-        function handleClickNosotros() {
+    function handleClickNosotros() {
 
-            document.getElementById('nosotros').classList.toggle('bgVerde')
-            document.getElementById('nosotrosDesplegable').classList.toggle('showDesplegables')
-        
-            document.getElementById('diplomados').classList.remove('bgVerde')
-            document.getElementById('diplomadosDesplegable').classList.remove('showDesplegables')
-        
-            document.getElementById('talleres').classList.remove('bgVerde')
-            document.getElementById('talleresDesplegable').classList.remove('showDesplegables')
-        }
-    
-        function handleClickDiplomados() {
-            document.getElementById('diplomados').classList.toggle('bgVerde')
-            document.getElementById('diplomadosDesplegable').classList.toggle('showDesplegables')
-        
-            document.getElementById('nosotros').classList.remove('bgVerde')
-            document.getElementById('nosotrosDesplegable').classList.remove('showDesplegables')
-        
-            document.getElementById('talleres').classList.remove('bgVerde')
-            document.getElementById('talleresDesplegable').classList.remove('showDesplegables')
-        }
-    
-        function handleClickTalleres() {
-            document.getElementById('talleres').classList.toggle('bgVerde')
-            document.getElementById('talleresDesplegable').classList.toggle('showDesplegables')
-        
-            document.getElementById('nosotros').classList.remove('bgVerde')
-            document.getElementById('nosotrosDesplegable').classList.remove('showDesplegables')
-        
-            document.getElementById('diplomados').classList.remove('bgVerde')
-            document.getElementById('diplomadosDesplegable').classList.remove('showDesplegables')
-        }
+        document.getElementById('nosotros').classList.toggle('bgVerde')
+        document.getElementById('nosotrosDesplegable').classList.toggle('showDesplegables')
+
+        document.getElementById('diplomados').classList.remove('bgVerde')
+        document.getElementById('diplomadosDesplegable').classList.remove('showDesplegables')
+
+        document.getElementById('talleres').classList.remove('bgVerde')
+        document.getElementById('talleresDesplegable').classList.remove('showDesplegables')
+    }
+
+    function handleClickDiplomados() {
+        document.getElementById('diplomados').classList.toggle('bgVerde')
+        document.getElementById('diplomadosDesplegable').classList.toggle('showDesplegables')
+
+        document.getElementById('nosotros').classList.remove('bgVerde')
+        document.getElementById('nosotrosDesplegable').classList.remove('showDesplegables')
+
+        document.getElementById('talleres').classList.remove('bgVerde')
+        document.getElementById('talleresDesplegable').classList.remove('showDesplegables')
+    }
+
+    function handleClickTalleres() {
+        document.getElementById('talleres').classList.toggle('bgVerde')
+        document.getElementById('talleresDesplegable').classList.toggle('showDesplegables')
+
+        document.getElementById('nosotros').classList.remove('bgVerde')
+        document.getElementById('nosotrosDesplegable').classList.remove('showDesplegables')
+
+        document.getElementById('diplomados').classList.remove('bgVerde')
+        document.getElementById('diplomadosDesplegable').classList.remove('showDesplegables')
+    }
 
     return (
         <div className="navbar">
@@ -60,7 +60,7 @@ const Navbar = () => {
                     <NavHashLink to="/nosotros#rentaNuestrasInstalaciones" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Renta Nuestras Instalaciones</h3></NavHashLink>
                 </div>
             </div>
-            
+
             <div className='menuDesplegable'>
                 <NavHashLink to="/diplomados#" activeClassName="active"><p>Diplomados</p></NavHashLink>
                 <img src="/images/icons/angle-down-light.svg" alt="" onClick={handleClickDiplomados} />
@@ -72,10 +72,10 @@ const Navbar = () => {
                     <NavHashLink to="/diplomados/gelatinas" activeClassName="active" onClick={handleClick}><h3>Gelatinas</h3></NavHashLink>
                 </div>
             </div>
-            
+
             <div className='menuDesplegable'>
                 <NavHashLink to="/talleres#" activeClassName="active"><p>Talleres</p></NavHashLink>
-                <img src="/images/icons/angle-down-light.svg" alt="" onClick={handleClickTalleres} />    
+                <img src="/images/icons/angle-down-light.svg" alt="" onClick={handleClickTalleres} />
                 <div className='menu-links__desplegables--desplegados' id='talleresDesplegable'>
                     <NavHashLink to="/talleres#reposteria" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Reposteria</h3></NavHashLink>
                     <NavHashLink to="/talleres#cocinaSalada" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Cocina salada</h3></NavHashLink>
@@ -83,7 +83,7 @@ const Navbar = () => {
                     <NavHashLink to="/talleres#parrilla" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Parrilla</h3></NavHashLink>
                 </div>
             </div>
-            
+
             <NavHashLink to="/empresarial#" activeClassName="active"><p>Empresarial</p></NavHashLink>
             <NavHashLink to="/contacto#" activeClassName="active"><p>Contacto</p></NavHashLink>
         </div>
