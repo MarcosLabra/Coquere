@@ -21,7 +21,7 @@ const TalleresCarrouselCocteleriaTablet = () => {
 
     return (
     <section className="talleresCarrousel" >
-                <h4 id="reposteria">Coctelería</h4>
+                <h4 id="cocteleria">Coctelería</h4>
                 <AwesomeSlider
                     bullets={false}
                     className='talleresCarrousel__slider'
