@@ -57,3 +57,21 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .diplomados__card {
+    .diplomados__card--titulo {
+      h5 {
+        font-size: $fs-lg;
+      }
+    }
+    .diplomados__card--descripcion {
+      .diplomados__card--duracion {
+        font-size: $fs-lg;
+      }
+      .diplomados__card--verMas {
+        font-size: $fs-mdg;
+      }
+    }
+  }
+}

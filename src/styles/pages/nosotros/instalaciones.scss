@@ -1,27 +1,39 @@
 .instalaciones {
-    width: 100vw;
-    padding: 2rem 5%;
-    background-color:$gris-fondo-secciones;
+  width: 100vw;
+  padding: 2rem 5%;
+  background-color: $gris-fondo-secciones;
+  h4 {
+    font-family: $ff-poppins;
+    font-weight: 600;
+    font-size: $fs-mdg;
+    color: $verde-oscuro;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-family: $ff-inter;
+    font-size: $fs-md;
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+    width: 100%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .instalaciones {
     h4 {
-      font-family: $ff-poppins;
-      font-weight: 600;
-      font-size: $fs-mdg;
-      color: $verde-oscuro;
-      margin-bottom: 1rem;
+      font-size: $fs-xl;
     }
     p {
-      font-family: $ff-inter;
-      font-size: $fs-md;
-      margin-bottom: 1.5rem;
+      font-size: $fs-mdg;
     }
-  
+
     img {
       width: 100%;
-      margin-top: 0.8rem;
-      margin-bottom: 1rem;
+      margin: 1rem 0;
     }
   }
-  
-  @media (min-width: 768px) {
-
-  }
+}

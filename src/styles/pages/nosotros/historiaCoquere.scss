@@ -20,3 +20,23 @@
     margin-bottom: 1rem;
   }
 }
+
+@media (min-width: 768px) {
+  .historiaCoquere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h4 {
+      align-self: flex-start;
+      font-size: $fs-xl;
+    }
+    p {
+      font-size: $fs-mdg;
+    }
+
+    img {
+      width: 60%;
+      margin: 2rem auto;
+    }
+  }
+}

@@ -14,3 +14,17 @@
     margin-bottom: 1.5rem;
   }
 }
+
+@media (min-width: 768px) {
+  .rentaNuestrasInstalaciones {
+    h4 {
+      font-size: $fs-xl;
+    }
+    .rentaNuestrasInstalaciones--texto {
+      font-size: $fs-mdg;
+    }
+    .boton{
+      margin-top: 2rem;
+    }
+  }
+}

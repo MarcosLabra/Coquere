@@ -6,3 +6,11 @@
     font-size: $fs-md;
   }
 }
+
+@media (min-width: 768px) {
+  .diplomadosTexto {
+    p {
+      font-size: $fs-mdg;
+    }
+  }
+}

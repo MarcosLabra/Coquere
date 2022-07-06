@@ -11,14 +11,15 @@
     margin-bottom: 0.8rem;
   }
 
-  div {
+  .redesContenedores {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-bottom: 6vw;
-    
+
     img {
-      width: 15vw;
-      height: 15vw;
+      width: 55px;
+      height: 55px;
     }
 
     div {
@@ -42,5 +43,29 @@
       }
     }
   }
+}
 
+@media (min-width: 768px) {
+  .redes {
+    h4 {
+      font-size: $fs-xl;
+    }
+
+    .redesContenedores {
+      img {
+        width: 80px;
+        height: 80px;
+      }
+
+      div {
+        strong {
+          font-size: $fs-md;
+        }
+
+        p {
+          font-size: $fs-md;
+        }
+      }
+    }
+  }
 }
