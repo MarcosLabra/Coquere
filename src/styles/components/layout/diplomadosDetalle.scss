@@ -1,7 +1,13 @@
 .diplomadosDetalle {
   background-color: white;
   width: 100vw;
-  h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+    h3 {
+    align-self: start;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     margin-left: 5%;
@@ -10,14 +16,14 @@
     font-size: $fs-mdg;
     color: $verde-oscuro;
   }
- 
+
   p {
-    margin-top: .6rem;
+    margin-top: 0.6rem;
     margin-bottom: 1rem;
     margin-left: 5%;
     font-family: $ff-inter;
     font-size: $fs-sm;
-    span{
+    span {
       font-weight: 600;
     }
   }
@@ -26,7 +32,7 @@
     display: flex;
     flex-direction: column;
     strong {
-      margin-bottom: .6rem;
+      margin-bottom: 0.6rem;
       margin-left: 5%;
       font-family: $ff-inter;
       font-size: $fs-sm;
@@ -42,7 +48,7 @@
     }
 
     p {
-      margin:0 6%;
+      margin: 0 6%;
       margin-top: 1.5rem;
       margin-bottom: 0.5vw;
       font-family: $ff-inter;
@@ -51,8 +57,11 @@
     }
   }
 
-  .diplomadosDetalle--portada{
-    margin: 1rem 6%;
+  .diplomadosDetalle--portada {
+    width: 330px;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
   }
 }
 

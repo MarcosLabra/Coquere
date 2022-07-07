@@ -70,6 +70,8 @@ const Navbar = () => {
                     <NavHashLink to="/diplomados/reposteria-intensiva" activeClassName="active" onClick={handleClick}><h3>Intensivo de repostería</h3></NavHashLink>
                     <NavHashLink to="/diplomados/panaderia" onClick={handleClick}><h3>Panadería</h3></NavHashLink>
                     <NavHashLink to="/diplomados/gelatinas" activeClassName="active" onClick={handleClick}><h3>Gelatinas</h3></NavHashLink>
+                    <NavHashLink to="/diplomados/cocteleria" onClick={handleClick}><h3>Coctelería</h3></NavHashLink>
+                    <NavHashLink to="/diplomados/parrillada" activeClassName="active" onClick={handleClick}><h3>Parrillada</h3></NavHashLink>
                 </div>
             </div>
 
@@ -79,8 +81,7 @@ const Navbar = () => {
                 <div className='menu-links__desplegables--desplegados' id='talleresDesplegable'>
                     <NavHashLink to="/talleres#reposteria" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Reposteria</h3></NavHashLink>
                     <NavHashLink to="/talleres#cocinaSalada" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Cocina salada</h3></NavHashLink>
-                    <NavHashLink to="/talleres#cocteleria" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Cocteleria</h3></NavHashLink>
-                    <NavHashLink to="/talleres#parrilla" scroll={el => scrollWithOffset(el)} activeClassName="active" onClick={handleClick}><h3>Parrilla</h3></NavHashLink>
+
                 </div>
             </div>
 

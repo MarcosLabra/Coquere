@@ -1,11 +1,11 @@
-const AlumnosCard = ({img, frase, nombre, curso}) => {
+const AlumnosCard = ({img, frase, nombre, titulo}) => {
     return (
         <article className="alumnosCard">
             <img src={img} alt="" />
             <p className="alumnosCard__frase">{frase}</p>
             <div className="alumnosCard__descripcion">
                 <p>{nombre}</p>
-                <p>{curso}</p>
+                <p>{titulo}</p>
             </div>
         </article>
     )

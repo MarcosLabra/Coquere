@@ -34,3 +34,20 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .portadaPaginasDetalle {
+    width: 100vw;
+    position: relative;
+    .portadaPaginasDetalle__titulo {
+      h1 {
+        font-size: $fs-xxl;
+      }
+    }
+    .portadaPaginasDetalle__subtitulo {
+      h2 {
+        font-size: $fs-xl;
+      }
+    }
+  }
+}

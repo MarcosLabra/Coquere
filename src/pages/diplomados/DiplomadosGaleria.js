@@ -31,6 +31,18 @@ const diplomados =
         titulo: "Gelatinas",
         duracion: "5 clases",
         url:"/diplomados/gelatinas"
+    },
+    {
+        img: "/images/diplomados/parrillada.png",
+        titulo: "Parrillada",
+        duracion: "4 clases",
+        url:"/diplomados/parrillada"
+    },
+    {
+        img: "/images/diplomados/cocteleria.jpg",
+        titulo: "Coctelería",
+        duracion: "5 clases",
+        url:"/diplomados/cocteleria"
     }
 
 ]

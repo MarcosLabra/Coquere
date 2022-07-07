@@ -1,6 +1,6 @@
 .reseñasAlumnos {
   width: 100vw;
-  padding: 2rem 5%;
+  padding: 2rem 5% 1rem 5%;
   h4 {
     font-family: $ff-poppins;
     font-weight: 600;
@@ -13,7 +13,7 @@
       background-color: transparent;
     }
     .awssld__wrapper {
-      height: 400px;
+      height: 380px;
     }
     .awssld__timer {
       opacity: 0;

@@ -6,8 +6,7 @@ import TalleresCarrouselReposteria from "./talleres/TalleresCarrouselReposteria"
 import TalleresCarrouselReposteriaTablet from "./talleres/TalleresCarrouselReposteriaTablet"
 import TalleresCarrouselComidaSalada from "./talleres/TalleresCarrouselComidaSalada"
 import TalleresCarrouselComidaSaladaTablet from "./talleres/TalleresCarrouselComidaSaladaTablet"
-import TalleresCarrouselCocteleria from "./talleres/TalleresCarrouselCocteleria"
-import TalleresCarrouselCocteleriaTablet from "./talleres/TalleresCarrouselCocteleriaTablet"
+import MasInfoTalleres from "./talleres/MasInfoTalleres"
 
 
 const Talleres = () => {
@@ -29,9 +28,9 @@ const Talleres = () => {
             <TalleresTexto />
             {window.innerWidth < 768 ? <TalleresCarrouselReposteria /> : <TalleresCarrouselReposteriaTablet />}
             {window.innerWidth < 768 ? <TalleresCarrouselComidaSalada /> : <TalleresCarrouselComidaSaladaTablet />}
-            {window.innerWidth < 768 ? <TalleresCarrouselCocteleria /> : <TalleresCarrouselCocteleriaTablet />}
 
             <BotonWapp texto={"¡Quiero inscribirme!"} url={"https://alvo.chat/4oD"} />
+            <MasInfoTalleres />
         </main>
     )
 }
