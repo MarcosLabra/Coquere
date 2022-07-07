@@ -35,7 +35,7 @@ const diplomados =
     {
         img: "/images/diplomados/parrillada.png",
         titulo: "Parrillada",
-        duracion: "5 clases",
+        duracion: "4 clases",
         url:"/diplomados/parrillada"
     },
     {

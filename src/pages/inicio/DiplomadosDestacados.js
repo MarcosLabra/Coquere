@@ -14,7 +14,7 @@ const diplomados =
     {
       img: "/images/diplomados/gelatinas.png",
       titulo: "Gelatinas",
-      duracion: "5 clases",
+      duracion: "4 clases",
       url: "/diplomados/gelatinas"
     },
     {

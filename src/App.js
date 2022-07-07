@@ -21,6 +21,8 @@ import ReposteriaNivel2 from './pages/diplomados/detalles/ReposteriaNivel2';
 import ReposteriaIntensiva from './pages/diplomados/detalles/ReposteriaIntensiva';
 import Panaderia from './pages/diplomados/detalles/Panaderia';
 import Gelatinas from './pages/diplomados/detalles/Gelatinas';
+import Cocteleria from './pages/diplomados/detalles/Cocteleria';
+import Parrillada from './pages/diplomados/detalles/Parrillada';
 
 
 
@@ -39,6 +41,8 @@ function App() {
           <Route path="/diplomados/reposteria-intensiva" element={<ReposteriaIntensiva />} />
           <Route path="/diplomados/panaderia" element={<Panaderia />} />
           <Route path="/diplomados/gelatinas" element={<Gelatinas />} />
+          <Route path="/diplomados/cocteleria" element={<Cocteleria />} />
+          <Route path="/diplomados/Parrillada" element={<Parrillada />} />
 
           <Route path="/empresarial" element={<Empresarial />} />
           <Route path="/" element={<Inicio />} />

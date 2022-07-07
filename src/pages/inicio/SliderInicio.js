@@ -24,19 +24,19 @@ const SliderInicio = () => {
                     </div>
                 </div>
 
-                <div className='sliderInicio__slider--slide'>
-                    <img src="/images/sliderInicio/sliderInicio2.jpg" alt="" srcset="" className='sliderInicio__slider--slide--img' />
-                    <div className='sliderInicio__slider--descripcion'>
+                <div className='sliderInicio__slider--slide2'>
+                    <img src="/images/sliderInicio/sliderInicio2.jpg" alt="" srcset="" className='sliderInicio__slider--slide--img2' />
+                    <div className='sliderInicio__slider--descripcion2'>
                         <p>Ofrecemos talleres de corta duración para aquellos estudiantes con deseos específicos.</p>
-                        <Boton texto='Diplomados' url='/diplomados' />
+                        <Boton texto='Talleres cortos' url='/talleres' />
                     </div>
                 </div>
 
-                <div className='sliderInicio__slider--slide'>
-                    <img src="/images/sliderInicio/sliderInicio3.jpg" alt="" srcset="" className='sliderInicio__slider--slide--img' />
-                    <div className='sliderInicio__slider--descripcion'>
+                <div className='sliderInicio__slider--slide2'>
+                    <img src="/images/sliderInicio/sliderInicio3.jpg" alt="" srcset="" className='sliderInicio__slider--slide--img2' />
+                    <div className='sliderInicio__slider--descripcion2'>
                         <p>Diplomados especializados con grupos reducidos para garantizar la calidad de la enseñanza.</p>
-                        <Boton texto='Talleres cortos' url='/talleres' />
+                        <Boton texto='Diplomados' url='/diplomados' />
                     </div>
                 </div>
             </AutoplaySlider>
