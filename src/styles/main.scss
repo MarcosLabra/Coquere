@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
 }
@@ -65,6 +66,7 @@ main {
 @import "./components/layout/diplomadosDetalle.scss";
 @import "./components/layout/header";
 @import "./components/layout/footer";
+@import "./components/layout/footerTablet";
 @import "./components/layout/mobileMenu";
 @import "./components/layout/navBar";
 @import "./components/layout/portadaPaginas";

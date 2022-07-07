@@ -3,6 +3,9 @@ import { Link } from "react-router-dom"
 const Footer = () => {
     return (
         <footer className="footer">
+            <div className="logo">
+                <img src="/images/branding/CoquereLogoCircularFooter.webp" alt="Coquere logo footer" />
+            </div>
             <div className="coquere">
                 <h2>Coquere escuela de cocina</h2>
                 <div>
@@ -11,6 +14,7 @@ const Footer = () => {
                     <Link to="/empresarial"><p>Actividades empresariales</p></Link>
                 </div>
             </div>
+
             <div className="nuestrasInstalaciones">
                 <h2>Nuestras instalaciones</h2>
                 <div>
@@ -18,13 +22,15 @@ const Footer = () => {
                     <p>78294 San Luis, S.L.P., Mexico</p>
                 </div>
             </div>
-            <div className="contacto">
+
+            <div className="nuestrasInstalaciones">
                 <h2>Contacto</h2>
                 <div>
                     <p>+52 444 715 5980</p>
                     <p>coquereslp@gmail.com</p>
                 </div>
             </div>
+
             <div className="redesSociales">
                 <h2>Redes sociales</h2>
                 <div>
@@ -38,13 +44,16 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="logo">
-                <img src="/images/branding/CoquereLogoCircularFooter.webp" alt="Coquere logo footer" />
-            </div>
-            <hr />
+
+
             <div className="derechos">
-                <h2>Coquere escuela de cocina 2022 -</h2><p>Todos los derechos reservados</p>
+                <hr />
+                <div className="derechos--texto">
+                    <h2>Coquere escuela de cocina 2022 -</h2>
+                    <p>Todos los derechos reservados</p>
+                </div>
             </div>
+
         </footer>
     )
 }
