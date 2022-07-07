@@ -23,6 +23,7 @@ import Panaderia from './pages/diplomados/detalles/Panaderia';
 import Gelatinas from './pages/diplomados/detalles/Gelatinas';
 import Cocteleria from './pages/diplomados/detalles/Cocteleria';
 import Parrillada from './pages/diplomados/detalles/Parrillada';
+import FooterTablet from './components/layout/FooterTablet';
 
 
 
@@ -52,7 +53,7 @@ function App() {
         </Routes>
         
         <WappFloat />
-        <Footer />
+        {window.innerWidth < 768 ? <Footer /> : <FooterTablet />}
       </BrowserRouter>
     </div>
   );
