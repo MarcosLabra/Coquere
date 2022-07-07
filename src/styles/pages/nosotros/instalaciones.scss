@@ -15,10 +15,27 @@
     margin-bottom: 1.5rem;
   }
 
-  img {
-    width: 100%;
-    margin-top: 0.8rem;
-    margin-bottom: 1rem;
+  .instalaciones__slider {
+    div {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 272px;
+        height: 260px;
+        border-radius: $br-10;
+        object-fit: cover;
+      }
+    }
+    .awssld__content {
+      background-color: transparent;
+    }
+    .awssld__wrapper {
+      height: 300px;
+    }
+    .awssld__timer {
+      opacity: 0;
+      pointer-events: none;
+    }
   }
 }
 
