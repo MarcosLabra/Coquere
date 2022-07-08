@@ -5,56 +5,16 @@ import Boton from '../../components/layout/Boton';
 const talleres =
   [
     {
-      img: "/images/talleres/reposteria-mesaDePostres.jpg",
-      titulo: "Mesa  de postres",
-      duracion: "4 horas",
-      img2: "/images/talleres/reposteria-browniesYCheescake.png",
-      titulo2: "Brownies y Cheesecake",
-      duracion2: "4 horas"
-    },
-    {
       img: "/images/talleres/reposteria-macarons.png",
       titulo: "Macarons",
       duracion: "4 horas",
-      img2: "/images/talleres/reposteria-postresIndividuales.png",
-      titulo2: "Postres individuales",
+      img2: "/images/talleres/reposteria-pastelDeCupcakes.png",
+      titulo2: "Pastel de cupcakes",
       duracion2: "4 horas"
     },
     {
-      img: "/images/talleres/reposteria-pastelDeCupcakes.png",
-      titulo: "Pastel de cupcakes",
-      duracion: "4 horas",
-      img2: "/images/talleres/reposteria-pastelDecorado.png",
-      titulo2: "Pastel decorado",
-      duracion2: "4 horas"
-    },
-    {
-      img: "/images/talleres/reposteria-roscaDeReyes.png",
-      titulo: "Rosca de reyes",
-      duracion: "4 horas",
-      img2: "/images/talleres/reposteria-manejoDeDuyas.png",
-      titulo2: "Manejo de duyas",
-      duracion2: "4 horas"
-    },
-    {
-      img: "/images/talleres/galletasGourmet.png",
-      titulo: "Galletas gourmet",
-      duracion: "4 horas",
-      img2: "/images/talleres/cocinaSalada-pizzaFocaccia.png",
-      titulo2: "Pizza y Focaccia",
-      duracion2: "4 horas"
-    },
-    {
-      img: "",
-      titulo: "Sushi y Yakimeshi",
-      duracion: "4 horas",
-      img2: "",
-      titulo2: "Pastas",
-      duracion2: "4 horas"
-    },
-    {
-      img: "cocteleria-cocteleria.jpg",
-      titulo: "Coctelería",
+      img: "/images/talleres/cocinaSalada-pizzaFocaccia.png",
+      titulo: "Pizza y Focaccia",
       duracion: "4 horas"
     }
   ]

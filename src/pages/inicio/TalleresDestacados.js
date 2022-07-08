@@ -4,7 +4,6 @@ import Boton from '../../components/layout/Boton';
 
 const talleres =
   [
-   
     {
       img: "/images/talleres/reposteria-macarons.png",
       titulo: "Macarons",
@@ -34,9 +33,9 @@ const TalleresDestacados = () => {
       >
         {talleres.map((talleres) => {
           return (
-          <div>
-            <TalleresCard img={talleres.img} titulo={talleres.titulo} duracion={talleres.duracion} />
-          </div>)
+            <div>
+              <TalleresCard img={talleres.img} titulo={talleres.titulo} duracion={talleres.duracion} />
+            </div>)
         }
         )}
       </AwesomeSlider>

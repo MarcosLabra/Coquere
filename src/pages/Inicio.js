@@ -36,7 +36,7 @@ const Inicio = () => {
                 <ComoLlegar />
             </main>
         )
-    } else if (window.innerWidth > 768 && window.innerWidth < 1200) {
+    } else if (window.innerWidth > 767 && window.innerWidth < 1200) {
         return (
             <main className="inicio">
                 <SliderInicio />

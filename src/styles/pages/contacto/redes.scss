@@ -24,7 +24,7 @@
 
     div {
       margin-bottom: 0.8rem;
-      margin-left: 3.5vw;
+      margin-left: 15px;
       display: flex;
       flex-direction: column;
 
@@ -53,17 +53,17 @@
 
     .redesContenedores {
       img {
-        width: 80px;
-        height: 80px;
+        width: 65px;
+        height: 65px;
       }
 
       div {
         strong {
-          font-size: $fs-md;
+          font-size: $fs-mdg;
         }
 
         p {
-          font-size: $fs-md;
+          font-size: $fs-mdg;
         }
       }
     }

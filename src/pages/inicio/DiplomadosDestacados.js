@@ -20,7 +20,7 @@ const diplomados =
     {
       img: "/images/diplomados/cocteleria.jpg",
       titulo: "Coctelería",
-      duracion: "5 clases",
+      duracion: "3 clases",
       url: "/diplomados/cocteleria"
     }
 

@@ -9,28 +9,15 @@ const diplomados =
             img: "/images/diplomados/reposteriaBasica.png",
             titulo: "Repostería Básica",
             duracion: "10 clases",
-            url: "/diplomados/reposteria-basica",
-            img2: "/images/diplomados/reposteriaNivel2.png",
-            titulo2: "Repostería Nivel 2",
-            duracion2: "6 clases",
-            url2: "/diplomados/reposteria-nivel-2"
-        },
-        {
-            img: "/images/diplomados/reposteriaIntensiva.png",
-            titulo: "Repostería Intensiva",
-            duracion: "8 clases",
-            url: "/diplomados/reposteria-intensiva",
-            img2: "/images/diplomados/panaderia.png",
-            titulo2: "Panaderia",
-            duracion2: "5 clases",
-            url2: "/diplomados/panaderia"
-        },
-        {
-            img: "/images/diplomados/gelatinas.png",
-            titulo: "Gelatinas",
-            duracion: "5 clases",
-            url: "/diplomados/gelatinas"
-        }
+            img2: "/images/diplomados/gelatinas.png",
+            titulo2: "Gelatinas",
+            duracion2: "4 clases",
+          },
+          {
+            img: "/images/diplomados/cocteleria.jpg",
+            titulo: "Coctelería",
+            duracion: "3 clases",
+          }
 
     ]
 
