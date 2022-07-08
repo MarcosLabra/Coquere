@@ -32,7 +32,7 @@
         font-family: $ff-inter;
         font-size: $fs-md;
         font-weight: 500;
-        span{
+        span {
           font-weight: bold;
         }
       }
@@ -54,8 +54,8 @@
     }
     .sliderInicio__slider--descripcion2 {
       position: absolute;
-      width: 310px;
-      height: 130px;
+      width: 300px;
+      height: 140px;
       margin: 30px;
       background-color: #ffffffa7;
       border-radius: $br-10;
@@ -65,19 +65,20 @@
       flex-direction: column;
       justify-content: space-evenly;
       align-items: flex-start;
-      padding: 17px;
+      padding: 20px;
       p {
         line-height: 1.5;
         font-family: $ff-inter;
         font-size: $fs-md;
         font-weight: 500;
-        span{
+        span {
           font-weight: bold;
         }
       }
       .boton {
         background-color: $turquesa-oscuro;
         margin: 0;
+        margin-top: 0.5rem;
         align-self: end;
       }
     }
@@ -102,10 +103,16 @@
         margin-left: 60px;
         width: 290px;
         height: 250px;
-        
+
         p {
           font-size: $fs-mdg;
         }
+      }
+    }
+    .sliderInicio__slider--slide2 {
+      .sliderInicio__slider--descripcion2 {
+        height: 170px;
+        margin-left: 60px;
       }
     }
   }

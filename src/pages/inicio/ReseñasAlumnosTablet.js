@@ -5,19 +5,19 @@ import AlumnosCard from '../../components/cards/AlumnosCard'
 const reseñas = [
     {
         img: "/images/alumnos/alumno1.png",
-        frase: "“La mejor forma de aprender es haciendo lo que aprendemos”",
-        nombre: "Juan Pérez",
-        titulo: "Diplomado de Repostería Nivel 2",
+        frase: "“Excelentes cursos, ¡Súper recomendable! Ya he asistido a algunos cursos y me encanta. Nos queda delicioso y todo hecho por nosotros. Lista para el siguiente, vale la pena invertir en aprender.”",
+        nombre: "Sara Canosa,",
+        titulo: "Diplomado de Gelatinas",
         img2: "/images/alumnos/alumno2.png",
-        frase2: "“La mejor forma de aprender es haciendo lo que aprendemos”",
-        nombre2: "Juan Pérez",
-        titulo2: "Diplomado de Repostería Nivel 2"
+        frase2: "“Me encanto el ambiente, la manera de trabajar y sobretodo, que yo hice todo desde cero.”",
+        nombre2: "Leo Jimenez,",
+        titulo2: "Taller Pastel de Cupcakes"
     },
     {
         img: "/images/alumnos/alumno3.png",
-        frase: "“La mejor forma de aprender es haciendo lo que aprendemos”",
-        nombre: "Juan Pérez",
-        titulo: "Diplomado de Repostería Nivel 2"
+        frase: "“Es una escuela súper profesional, con cursos prácticos y efectivos. El ambiente también es muy bonito y todo el personal es súper amable.”",
+        nombre: "Adriana Lobato,",
+        titulo: "Diplomado de Repostería"
     }
 ]
 

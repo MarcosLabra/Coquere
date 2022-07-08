@@ -9,6 +9,7 @@
   .imgEmpresarial {
     width: 100%;
     margin-top: 2rem;
+    object-fit: cover;
   }
 }
 
@@ -17,5 +18,9 @@
     p {
       font-size: $fs-mdg;
     }
+  }
+  .imgEmpresarial {
+    height: 500px;
+    border-radius: $br-10;
   }
 }

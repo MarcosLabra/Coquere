@@ -32,6 +32,11 @@
     h4 {
       font-size: $fs-xl;
     }
+    .reseñasAlumnos__slider {
+      .awssld__wrapper {
+        height: 420px;
+      }
+    }
   }
 }
 
@@ -40,6 +45,11 @@
     padding: 2rem 10%;
     h4 {
       font-size: $fs-xl;
+    }
+    .reseñasAlumnos__slider {
+      .awssld__wrapper {
+        height: 450px;
+      }
     }
     .reseñasAlumnos__galeria {
       display: flex;
