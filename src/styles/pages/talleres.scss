@@ -1,8 +1,16 @@
-.talleres{
-    width:100vw;
-    .boton{
-        background-color: $turquesa-oscuro;
-        margin-bottom: 2rem;
-        margin-left: 5%;
-      }
+.talleres {
+  width: 100vw;
+  .boton {
+    background-color: $turquesa-oscuro;
+    margin-bottom: 2rem;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .talleres {
+    .boton {
+      margin-left: 15vw;
+    }
+  }
 }

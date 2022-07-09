@@ -79,7 +79,7 @@
     }
     .porqueElegirnosGaleria {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       margin-bottom: 2rem;
       img {
         width: 325px;
@@ -90,5 +90,12 @@
     .boton {
       margin: 0;
     }
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .porqueElegirnos {
+    padding: 5rem 15vw;
   }
 }

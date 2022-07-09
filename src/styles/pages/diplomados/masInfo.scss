@@ -25,3 +25,29 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .masInfo {
+    padding: 1rem 10% 3rem 10%;
+
+    .masInfo--titulos {
+      font-size: $fs-mdg;
+    }
+    .masInfo--masInfo {
+      font-size: $fs-mdg;
+    }
+    ul {
+      li {
+        margin-left: 5%;
+
+        font-size: $fs-mdg;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .masInfo {
+    padding: 1rem 15vw 3rem 15vw;
+  }
+}

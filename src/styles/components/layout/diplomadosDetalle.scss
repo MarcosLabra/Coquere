@@ -5,70 +5,117 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 1rem 5% 0 5%;
 
-    h3 {
+  h3 {
     align-self: start;
-    margin-top: 1.5rem;
     margin-bottom: 1rem;
-    margin-left: 5%;
     font-family: $ff-poppins;
     font-weight: 600;
     font-size: $fs-mdg;
     color: $verde-oscuro;
   }
-
-  p {
-    margin-top: 0.6rem;
-    margin-bottom: 1rem;
-    margin-left: 5%;
-    font-family: $ff-inter;
-    font-size: $fs-sm;
-    span {
-      font-weight: 600;
+  .diplomadosDetalle--contenedor {
+    .diplomadosDetalle--portada {
+      width: 330px;
+      height: 220px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    .diplomadosDetalle--clases {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1.5rem;
+      h5 {
+        font-family: $ff-inter;
+        font-size: $fs-sm;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      ol {
+        margin-left: 1.5rem;
+        li {
+          font-family: $ff-inter;
+          font-size: $fs-sm;
+          font-weight: 500;
+          margin-bottom: 0.3rem;
+        }
+      }
     }
   }
-
-  div {
-    display: flex;
-    flex-direction: column;
-    strong {
-      margin-bottom: 0.6rem;
-      margin-left: 5%;
-      font-family: $ff-inter;
-      font-size: $fs-sm;
-      font-weight: 600;
-    }
-
-    li {
-      margin-bottom: 0.5vw;
-      margin-left: 15%;
-      margin-right: 10%;
-      font-family: $ff-inter;
-      font-size: $fs-sm;
-      font-weight: 500;
-    }
-
+  .diplomadosDetalle--duracion {
+    margin-left: 0.5rem;
     p {
-      margin: 0 6%;
-      margin-top: 1.5rem;
-      margin-bottom: 0.5vw;
       font-family: $ff-inter;
       font-size: $fs-sm;
-      font-weight: 500;
+      margin-bottom: 1.5rem;
+      span {
+        font-weight: 600;
+      }
     }
-  }
-
-  .diplomadosDetalle--portada {
-    width: 330px;
-    height: 220px;
-    object-fit: cover;
-    margin-bottom: 1.5rem;
   }
 }
 
 .marcoBotonWapp {
-  margin-top: 8vw;
+  margin-bottom: 2rem;
   width: 100vw;
-  height: 25vw;
-  background-color: white;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .diplomadosDetalle {
+    padding: 2rem 10% 0 10%;
+
+    h3 {
+      font-size: $fs-lg;
+    }
+    .diplomadosDetalle--contenedor {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .diplomadosDetalle--portada {
+        width: 280px;
+        height: 260px;
+      }
+      .diplomadosDetalle--clases {
+        order: -1;
+        margin-bottom: 1.5rem;
+        h5 {
+          font-size: $fs-mdg;
+
+          margin-bottom: 1rem;
+        }
+        ol {
+          margin-left: 1.5rem;
+          width: 90%;
+          li {
+            font-size: $fs-mdg;
+
+            margin-bottom: 0.3rem;
+          }
+        }
+      }
+    }
+    .diplomadosDetalle--duracion {
+      margin-left: 0.5rem;
+      align-self: flex-start;
+      p {
+        font-size: $fs-mdg;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+
+  .marcoBotonWapp {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .diplomadosDetalle {
+    padding: 2rem 15vw 0 15vw;
+  }
+  .marcoBotonWapp {
+    margin-left: 15vw;
+  }
 }

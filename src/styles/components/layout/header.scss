@@ -42,3 +42,9 @@ header {
     }
   }
 }
+
+@media (min-width: 1440px) {
+  header {
+    padding: 0 12vw;
+  }
+}

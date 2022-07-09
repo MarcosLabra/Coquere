@@ -33,8 +33,12 @@
     }
   }
   .imgEmpresarial {
-    height: 500px;
-    border-radius: $br-10;
+    height: 631px;
   }
 }
 
+@media (min-width: 1440px) {
+  .empresarialContenido {
+    padding: 4rem 15vw;
+  }
+}

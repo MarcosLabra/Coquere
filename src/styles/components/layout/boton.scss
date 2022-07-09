@@ -25,15 +25,13 @@
 @media (min-width: 768px) {
   .boton {
     margin: 0;
-    padding: 0.5rem 1rem;
-
     .boton--imagen {
       height: 30px;
       margin-right: 1rem;
       color: $blanco;
     }
     .boton--texto {
-      font-size: $fs-mdg;
+      font-size: $fs-md;
     }
   }
 }
