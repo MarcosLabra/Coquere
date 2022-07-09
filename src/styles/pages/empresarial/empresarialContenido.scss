@@ -24,3 +24,17 @@
     border-radius: $br-10;
   }
 }
+
+@media (min-width: 1200px) {
+  .empresarialContenido {
+    padding: 4rem 10%;
+    p {
+      font-size: $fs-mdg;
+    }
+  }
+  .imgEmpresarial {
+    height: 500px;
+    border-radius: $br-10;
+  }
+}
+

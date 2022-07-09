@@ -147,3 +147,37 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .footerTablet {
+    .footerTablet--contenido {
+      padding: 2rem 10%;
+
+      .footerTablet__colIzq {
+        .footerTablet__colIzq--coquere {
+          margin-bottom: 3.3rem;
+        }
+      }
+      .footerTablet__logo {
+        img {
+          width: 240px;
+        }
+      }
+      .footerTablet__colDer {
+        padding-left: 5rem;
+      }
+    }
+    .footerTablet__derechos {
+      .derechos--texto {
+        h2 {
+          font-weight: 700;
+          font-size: $fs-mdg;
+        }
+        p {
+          font-weight: 700;
+          font-size: $fs-mdg;
+        }
+      }
+    }
+  }
+}

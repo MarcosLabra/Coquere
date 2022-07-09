@@ -1,17 +1,19 @@
 import { useEffect } from "react"
 import BotonWapp from "../components/layout/BotonWapp"
 import PortadaPaginas from "../components/layout/PortadaPaginas"
-import TalleresCarrouselReposteria from "./talleres/TalleresCarrouselReposteria"
-import TalleresCarrouselReposteriaTablet from "./talleres/TalleresCarrouselReposteriaTablet"
+import MasInfoTalleres from "./talleres/MasInfoTalleres"
 import TalleresCarrouselComidaSalada from "./talleres/TalleresCarrouselComidaSalada"
 import TalleresCarrouselComidaSaladaTablet from "./talleres/TalleresCarrouselComidaSaladaTablet"
-import MasInfoTalleres from "./talleres/MasInfoTalleres"
+import TalleresCarrouselComidaSaladaDesktop from "./talleres/TalleresCarrouselComidaSaladaDesktop"
+import TalleresCarrouselReposteriaDesktop from "./talleres/TalleresCorrouselReposteriaDesktop"
+import TalleresCarrouselReposteriaTablet from "./talleres/TalleresCarrouselReposteriaTablet"
+import TalleresCarrouselReposteria from "./talleres/TalleresCarrouselReposteria"
 
 
 const Talleres = () => {
 
-    
-  
+
+
 
     useEffect(() => {
         window.scrollTo({
@@ -24,9 +26,13 @@ const Talleres = () => {
     return (
         <main className="talleres">
             <PortadaPaginas img={"/images/portadas/talleresCortosPortada.png"} titulo={"Talleres cortos"} />
-            {window.innerWidth < 768 ? <TalleresCarrouselReposteria /> : <TalleresCarrouselReposteriaTablet />}
-            {window.innerWidth < 768 ? <TalleresCarrouselComidaSalada /> : <TalleresCarrouselComidaSaladaTablet />}
+            {window.innerWidth < 767 ? <TalleresCarrouselReposteria /> : null}
+            {window.innerWidth > 767 && window.innerWidth < 1200 ? <TalleresCarrouselReposteriaTablet /> : null}
+            {window.innerWidth > 1200 ? <TalleresCarrouselReposteriaDesktop /> : null}
 
+            {window.innerWidth < 767 ? <TalleresCarrouselComidaSalada /> : null}
+            {window.innerWidth > 767 && window.innerWidth < 1200 ? <TalleresCarrouselComidaSaladaTablet /> : null}
+            {window.innerWidth > 1200 ? <TalleresCarrouselComidaSaladaDesktop /> : null}
             <BotonWapp texto={"¡Quiero inscribirme!"} url={"https://alvo.chat/4oD"} />
             <MasInfoTalleres />
         </main>

@@ -58,3 +58,18 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .reseñasAlumnos {
+    padding: 4rem 10%;
+    .reseñasAlumnos__slider {
+      .awssld__wrapper {
+        height: 410px;
+      }
+    }
+    .reseñasAlumnos__galeria {
+      
+      margin: 2rem 0;
+    }
+  }
+}
