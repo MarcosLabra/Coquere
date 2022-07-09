@@ -11,7 +11,7 @@
       .footerTablet__colIzq--coquere {
         margin-bottom: 2rem;
         h2 {
-          margin-bottom: 0.5rem;
+          margin-bottom: 1rem;
           color: $footer-derechos;
           font-weight: bold;
           font-family: $ff-poppins;
@@ -24,7 +24,7 @@
 
           a {
             color: black;
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
             font-family: $ff-inter;
             font-size: $fs-md;
             font-weight: 600;
@@ -33,7 +33,7 @@
       }
       .footerTablet__colIzq--nuestrasInstalaciones {
         h2 {
-          margin-bottom: 0.5rem;
+          margin-bottom: 1rem;
           color: $footer-derechos;
           font-weight: bold;
           font-family: $ff-poppins;
@@ -44,7 +44,7 @@
           flex-direction: column;
 
           p {
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
             font-family: $ff-inter;
             font-size: $fs-md;
             font-weight: 600;
@@ -67,7 +67,7 @@
       .footerTablet__colDer--contacto {
         margin-bottom: 4.6rem;
         h2 {
-          margin-bottom: 0.5rem;
+          margin-bottom: 1rem;
           color: $footer-derechos;
           font-weight: bold;
           font-family: $ff-poppins;
@@ -78,7 +78,7 @@
           flex-direction: column;
 
           p {
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
             font-family: $ff-inter;
             font-size: $fs-md;
             font-weight: 600;
@@ -91,7 +91,7 @@
           flex-direction: row;
           align-items: center;
           justify-content: flex-start;
-          margin-bottom: 0.5rem;
+          margin-bottom: 1rem;
 
           img {
             width: 25px;
@@ -100,7 +100,7 @@
           }
         }
         h2 {
-          margin-bottom: 0.5rem;
+          margin-bottom: 1rem;
           color: $footer-derechos;
           font-weight: bold;
           font-family: $ff-poppins;
@@ -130,7 +130,7 @@
       display: flex;
       justify-content: center;
       h2 {
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
         color: $footer-derechos;
         font-weight: 500;
         font-family: $ff-poppins;
@@ -178,6 +178,14 @@
           font-size: $fs-mdg;
         }
       }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .footerTablet {
+    .footerTablet--contenido {
+      padding: 2rem 12vw;
     }
   }
 }

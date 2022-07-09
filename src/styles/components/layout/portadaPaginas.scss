@@ -22,8 +22,6 @@
 
 @media (min-width: 768px) {
   .portadaPaginas {
-    width: 100vw;
-    position: relative;
     .portadaPaginas__titulo {
       h1 {
         font-size: $fs-xxl;
@@ -39,10 +37,19 @@
       object-position: top;
     }
     .portadaPaginas__titulo {
-      padding:.5rem 5% ;
+      padding: 0.5rem 5%;
       h1 {
         font-size: $fs-xxl;
       }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .portadaPaginas {
+    padding: 0 12vw;
+    .portadaPaginas__titulo {
+     width: 40%;
     }
   }
 }
