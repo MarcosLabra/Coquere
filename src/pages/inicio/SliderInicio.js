@@ -26,6 +26,9 @@ const SliderInicio = () => {
 
                 <div className='sliderInicio__slider--slide2'>
                     <img src="/images/sliderInicio/sliderInicio2.jpg" alt="" srcset="" className='sliderInicio__slider--slide--img2' />
+                    <div className='sliderInicio__slider--slide2--logo'>
+                        <img src="/images/branding/CoquereLogo.webp" alt="" />
+                    </div>
                     <div className='sliderInicio__slider--descripcion2'>
                         <p>Ofrecemos talleres de corta duración para aquellos estudiantes con deseos específicos.</p>
                         <Boton texto='Talleres cortos' url='/talleres' />
@@ -34,6 +37,9 @@ const SliderInicio = () => {
 
                 <div className='sliderInicio__slider--slide2'>
                     <img src="/images/sliderInicio/sliderInicio3.jpg" alt="" srcset="" className='sliderInicio__slider--slide--img2' />
+                    <div className='sliderInicio__slider--slide2--logo'>
+                        <img src="/images/branding/CoquereLogoNegro.png" alt="" />
+                    </div>
                     <div className='sliderInicio__slider--descripcion2'>
                         <p>Diplomados especializados con grupos reducidos para garantizar la calidad de la enseñanza.</p>
                         <Boton texto='Diplomados' url='/diplomados' />

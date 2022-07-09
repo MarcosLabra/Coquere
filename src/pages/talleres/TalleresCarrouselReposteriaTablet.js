@@ -2,7 +2,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import TalleresCard from '../../components/cards/TalleresCard';
 
 
-const TalleresCarrousel = () => {
+const TalleresCarrouselTablet = () => {
 
     const taller = [
         {
@@ -80,6 +80,6 @@ const TalleresCarrousel = () => {
         )
 }
 
-export default TalleresCarrousel
+export default TalleresCarrouselTablet
 
 

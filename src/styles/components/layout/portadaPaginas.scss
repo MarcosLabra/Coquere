@@ -31,3 +31,18 @@
     }
   }
 }
+@media (min-width: 1200px) {
+  .portadaPaginas {
+    img {
+      height: 400px;
+      object-fit: cover;
+      object-position: top;
+    }
+    .portadaPaginas__titulo {
+      padding:.5rem 5% ;
+      h1 {
+        font-size: $fs-xxl;
+      }
+    }
+  }
+}

@@ -1,7 +1,14 @@
 .diplomadosGaleria {
   display: flex;
   flex-wrap: wrap;
+  padding: 2rem 3%;
   div {
     margin: 2rem auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .diplomadosGaleria {
+    padding: 4rem 8%;
   }
 }

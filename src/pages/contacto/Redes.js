@@ -4,6 +4,7 @@ const Redes = () => {
     return (
         <section id='redes' className="redes">
             <h4>Siguenos en Nuestras Redes</h4>
+            <div className="redes__contenedor">
             <div className='redesContenedores'>
                 <img src="/images/redes/redesContactoFacebook.png" alt="Logo facebook" />
                 <div>
@@ -24,6 +25,7 @@ const Redes = () => {
                     <strong>Email</strong>
                     <p>coquereslp@gmail.com</p>
                 </div>
+            </div>
             </div>
         </section>
     )
