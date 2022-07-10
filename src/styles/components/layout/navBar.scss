@@ -9,6 +9,11 @@
     font-weight: bold;
     color: $blanco;
     margin-left: 30px;
+    transition: 0.3s;
+
+    &:hover{
+      color: #4ed4de;
+    }
   }
   .active {
     p {
@@ -45,6 +50,11 @@
       color: white;
       font-family: $ff-poppins;
       font-size: $fs-sm;
+      transition: 0.3s;
+
+    &:hover{
+      color: #4ed4de;
+    }
     }
   }
 }
