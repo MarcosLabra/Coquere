@@ -23,7 +23,7 @@ const Redes = () => {
                     <img src="/images/redes/redesContactoMail.png" alt="Logo mail" />
                     <div>
                         <strong>Email</strong>
-                        <p>coquereslp@gmail.com</p>
+                        <p>hola@cocinacoquere.com</p>
                     </div>
                 </div>
             </div>
