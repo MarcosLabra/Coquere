@@ -3,9 +3,14 @@ import { NavHashLink } from 'react-router-hash-link';
 const Navbar = () => {
 
     function handleClick() {
-        if (document.getElementById('mobileMenu').classList.contains('show')) {
-            document.getElementById('mobileMenu').classList.toggle('show');
-        }
+        document.getElementById('nosotros').classList.remove('bgVerde')
+        document.getElementById('nosotrosDesplegable').classList.remove('showDesplegables')
+
+        document.getElementById('diplomados').classList.remove('bgVerde')
+        document.getElementById('diplomadosDesplegable').classList.remove('showDesplegables')
+
+        document.getElementById('talleres').classList.remove('bgVerde')
+        document.getElementById('talleresDesplegable').classList.remove('showDesplegables')
     }
 
     function scrollWithOffset(el) {
