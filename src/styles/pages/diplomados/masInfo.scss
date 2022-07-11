@@ -46,6 +46,17 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .masInfo {
+    padding: 3rem 10%;
+    ul {
+      li {
+        font-size: $fs-md;
+      }
+    }
+  }
+}
+
 @media (min-width: 1440px) {
   .masInfo {
     padding: 1rem 15vw 3rem 15vw;

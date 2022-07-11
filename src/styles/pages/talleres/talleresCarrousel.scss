@@ -48,8 +48,14 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .talleresCarrousel {
+    padding: 0rem 8% 2rem 8%;
+  }
+}
+
 @media (min-width: 1440px) {
   .talleresCarrousel {
-    padding: 3rem 15vw;
+    padding: 0rem 15vw 2rem 15vw;
   }
 }

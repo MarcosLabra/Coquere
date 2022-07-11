@@ -17,9 +17,9 @@ const TalleresCarrouselReposteriaDesktop = () => {
             duracion3: "4 horas",
         },
         {
-            img1: "/images/talleres/reposteria-macarons.png",
-            titulo1: "Macarons",
-            duracion1: "4 horas",
+            img: "/images/talleres/reposteria-macarons.png",
+            titulo: "Macarons",
+            duracion: "4 horas",
             img2: "/images/talleres/reposteria-postresIndividuales.png",
             titulo2: "Postres individuales",
             duracion2: "4 horas",
@@ -39,9 +39,9 @@ const TalleresCarrouselReposteriaDesktop = () => {
             duracion3: "3 horas"
         },
         {
-            img1: "/images/talleres/reposteria-galletasGourmet.png",
-            titulo1: "Galletas gourmet",
-            duracion1: "4 horas"
+            img: "/images/talleres/reposteria-galletasGourmet.png",
+            titulo: "Galletas gourmet",
+            duracion: "4 horas"
         }
     ]
 
