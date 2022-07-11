@@ -7,7 +7,18 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media (min-width: 1200px) {
+  .talleres {
+    .portadaPaginas {
+      margin-bottom: 3rem;
+    }
+    .boton {
+      margin-left: 8%;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
   .talleres {
     .boton {
       margin-left: 15vw;

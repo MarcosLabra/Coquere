@@ -33,6 +33,9 @@
 @media (min-width: 1200px) {
   .rentaNuestrasInstalaciones {
     padding: 4rem 10%;
+    .rentaNuestrasInstalaciones--texto {
+      font-size: $fs-md;
+    }
   }
 }
 @media (min-width: 1440px) {

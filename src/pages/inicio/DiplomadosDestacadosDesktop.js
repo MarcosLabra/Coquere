@@ -30,7 +30,7 @@ const DiplomadosDestacadosDesktop = () => {
                         <>
                             <DiplomadosDestacadosCard img={diplomados.img} titulo={diplomados.titulo} duracion={diplomados.duracion} url={diplomados.url} />
                             <DiplomadosDestacadosCard img={diplomados.img2} titulo={diplomados.titulo2} duracion={diplomados.duracion2} url={diplomados.url2} />
-                            <DiplomadosDestacadosCard img={diplomados.img3} titulo={diplomados.titulo3} duracion={diplomados.duracion3} url={diplomados.url2} />
+                            <DiplomadosDestacadosCard img={diplomados.img3} titulo={diplomados.titulo3} duracion={diplomados.duracion3} url={diplomados.url3} />
                         </>
                     )}
                 )}

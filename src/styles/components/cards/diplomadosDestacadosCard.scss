@@ -59,3 +59,23 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .diplomadosDestacados__card {
+    width: 300px;
+    height: 280px;
+    .diplomadosDestacados__card--titulo {
+      bottom: 33%;
+      h5 {
+        font-size: $fs-mdg;
+      }
+    }
+    .diplomadosDestacados__card--descripcion {
+      p {
+        font-size: $fs-md;
+      }
+    }
+  }
+}
+
+

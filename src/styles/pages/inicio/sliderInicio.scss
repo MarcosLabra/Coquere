@@ -155,7 +155,7 @@
         padding: 60px 30px;
         justify-content: space-between;
         p {
-          font-size: $fs-xxl;
+          font-size: $fs-xl;
         }
       }
     }
@@ -174,17 +174,21 @@
       }
       .sliderInicio__slider--descripcion2 {
         width: 1085px;
-        height: 195px;
-        padding: 40px;
+        height: 140px;
+        padding: 30px;
         justify-content: space-between;
         margin: 0 0 60px 0;
         p {
-          font-size: $fs-xxl;
+          font-size: $fs-xl;
         }
         .boton {
           position: absolute;
+
           bottom: 10%;
           padding: 0.5rem 3rem;
+          p {
+            font-size: $fs-lg;
+          }
         }
       }
     }

@@ -57,12 +57,12 @@
       transition: 0.3s;
 
       &:hover{
-        transform: scale(1.1);
-        color: #4ed4de;
+        transform: scale(1.05);
+        color: $verde-oscuro;
     }
 
     &:active{
-      transform: scale(0.9);
+      transform: scale(0.95);
     }
     }
   }
@@ -78,6 +78,24 @@
     .diplomados__card--descripcion {
       .diplomados__card--duracion {
         font-size: $fs-lg;
+      }
+      .diplomados__card--verMas {
+        font-size: $fs-mdg;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .diplomados__card {
+    .diplomados__card--titulo {
+      h5 {
+        font-size: $fs-mdg;
+      }
+    }
+    .diplomados__card--descripcion {
+      .diplomados__card--duracion {
+        font-size: $fs-md;
       }
       .diplomados__card--verMas {
         font-size: $fs-mdg;

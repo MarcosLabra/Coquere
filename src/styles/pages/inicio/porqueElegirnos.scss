@@ -70,11 +70,11 @@
     padding: 5rem 10%;
     h4 {
       font-size: $fs-xl;
-      margin-bottom: 2.5rem;
+      margin-bottom: 1.5rem;
     }
     p {
-      font-size: $fs-lg;
-      margin-bottom: 3rem;
+      font-size: $fs-md;
+      margin-bottom: 1.5rem;
       line-height: 1.5;
     }
     .porqueElegirnosGaleria {
@@ -82,8 +82,8 @@
       justify-content: space-evenly;
       margin-bottom: 2rem;
       img {
-        width: 325px;
-        height: 311px;
+        width: 280px;
+        height: auto;
         object-fit: cover;
       }
     }

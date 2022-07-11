@@ -44,6 +44,9 @@
 @media (min-width: 1200px) {
   .historiaCoquere {
     padding: 4rem 10%;
+    p {
+      font-size: $fs-md;
+    }
     img {
       width: 70%;
     }
