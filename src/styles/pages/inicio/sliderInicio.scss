@@ -188,3 +188,19 @@
     }
   }
 }
+
+@media (min-width: 1440px) {
+  .sliderInicio {
+    padding: 0 12vw;
+    .sliderInicio__slider--slide {
+      .sliderInicio__slider--descripcion {
+        margin-left: 17vw;
+      }
+    }
+    .sliderInicio__slider--slide2 {
+      .sliderInicio__slider--slide2--logo {
+        right: 15vw;
+      }
+    }
+  }
+}
