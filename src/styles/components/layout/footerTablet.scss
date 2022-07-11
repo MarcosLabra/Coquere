@@ -28,6 +28,11 @@
             font-family: $ff-inter;
             font-size: $fs-md;
             font-weight: 600;
+            transition: 0.3s;
+
+            &:hover {
+              color: aqua;
+            }
           }
         }
       }
@@ -115,6 +120,11 @@
             font-family: $ff-inter;
             font-size: $fs-md;
             font-weight: 600;
+            transition: 0.3s;
+
+          &:hover {
+            color: aqua;
+          }
           }
         }
       }

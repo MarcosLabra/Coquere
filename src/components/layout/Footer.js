@@ -27,7 +27,7 @@ const Footer = () => {
                 <h2>Contacto</h2>
                 <div>
                     <p>+52 444 715 5980</p>
-                    <p>coquereslp@gmail.com</p>
+                    <p>hola@cocinacoquere.com</p>
                 </div>
             </div>
 
