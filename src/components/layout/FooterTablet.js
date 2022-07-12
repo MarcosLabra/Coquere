@@ -25,7 +25,7 @@ const FooterTablet = () => {
                 </div>
 
                 <div className="footerTablet__logo">
-                    <img src="/images/branding/CoquereLogoCircularFooter.webp" alt="Coquere logo footer" />
+                    <img src="/images/branding/CoquereLogoCircularFooter.svg" alt="Coquere logo footer" />
                 </div>
                 <div className="footerTablet__colDer">
 
@@ -40,14 +40,17 @@ const FooterTablet = () => {
                     <div className="footerTablet__colDer--redesSociales">
                         <h2>Redes sociales</h2>
                         <div>
-                            <div className="redesInLine">
+
+                            <a className="redesInLine" href="https://www.facebook.com/escueladecocinacoquere" target="_blank" rel="noreferrer">
                                 <img src="/images/redes/redesFacebook.jpg" alt="logo facebook" />
-                                <a href="https://www.facebook.com/escueladecocinacoquere" target="_blank" rel="noreferrer">Facebook</a>
-                            </div>
-                            <div className="redesInLine">
+                                <p>Facebook</p>
+                            </a>
+
+                            <a href="https://www.instagram.com/co.quere/" target="_blank" rel="noreferrer" className="redesInLine">
                                 <img src="/images/redes/redesInstagram.jpg" alt="logo instagram" />
-                                <a href="https://www.instagram.com/co.quere/" target="_blank" rel="noreferrer">Instagram</a>
-                            </div>
+                                <p>Instagram</p>
+                            </a>
+
                         </div>
                     </div>
                 </div>

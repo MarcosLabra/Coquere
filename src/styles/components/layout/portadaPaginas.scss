@@ -3,6 +3,7 @@
   position: relative;
   img {
     width: 100%;
+    object-fit: cover;
   }
   .portadaPaginas__titulo {
     width: 50%;
@@ -34,7 +35,6 @@
     img {
       height: 350px;
       object-fit: cover;
-      object-position: top;
     }
     .portadaPaginas__titulo {
       padding: 0.5rem 5%;

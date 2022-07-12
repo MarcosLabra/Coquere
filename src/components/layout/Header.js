@@ -25,7 +25,7 @@ const Header = () => {
     return (
         <header>
             <div className="header">
-                <NavLink to="/" ><img src="/images/branding/CoquereLogo.webp" alt="Coquere Logo" className="header__brand" /></NavLink>
+                <NavLink to="/" ><img src="/images/branding/CoquereLogo.svg" alt="Coquere Logo" className="header__brand" /></NavLink>
                 {window.innerWidth < 1200 ? <Hamburger size={20} color="#ffffff" onToggle={handleClickMenu} toggled={isOpen} toggle={setOpen} /> : <Navbar />}
             </div>
             <MobileMenu toggleState={toggleState} />

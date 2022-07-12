@@ -103,6 +103,20 @@
             height: 25px;
             border-radius: 2rem;
           }
+          p {
+            margin-left: 0.5rem;
+            color: black;
+            font-family: $ff-inter;
+            font-size: $fs-md;
+            font-weight: 600;
+            transition: 0.3s;
+          }
+
+          &:hover {
+            p {
+              color: $verde-claro;
+            }
+          }
         }
         h2 {
           margin-bottom: 1rem;
@@ -115,16 +129,9 @@
           display: flex;
           flex-direction: column;
           a {
-            margin: 0.5rem;
-            color: black;
-            font-family: $ff-inter;
-            font-size: $fs-md;
-            font-weight: 600;
-            transition: 0.3s;
-
-          &:hover {
-            color: $verde-claro;;
-          }
+            &:hover {
+              color: $verde-claro;
+            }
           }
         }
       }

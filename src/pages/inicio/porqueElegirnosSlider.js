@@ -6,15 +6,15 @@ const PorqueElegirnosSlider = () => {
             className='porqueElegirnos__slider'
         >
             <div>
-                <img src="/images/inicio/porqueElegirnos1.png" alt="" srcset="" />
+                <img src="/images/inicio/porqueElegirnos1.jpg" alt="" srcset="" />
             </div>
 
             <div>
-                <img src="/images/inicio/porqueElegirnos2.png" alt="" srcset="" />
+                <img src="/images/inicio/porqueElegirnos2.jpg" alt="" srcset="" />
             </div>
 
             <div>
-                <img src="/images/inicio/porqueElegirnos3.png" alt="" srcset="" />
+                <img src="/images/inicio/porqueElegirnos3.jpg" alt="" srcset="" />
             </div>
         </AwesomeSlider>
     )

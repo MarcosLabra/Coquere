@@ -5,17 +5,17 @@ const TalleresCarrouselComidaSalada = () => {
 
     const taller = [
         {
-            img: "/images/talleres/cocinaSalada-pizzaFocaccia.png",
+            img: "/images/talleres/cocinaSalada-pizzaFocaccia.jpg",
             titulo: "Pizza y Focaccia",
             duracion: "4 horas"
         },
         {
-            img: "/images/talleres/cocinaSalada-sushi.png",
+            img: "/images/talleres/cocinaSalada-sushi.jpg",
             titulo: "Sushi y Yakimeshi",
             duracion: "4 horas"
         },
         {
-            img: "/images/talleres/cocinaSalada-pastas.png",
+            img: "/images/talleres/cocinaSalada-pastas.jpg",
             titulo: "Pastas",
             duracion: "4 horas"
         },

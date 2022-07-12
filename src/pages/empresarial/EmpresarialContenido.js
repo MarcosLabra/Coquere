@@ -11,7 +11,7 @@ const EmpresarialContenido = () => {
             </p>
             <p>Contamos con el equipo necesario para el servicio de comida y con una terraza el cual ofrece un lugar muy agradable ideal para la proyección de presentaciones o vídeos y conferencias proporcionando así una experiencia integral en dicho espacio.</p>
             <BotonWapp icono="/images/icons/whatsapp-brands-white.svg" texto="Contáctanos ya" url="https://alvo.chat/37q" />
-            <img className='imgEmpresarial' src="/images/empresarial/empresarial.png" alt="" srcset="" />
+            <img className='imgEmpresarial' src="/images/empresarial/empresarial.jpg" alt="" srcset="" />
         </section>
     )
 }
