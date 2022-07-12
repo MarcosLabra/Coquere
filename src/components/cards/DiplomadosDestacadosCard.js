@@ -1,8 +1,8 @@
-const DiplomadosDestacadosCard = ({ img, titulo, duracion }) => {
+const DiplomadosDestacadosCard = ({ img, titulo, duracion, alt }) => {
 
     return (
         <article className="diplomadosDestacados__card">
-            <img src={img} alt="" srcset="" />
+            <img src={img} alt={alt} srcset="" />
             <div className="diplomadosDestacados__card--titulo">
                 <h5>{titulo}</h5>
             </div>

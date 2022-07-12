@@ -5,17 +5,20 @@ import Boton from '../../components/layout/Boton';
 const talleres =
   [
     {
+      alt:"Macarons",
       img: "/images/talleres/reposteria-macarons.webp",
       titulo: "Macarons",
       duracion: "4 horas"
     },
 
     {
+      alt:"Pastel de cupcakes",
       img: "/images/talleres/reposteria-pastelDeCupcakes.webp",
       titulo: "Pastel de cupcakes",
       duracion: "4 horas"
     },
     {
+      alt:"Pizza",
       img: "/images/talleres/cocinaSalada-pizzaFocaccia.webp",
       titulo: "Pizza y Focaccia",
       duracion: "4 horas"
@@ -34,7 +37,7 @@ const TalleresDestacados = () => {
         {talleres.map((talleres) => {
           return (
             <div>
-              <TalleresCard img={talleres.img} titulo={talleres.titulo} duracion={talleres.duracion} />
+              <TalleresCard img={talleres.img} titulo={talleres.titulo} duracion={talleres.duracion} alt={talleres.alt}/>
             </div>)
         }
         )}

@@ -4,16 +4,19 @@ import Boton from '../../components/layout/Boton';
 const talleres =
     [
         {
+            alt:"Macarons",
             img: "/images/talleres/reposteria-macarons.webp",
             titulo: "Macarons",
             duracion: "4 horas",
+            alt2:"Pastel de cupcakes",
             img2: "/images/talleres/reposteria-pastelDeCupcakes.webp",
             titulo2: "Pastel de cupcakes",
             duracion2: "4 horas",
+            alt3:"Pizza",
             img3: "/images/talleres/cocinaSalada-pizzaFocaccia.webp",
             titulo3: "Pizza y Focaccia",
             duracion3: "4 horas"
-          }
+        }
     ]
 
 
@@ -26,10 +29,9 @@ const TalleresDestacadosDesktop = () => {
                 {talleres.map((talleres) => {
                     return (
                         <>
-                            <TalleresCard img={talleres.img} titulo={talleres.titulo} duracion={talleres.duracion} url={talleres.url} />
-                            <TalleresCard img={talleres.img2} titulo={talleres.titulo2} duracion={talleres.duracion2} url={talleres.url2} />
-                            <TalleresCard img={talleres.img3} titulo={talleres.titulo3} duracion={talleres.duracion3} url={talleres.url2} />
-
+                            <TalleresCard img={talleres.img} titulo={talleres.titulo} duracion={talleres.duracion} url={talleres.url} alt={talleres.alt}/>
+                            <TalleresCard img={talleres.img2} titulo={talleres.titulo2} duracion={talleres.duracion2} url={talleres.url2} alt={talleres.alt2}/>
+                            <TalleresCard img={talleres.img3} titulo={talleres.titulo3} duracion={talleres.duracion3} url={talleres.url2} alt={talleres.alt3}/>
                         </>
                     )}
                 )}

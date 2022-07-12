@@ -1,7 +1,7 @@
-const AlumnosCard = ({img, frase, nombre, titulo}) => {
+const AlumnosCard = ({img, frase, nombre, titulo, alt}) => {
     return (
         <article className="alumnosCard">
-            <img src={img} alt="" />
+            <img src={img} alt={alt} />
             <p className="alumnosCard__frase">{frase}</p>
             <div className="alumnosCard__descripcion">
                 <p>{nombre}</p>

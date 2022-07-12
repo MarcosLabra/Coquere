@@ -7,14 +7,14 @@ const Empresarial = () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth',
-          });
+        });
     }
         , [])
 
     return (
         <main className="empresarial">
-             <PortadaPaginas img={"/images/portadas/empresarialPortada.webp"} titulo={"Empresarial"} />
-             <EmpresarialContenido />
+                <PortadaPaginas img={"/images/portadas/empresarialPortada.webp"} titulo={"Empresarial"} />
+                <EmpresarialContenido />
         </main>
     )
 }
