@@ -20,7 +20,7 @@ const Parrillada = () => {
     return (
         <main>
             <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.png"} titulo={"Diplomados"} subtitulo={"Parrillada"} />
-            <DiplomadosDetalle titulo={"Diplomado de Parrillada"} duracion={"5 clases"} clases={clases} duracionClase={" 4 horas"} portada={"/images/diplomados/parrillada.jpg"} />
+            <DiplomadosDetalle titulo={"Diplomado de Parrillada"} duracion={"5 clases"} clases={clases} duracionClase={" 4 horas"} portada={"/images/diplomados/parrillada.webp"} />
             <div className="marcoBotonWapp">
                 <BotonWapp texto={"¡Quiero inscribirme!"} url={"https://alvo.chat/3cy"} />
             </div>

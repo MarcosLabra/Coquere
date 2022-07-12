@@ -35,11 +35,11 @@ const Footer = () => {
                 <h2>Redes sociales</h2>
                 <div>
                     <div className="redesInLine">
-                        <img src="/images/redes/redesFacebook.jpg" alt="logo facebook" />
+                        <img src="/images/redes/redesFacebook.webp" alt="logo facebook" />
                         <a href="https://www.facebook.com/escueladecocinacoquere" target="_blank" rel="noreferrer">Facebook</a>
                     </div>
                     <div className="redesInLine">
-                        <img src="/images/redes/redesInstagram.jpg" alt="logo instagram" />
+                        <img src="/images/redes/redesInstagram.webp" alt="logo instagram" />
                         <a href="https://www.instagram.com/co.quere/" target="_blank" rel="noreferrer">Instagram</a>
                     </div>
                 </div>

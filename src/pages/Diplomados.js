@@ -15,7 +15,7 @@ const Diplomados = () => {
 
     return (
         <main className="diplomados">
-            <PortadaPaginas img={"/images/portadas/diplomadoPortada.jpg"} titulo={"Diplomados"} />
+            <PortadaPaginas img={"/images/portadas/diplomadoPortada.webp"} titulo={"Diplomados"} />
             <DiplomadosGaleria />
         </main>
     )

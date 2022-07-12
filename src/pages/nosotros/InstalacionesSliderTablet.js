@@ -7,19 +7,19 @@ const InstalacionesSliderTablet = () => {
             className='instalaciones__slider'
         >
             <div className='instalaciones__slider--contenedor'>
-                <img src="/images/instalaciones/instalaciones1.jpg" alt="" srcset="" />
+                <img src="/images/instalaciones/instalaciones1.webp" alt="" srcset="" />
 
-                <img src="/images/instalaciones/instalaciones2.jpg" alt="" />
+                <img src="/images/instalaciones/instalaciones2.webp" alt="" />
             </div>
             <div className='instalaciones__slider--contenedor'>
-                <img src="/images/instalaciones/instalaciones3.jpg" alt="" />
+                <img src="/images/instalaciones/instalaciones3.webp" alt="" />
 
-                <img src="/images/instalaciones/instalaciones4.jpg" alt="" />
+                <img src="/images/instalaciones/instalaciones4.webp" alt="" />
             </div>
             <div className='instalaciones__slider--contenedor'>
-                <img src="/images/instalaciones/instalaciones5.jpg" alt="" />
+                <img src="/images/instalaciones/instalaciones5.webp" alt="" />
 
-                <img src="/images/instalaciones/instalaciones6.jpg" alt="" />
+                <img src="/images/instalaciones/instalaciones6.webp" alt="" />
             </div>
         </AwesomeSlider>
     )

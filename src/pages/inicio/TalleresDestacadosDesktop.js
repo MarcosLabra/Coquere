@@ -4,13 +4,13 @@ import Boton from '../../components/layout/Boton';
 const talleres =
     [
         {
-            img: "/images/talleres/reposteria-macarons.jpg",
+            img: "/images/talleres/reposteria-macarons.webp",
             titulo: "Macarons",
             duracion: "4 horas",
-            img2: "/images/talleres/reposteria-pastelDeCupcakes.jpg",
+            img2: "/images/talleres/reposteria-pastelDeCupcakes.webp",
             titulo2: "Pastel de cupcakes",
             duracion2: "4 horas",
-            img3: "/images/talleres/cocinaSalada-pizzaFocaccia.jpg",
+            img3: "/images/talleres/cocinaSalada-pizzaFocaccia.webp",
             titulo3: "Pizza y Focaccia",
             duracion3: "4 horas"
           }

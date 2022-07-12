@@ -42,12 +42,12 @@ const FooterTablet = () => {
                         <div>
 
                             <a className="redesInLine" href="https://www.facebook.com/escueladecocinacoquere" target="_blank" rel="noreferrer">
-                                <img src="/images/redes/redesFacebook.jpg" alt="logo facebook" />
+                                <img src="/images/redes/redesFacebook.webp" alt="logo facebook" />
                                 <p>Facebook</p>
                             </a>
 
                             <a href="https://www.instagram.com/co.quere/" target="_blank" rel="noreferrer" className="redesInLine">
-                                <img src="/images/redes/redesInstagram.jpg" alt="logo instagram" />
+                                <img src="/images/redes/redesInstagram.webp" alt="logo instagram" />
                                 <p>Instagram</p>
                             </a>
 

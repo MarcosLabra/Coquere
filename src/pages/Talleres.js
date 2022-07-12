@@ -25,7 +25,7 @@ const Talleres = () => {
 
     return (
         <main className="talleres">
-            <PortadaPaginas img={"/images/portadas/talleresCortosPortada.jpg"} titulo={"Talleres cortos"} />
+            <PortadaPaginas img={"/images/portadas/talleresCortosPortada.webp"} titulo={"Talleres cortos"} />
             {window.innerWidth < 767 ? <TalleresCarrouselReposteria /> : null}
             {window.innerWidth > 767 && window.innerWidth < 1200 ? <TalleresCarrouselReposteriaTablet /> : null}
             {window.innerWidth > 1200 ? <TalleresCarrouselReposteriaDesktop /> : null}

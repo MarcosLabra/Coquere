@@ -17,7 +17,7 @@ const SliderInicio = () => {
                 className='sliderInicio__slider'
             >
                 <div className='sliderInicio__slider--slide'>
-                    <img src="/images/sliderInicio/sliderInicio1.jpg" alt="" srcset="" className='sliderInicio__slider--slide--img' />
+                    <img src="/images/sliderInicio/sliderInicio1.webp" alt="" srcset="" className='sliderInicio__slider--slide--img' />
                     <div className='sliderInicio__slider--descripcion'>
                         <img src="/images/branding/CoquereLogoVerde.svg" alt="Coquere Logo" className='sliderInicio__slider--descripcion--img' />
                         <p>"Un espacio de aprendizaje, convivencia y platicas haciendo lo que mas nos gusta: <span>COCINAR</span>"</p>
@@ -25,7 +25,7 @@ const SliderInicio = () => {
                 </div>
 
                 <div className='sliderInicio__slider--slide2'>
-                    <img src="/images/sliderInicio/sliderInicio2.jpg" alt="" srcset="" className='sliderInicio__slider--slide--img2' />
+                    <img src="/images/sliderInicio/sliderInicio2.webp" alt="" srcset="" className='sliderInicio__slider--slide--img2' />
                     <div className='sliderInicio__slider--slide2--logo'>
                         <img src="/images/branding/CoquereLogo.webp" alt="" />
                     </div>
@@ -36,7 +36,7 @@ const SliderInicio = () => {
                 </div>
 
                 <div className='sliderInicio__slider--slide2'>
-                    <img src="/images/sliderInicio/sliderInicio3.jpg" alt="" srcset="" className='sliderInicio__slider--slide--img2' />
+                    <img src="/images/sliderInicio/sliderInicio3.webp" alt="" srcset="" className='sliderInicio__slider--slide--img2' />
                     <div className='sliderInicio__slider--slide2--logo'>
                         <img src="/images/branding/CoquereLogoNegro.png" alt="" />
                     </div>
