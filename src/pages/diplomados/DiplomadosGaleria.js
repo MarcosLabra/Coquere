@@ -3,31 +3,31 @@ import DiplomadosCard from "../../components/cards/DiplomadosCard"
 const diplomados =
     [
         {
-            img: "/images/diplomados/reposteriaBasico.png",
+            img: "/images/diplomados/reposteriaBasica.jpg",
             titulo: "Repostería Básica",
             duracion: "10 clases",
             url: "/diplomados/reposteria-basica"
         },
         {
-            img: "/images/diplomados/reposteriaNivel2.png",
+            img: "/images/diplomados/reposteriaNivel2.jpg",
             titulo: "Repostería Nivel 2",
             duracion: "6 clases",
             url: "/diplomados/reposteria-nivel-2"
         },
         {
-            img: "/images/diplomados/reposteriaIntensivo.png",
+            img: "/images/diplomados/reposteriaIntensivo.jpg",
             titulo: "Repostería Intensiva",
             duracion: "8 clases",
             url: "/diplomados/reposteria-intensiva"
         },
         {
-            img: "/images/diplomados/panaderia.png",
+            img: "/images/diplomados/panaderia.jpg",
             titulo: "Panaderia",
             duracion: "5 clases",
             url: "/diplomados/panaderia"
         },
         {
-            img: "/images/diplomados/gelatinas.png",
+            img: "/images/diplomados/gelatinas.jpg",
             titulo: "Gelatinas",
             duracion: "5 clases",
             url: "/diplomados/gelatinas"
@@ -39,7 +39,7 @@ const diplomados =
             url: "/diplomados/cocteleria"
         },
         {
-            img: "/images/diplomados/parrillada.png",
+            img: "/images/diplomados/parrillada.jpg",
             titulo: "Parrillada",
             duracion: "5 clases",
             url: "/diplomados/parrillada"

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="logo">
-                <img src="/images/branding/CoquereLogoCircularFooter.webp" alt="Coquere logo footer" />
+                <img src="/images/branding/CoquereLogoCircularFooter.svg" alt="Coquere logo footer" />
             </div>
             <div className="coquere">
                 <h2>Coquere escuela de cocina</h2>

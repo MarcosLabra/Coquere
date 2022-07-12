@@ -15,7 +15,7 @@ const Contacto = () => {
 
     return (
         <main className="contacto">
-            <PortadaPaginas img={"/images/portadas/contactoPortada.png"} titulo={"Contacto"} />
+            <PortadaPaginas img={"/images/portadas/contactoPortada.jpg"} titulo={"Contacto"} />
             <ComoLlegar />
             <Redes />
         </main>

@@ -6,13 +6,13 @@ import Boton from '../../components/layout/Boton';
 const diplomados =
   [
     {
-      img: "/images/diplomados/reposteriaBasica.png",
+      img: "/images/diplomados/reposteriaBasica.jpg",
       titulo: "Repostería Básica",
       duracion: "10 clases",
       url: "/diplomados/reposteria-basica"
     },
     {
-      img: "/images/diplomados/gelatinas.png",
+      img: "/images/diplomados/gelatinas.jpg",
       titulo: "Gelatinas",
       duracion: "4 clases",
       url: "/diplomados/gelatinas"
@@ -23,7 +23,6 @@ const diplomados =
       duracion: "3 clases",
       url: "/diplomados/cocteleria"
     }
-
   ]
 
 const DiplomadosDestacados = () => {

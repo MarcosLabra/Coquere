@@ -25,7 +25,7 @@ const FooterTablet = () => {
                 </div>
 
                 <div className="footerTablet__logo">
-                    <img src="/images/branding/CoquereLogoCircularFooter.webp" alt="Coquere logo footer" />
+                    <img src="/images/branding/CoquereLogoCircularFooter.svg" alt="Coquere logo footer" />
                 </div>
                 <div className="footerTablet__colDer">
 

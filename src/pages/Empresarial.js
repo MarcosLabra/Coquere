@@ -13,7 +13,7 @@ const Empresarial = () => {
 
     return (
         <main className="empresarial">
-             <PortadaPaginas img={"/images/portadas/empresarialPortada.png"} titulo={"Empresarial"} />
+             <PortadaPaginas img={"/images/portadas/empresarialPortada.jpg"} titulo={"Empresarial"} />
              <EmpresarialContenido />
         </main>
     )

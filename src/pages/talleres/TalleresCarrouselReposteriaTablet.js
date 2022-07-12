@@ -9,39 +9,39 @@ const TalleresCarrouselTablet = () => {
             img: "/images/talleres/reposteria-mesaDePostres.jpg",
             titulo: "Mesa de Postres",
             duracion: "4 horas",
-            img2: "/images/talleres/reposteria-chocolateria.png",
+            img2: "/images/talleres/reposteria-chocolateria.jpg",
             titulo2: "Chocolateria",
             duracion2: "4 horas"
         },
         {
-            img: "/images/talleres/reposteria-browniesYCheescake.png",
+            img: "/images/talleres/reposteria-browniesYCheescake.jpg",
             titulo: "Brownies y Cheescake",
             duracion: "4 horas",
-            img2: "/images/talleres/reposteria-macarons.png",
+            img2: "/images/talleres/reposteria-macarons.jpg",
             titulo2: "Macarons",
             duracion2: "4 horas"
         },
         {
-            img: "/images/talleres/reposteria-postresIndividuales.png",
+            img: "/images/talleres/reposteria-postresIndividuales.jpg",
             titulo: "Postres individuales",
             duracion: "4 horas",
-            img2: "/images/talleres/reposteria-pastelDeCupcakes.png",
+            img2: "/images/talleres/reposteria-pastelDeCupcakes.jpg",
             titulo2: "Pastel de Cupcakes",
             duracion2: "4 horas"
         },
         {
-            img: "/images/talleres/reposteria-pastelDecorado.png",
+            img: "/images/talleres/reposteria-pastelDecorado.jpg",
             titulo: "Pastel decorado",
             duracion: "4 a 5 horas",
-            img2: "/images/talleres/reposteria-roscaDeReyes.png",
+            img2: "/images/talleres/reposteria-roscaDeReyes.jpg",
             titulo2: "Rosca de Reyes",
             duracion2: "4 horas"
         },
         {
-            img: "/images/talleres/reposteria-manejoDeDuyas.png",
+            img: "/images/talleres/reposteria-manejoDeDuyas.jpg",
             titulo: "Manejo de Duyas",
             duracion: "3 horas",
-            img2: "/images/talleres/reposteria-galletasGourmet.png",
+            img2: "/images/talleres/reposteria-galletasGourmet.jpg",
             titulo2: "Galletas gourmet",
             duracion2: "4 horas"
         }]
