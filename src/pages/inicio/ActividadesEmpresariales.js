@@ -9,7 +9,7 @@ const ActividadesEmpresariales = () => {
                 Clases de 2 a 3 horas, prácticas y a la medida según la necesidad de cada empresa y equipo de trabajo.
             </p>
             <div className='actividadesEmpresariales__galeria'>
-                <img src="/images/empresarial/empresarial.jpg" alt="" srcset="" />
+                <img src="/images/empresarial/empresarial.webp" alt="" srcset="" />
             </div>
 
             <Boton texto="Ver más información" url="/empresarial" />

@@ -17,7 +17,7 @@ const ReposteriaNivel2 = () => {
   return (
     <main>
       <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.png"} titulo={"Diplomados"} subtitulo={"Reposteria Nivel 2"} />
-      <DiplomadosDetalle titulo={"Diplomado Nivel 2 de Repostería"} duracion={"6 clases"} clases={["Tartas", "Galletas", "Cupcakes", "Pasteles clásicos", "Pasteles Europeos", "Chocolatería"]} duracionClase={"4 horas"} portada={"/images/diplomados/reposteriaNivel2.jpg"} />
+      <DiplomadosDetalle titulo={"Diplomado Nivel 2 de Repostería"} duracion={"6 clases"} clases={["Tartas", "Galletas", "Cupcakes", "Pasteles clásicos", "Pasteles Europeos", "Chocolatería"]} duracionClase={"4 horas"} portada={"/images/diplomados/reposteriaNivel2.webp"} />
       <div className="marcoBotonWapp">
         <BotonWapp texto={"¡Quiero inscribirme!"} url={"https://alvo.chat/3cB"} />
       </div>

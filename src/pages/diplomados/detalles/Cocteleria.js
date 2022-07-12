@@ -17,7 +17,7 @@ const Cocteleria = () => {
     return (
         <main>
             <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.png"} titulo={"Diplomados"} subtitulo={"Cocteleria"} />
-            <DiplomadosDetalle titulo={"Diplomado de Coctelería"} duracion={"3 clases"} clases={["La Coctelería y su Origen, Bases de Coctelería Clásica, Fundamentos de la Coctelería Moderna", "Herramientas Esenciales, Cristalería para Coctelería, Presentación del Coctel: Decoración y Garnish, Terminología de Coctelería, Práctica: Uso Correcto del Shaker", "Practica"]} duracionClase={" 3 horas"} portada={"/images/diplomados/Cocteleria.jpg"} />
+            <DiplomadosDetalle titulo={"Diplomado de Coctelería"} duracion={"3 clases"} clases={["La Coctelería y su Origen, Bases de Coctelería Clásica, Fundamentos de la Coctelería Moderna", "Herramientas Esenciales, Cristalería para Coctelería, Presentación del Coctel: Decoración y Garnish, Terminología de Coctelería, Práctica: Uso Correcto del Shaker", "Practica"]} duracionClase={" 3 horas"} portada={"/images/diplomados/Cocteleria.webp"} />
             <div className="marcoBotonWapp">
                 <BotonWapp texto={"¡Quiero inscribirme!"} url={"https://alvo.chat/3cy"} />
             </div>

@@ -3,43 +3,43 @@ import DiplomadosCard from "../../components/cards/DiplomadosCard"
 const diplomados =
     [
         {
-            img: "/images/diplomados/reposteriaBasica.jpg",
+            img: "/images/diplomados/reposteriaBasica.webp",
             titulo: "Repostería Básica",
             duracion: "10 clases",
             url: "/diplomados/reposteria-basica"
         },
         {
-            img: "/images/diplomados/reposteriaNivel2.jpg",
+            img: "/images/diplomados/reposteriaNivel2.webp",
             titulo: "Repostería Nivel 2",
             duracion: "6 clases",
             url: "/diplomados/reposteria-nivel-2"
         },
         {
-            img: "/images/diplomados/reposteriaIntensivo.jpg",
+            img: "/images/diplomados/reposteriaIntensivo.webp",
             titulo: "Repostería Intensiva",
             duracion: "8 clases",
             url: "/diplomados/reposteria-intensiva"
         },
         {
-            img: "/images/diplomados/panaderia.jpg",
+            img: "/images/diplomados/panaderia.webp",
             titulo: "Panaderia",
             duracion: "5 clases",
             url: "/diplomados/panaderia"
         },
         {
-            img: "/images/diplomados/gelatinas.jpg",
+            img: "/images/diplomados/gelatinas.webp",
             titulo: "Gelatinas",
             duracion: "5 clases",
             url: "/diplomados/gelatinas"
         },
         {
-            img: "/images/diplomados/cocteleria.jpg",
+            img: "/images/diplomados/cocteleria.webp",
             titulo: "Coctelería",
             duracion: "3 clases",
             url: "/diplomados/cocteleria"
         },
         {
-            img: "/images/diplomados/parrillada.jpg",
+            img: "/images/diplomados/parrillada.webp",
             titulo: "Parrillada",
             duracion: "5 clases",
             url: "/diplomados/parrillada"

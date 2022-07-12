@@ -3,15 +3,15 @@ import TalleresCard from '../../components/cards/TalleresCard';
 
 const taller = [
     {
-        img: "/images/talleres/cocinaSalada-pizzaFocaccia.jpg",
+        img: "/images/talleres/cocinaSalada-pizzaFocaccia.webp",
         titulo: "Pizza y Focaccia",
         duracion: "4 horas",
-        img2: "/images/talleres/cocinaSalada-pizzaFocaccia.jpg",
+        img2: "/images/talleres/cocinaSalada-pizzaFocaccia.webp",
         titulo2: "Sushi y Yakimeshi",
         duracion2: "4 horas"
     },
     {
-        img: "/images/talleres/cocinaSalada-pizzaFocaccia.jpg",
+        img: "/images/talleres/cocinaSalada-pizzaFocaccia.webp",
         titulo: "Pastas",
         duracion: "4 horas",
     },

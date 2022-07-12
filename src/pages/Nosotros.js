@@ -17,7 +17,7 @@ const Nosotros = () => {
     return (
         <main className="sobreNosotros">
         
-            <PortadaPaginas img={"/images/portadas/sobreNosotrosPortada.jpg"} titulo={"Sobre Nosotros"} />
+            <PortadaPaginas img={"/images/portadas/sobreNosotrosPortada.webp"} titulo={"Sobre Nosotros"} />
             <HistoriaCoquere />
             <Instalaciones />
             <RentaNuestrasInstalaciones />
