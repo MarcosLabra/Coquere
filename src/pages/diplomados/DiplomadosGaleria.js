@@ -21,7 +21,7 @@ const diplomados =
             url: "/diplomados/reposteria-intensiva"
         },
         {
-            img: "/images/diplomados/panaderia.webp",
+            img: "/images/diplomados/Panaderia.webp",
             titulo: "Panaderia",
             duracion: "5 clases",
             url: "/diplomados/panaderia"
