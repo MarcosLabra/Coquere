@@ -16,7 +16,7 @@ const Gelatinas = () => {
     , [])
   return (
     <main>
-      <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.png"} titulo={"Diplomados"} subtitulo={"Gelatinas"} />
+      <PortadaPaginasDetalle img={"/images/portadas/diplomadoPortada.webp"} titulo={"Diplomados"} subtitulo={"Gelatinas"} />
       <DiplomadosDetalle  titulo={"Diplomado de Gelatinas"} duracion={"4 clases"} clases={["Gelatinas a base de aguas y frutas", "Gelatinas a base de leche y yogurth", "Gelatinas - encapsulado", "Gelatinas temáticas (2 clases)"]} duracionClase={" 3 horas"} portada={"/images/diplomados/gelatinas.webp"} />
       <div className="marcoBotonWapp">
         <BotonWapp texto={"¡Quiero inscribirme!"} url={"https://alvo.chat/3cy"} />
